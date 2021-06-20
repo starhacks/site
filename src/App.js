@@ -1,7 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import ReactGA from 'react-ga';
+
 
 function App() {
+  ReactGA.initialize('G-FSN13RH97N');
+  ReactGA.pageview(window.location.pathname + window.location.search);
+
   return (
     <div className="App">
       <header className="App-header">
