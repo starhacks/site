@@ -1,0 +1,13 @@
+export const subscribeToOurNewsletter = "Subscribe to our newsletter";
+export const about = "About";
+export const team = "Team";
+export const contact = "Contact";
+export const events = "Events";
+export const anecdotes = "Anecdotes";
+export const sponsors = "Sponsors";
+export const commonlyAskedQuestions = "Commonly asked questions";
+export const upcomingEvents = {};
+export const previousEvents = {};
+export const questionsAndAnswer = {};
+export const teamMembers = {};
+export const pallete = {};

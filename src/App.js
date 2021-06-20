@@ -1,6 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 import ReactGA from 'react-ga';
+import About from './about/About';
+import Anecdotes from './anecdotes/Anecdotes';
+import Contact from './contact/Contact';
+import Events from './events/Events';
+import * as Constants from './constants';
+import Subscribe from './subscribe/Subscribe';
+import Team from './team/Team';
+import Questions from './questions/Questions';
+import Sponsors from './sponsors/Sponsors';
 
 
 function App() {
@@ -9,20 +17,14 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Subscribe title={Constants.subscribeToOurNewsletter} />
+      <About title={Constants.about} />
+      <Events title={Constants.events} />
+      <Anecdotes title={Constants.anecdotes} />
+      <Team title={Constants.team} />
+      <Questions title={Constants.commonlyAskedQuestions} />
+      <Sponsors title={Constants.sponsors} />
+      <Contact title={Constants.contact} />
     </div>
   );
 }
