@@ -3,6 +3,8 @@
 ## docs:
 - https://classic.yarnpkg.com/en/docs/usage
 - https://create-react-app.dev/
+- our website notes: https://docs.google.com/document/d/184O1MUkD3NFh5k-K_oe1SNp1fbJnrFlEGZiMvsL8uMo/edit
+- figma: https://www.figma.com/file/rv7tqLV7PHgWsqBgzQIXUH/StarHacks-Website-Mockup
 
 ## good training resources:
 - https://www.freecodecamp.org/learn/front-end-libraries
