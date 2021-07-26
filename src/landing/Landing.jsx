@@ -1,7 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types'
 import * as Constants from '../constants';
 import '../App.scss'
+import './Stars.scss'
+import Stars from './Stars';
 
 export function Subscribe(props) {
     const [email, setEmail] = useState("");
@@ -14,6 +16,7 @@ export function Subscribe(props) {
 
     return (
         <div className="landing">
+            <Stars />
             <h1>{props.title}</h1>
             <p>{Constants.date}</p>
             <p>Subscribe for updates</p>

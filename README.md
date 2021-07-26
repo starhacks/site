@@ -20,8 +20,7 @@
 4. Install React.js: https://yarnpkg.com/package/react
 5. Install Visual Studio Code: https://code.visualstudio.com/download
 6. Clone this project: `git clone https://github.com/starhacks/site.git`
-7. Install all dependencies: `yarn install`
-8. Run the website: `yarn start`
+7. Run the website: `yarn install && yarn start`
 
 # using scss
 https://create-react-app.dev/docs/adding-a-sass-stylesheet/
