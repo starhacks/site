@@ -1,7 +1,87 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Open+Sans:wght@400;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
+
+$darkBlue: #506c8f;
+$lightBlue: #98b7de;
+$bluePurple: #aeaad5;
+$purple: #c49dce;
+$lightPurple: #d1b1cf;
+$fontColor: white;
+
+$header1FontSize: 96px;
+$header2FontSize: 48px;
+$pFontSize: 36px;
 
 html {
   overflow-x: hidden;
   max-width: 100%;
   scroll-behavior: smooth;
+  font-family: "Poppins";
+  background: linear-gradient($darkBlue, $lightPurple);
+  color: $fontColor;
+}
+
+h1 {
+  font-weight: bold;
+  text-align: center;
+  font-size: $header1FontSize;
+}
+
+h2 {
+  font-weight: bold;
+  text-align: center;
+  font-size: $header2FontSize;
+}
+
+p {
+  font-size: $pFontSize;
+}
+
+// about section
+.about {
+}
+
+// landing field
+.landing {
+  height: 100vh;
+  h1 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 25vh;
+  }
+  p {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  .subscribe {
+    text-align: center;
+  }
+}
+
+// about us
+.about {
+}
+
+// schedule
+.schedule {
+}
+
+// anecdotes
+.anecdotes {
+}
+
+// meet the team
+.team {
+}
+
+// faq
+.questions {
+}
+
+// sponsors
+.sponsors {
+}
+
+// contact us
+.contact {
 }

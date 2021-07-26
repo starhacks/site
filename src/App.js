@@ -3,12 +3,12 @@ import ReactGA from 'react-ga';
 import About from './about/About';
 import Anecdotes from './anecdotes/Anecdotes';
 import Contact from './contact/Contact';
-import Events from './events/Events';
 import * as Constants from './constants';
-import Subscribe from './subscribe/Subscribe';
+import Subscribe from './landing/Landing';
 import Team from './team/Team';
 import Questions from './questions/Questions';
 import Sponsors from './sponsors/Sponsors';
+import Schedule from './schedule/Schedule';
 
 
 function App() {
@@ -16,10 +16,10 @@ function App() {
   ReactGA.pageview(window.location.pathname + window.location.search);
 
   return (
-    <div className="App">
-      <Subscribe title={Constants.subscribeToOurNewsletter} />
+    <div className="App" >
+      <Subscribe title={Constants.starhacks} />
       <About title={Constants.about} />
-      <Events title={Constants.events} />
+      <Schedule title={Constants.schedule} />
       <Anecdotes title={Constants.anecdotes} />
       <Team title={Constants.team} />
       <Questions title={Constants.commonlyAskedQuestions} />

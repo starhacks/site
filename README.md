@@ -1,5 +1,9 @@
 # StarHacks Website
 
+## links:
+- poppins font: https://fonts.google.com/specimen/Poppins
+- stars: https://codepen.io/YusukeNakaya/pen/XyOaBj, https://codepen.io/ck/pen/BECfa, https://codepen.io/WebSonick/pen/vjmgu
+
 ## docs:
 - https://classic.yarnpkg.com/en/docs/usage
 - https://create-react-app.dev/
@@ -18,6 +22,9 @@
 6. Clone this project: `git clone https://github.com/starhacks/site.git`
 7. Install all dependencies: `yarn install`
 8. Run the website: `yarn start`
+
+# using scss
+https://create-react-app.dev/docs/adding-a-sass-stylesheet/
 
 ## to deploy:
 run `yarn run deploy`

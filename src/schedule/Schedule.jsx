@@ -2,15 +2,15 @@ import React from 'react';
 import PropTypes from 'prop-types'
 import '../App.scss'
 
-const Sponsors = props =>
-    <div className="sponsors">
+const Schedule = props =>
+    <div className="schedule">
         <h2>
             {props.title}
         </h2>
     </div>
 
-Sponsors.propTypes = {
+Schedule.propTypes = {
     title: PropTypes.string.isRequired
 }
 
-export default Sponsors;
+export default Schedule;
