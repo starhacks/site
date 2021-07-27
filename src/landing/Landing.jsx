@@ -1,8 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types'
 import * as Constants from '../constants';
 import '../App.scss'
-import './Stars.scss'
 import Stars from './Stars';
 
 export function Subscribe(props) {
@@ -15,16 +14,20 @@ export function Subscribe(props) {
     }
 
     return (
-        <div className="landing">
+        <>
             <Stars />
-            <h1>{props.title}</h1>
-            <p>{Constants.date}</p>
-            <p>Subscribe for updates</p>
-            <form className="subscribe" onSubmit={handleSubmit}>
-                <input type="text" value={email} onChange={evt => setEmail(evt.target.value)} />
-                <input type="submit" value="Submit" />
-            </form>
-        </div>);
+            <div className="landing">
+                <h1>{props.title}</h1>
+                <p>{Constants.date}</p>
+                <p>Subscribe for updates</p>
+                <form className="subscribe" onSubmit={handleSubmit}>
+                    <input type="text" value={email} onChange={evt => setEmail(evt.target.value)} />
+                    <input type="submit" value="Submit" />
+                </form>
+                <img src="../../constants/assets/cloud.svg" alt="" />
+            </div>
+        </>
+    );
 }
 
 Subscribe.propTypes = {
