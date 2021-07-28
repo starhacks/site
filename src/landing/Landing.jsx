@@ -22,6 +22,7 @@ export function Subscribe(props) {
                 <input type="submit" value="Subscribe me!"/>
             </form>
         </div>);
+        
 }
 
 Subscribe.propTypes = {
