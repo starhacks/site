@@ -56,6 +56,27 @@ p {
   .subscribe {
     text-align: center;
   }
+  input[type="text" i]{
+    border: 0px;
+    border-radius: 7px 0px 0px 7px;
+    width:450px;
+    height:40px;
+    padding-left: 30px;
+  }
+  input[type="text" i]::placeholder{
+    font-family: Poppins;
+    opacity: 50%;
+  }
+  input[type="submit" i]{
+    border: 0px;
+    border-radius: 0px 7px 7px 0px;
+    width:150px;
+    height:42px;
+    background: #D1B1CF;
+    font-family: Poppins;
+    color: $fontColor;
+    line-height: 0px;
+  }
 }
 
 // about us
