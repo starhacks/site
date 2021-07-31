@@ -13,7 +13,7 @@ $pFontSize: 36px;
 
 $mobileHeader1FontSize: 2vh;
 $mobileHeader2FontSize: 1rem;
-$mobilepFontSize: .7rem;
+$mobilepFontSize: 0.7rem;
 
 html {
   overflow-x: hidden;
@@ -89,6 +89,16 @@ p {
 
 // schedule
 .schedule {
+  width: 90vw;
+  .schedule-panel {
+    background-color: #d1b1cf;
+    padding: 1% 5% 1% 5%;
+    border-radius: 25px;
+    white-space: nowrap;
+    p {
+      font-size: $pFontSize - 10;
+    }
+  }
 }
 
 // anecdotes

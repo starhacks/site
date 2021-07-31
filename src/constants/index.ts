@@ -13,3 +13,27 @@ export const upcomingEvents = {};
 export const previousEvents = {};
 export const questionsAndAnswer = {};
 export const teamMembers = {};
+export const hackathonSchedule = [
+    {
+        id: 1,
+        title: 'Saturday, Jan 22',
+        events: [
+            { title: 'TECH INTERNS PANEL', time: '10:00 AM  -  10:30 AM PST' },
+            { title: 'TECH INTERNS PANEL', time: '10:00 AM  -  10:30 AM PST' },
+            { title: 'TECH INTERNS PANEL', time: '10:00 AM  -  10:30 AM PST' },
+            { title: 'TECH INTERNS PANEL', time: '10:00 AM  -  10:30 AM PST' },
+            { title: 'TECH INTERNS PANEL', time: '10:00 AM  -  10:30 AM PST' }
+        ]
+    },
+    {
+        id: 2,
+        title: 'Sunday, Jan 23',
+        events: [
+            { title: 'TECH INTERNS PANEL', time: '10:00 AM  -  10:30 AM PST' },
+            { title: 'TECH INTERNS PANEL', time: '10:00 AM  -  10:30 AM PST' },
+            { title: 'TECH INTERNS PANEL', time: '10:00 AM  -  10:30 AM PST' },
+            { title: 'TECH INTERNS PANEL', time: '10:00 AM  -  10:30 AM PST' },
+            { title: 'TECH INTERNS PANEL', time: '10:00 AM  -  10:30 AM PST' }
+        ]
+    },
+]
