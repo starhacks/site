@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types'
 import * as Constants from '../constants';
 import '../App.scss'
-import Stars from './Stars';
 
 export function Subscribe(props) {
     const [email, setEmail] = useState("");
