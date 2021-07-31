@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types'
 import * as Constants from '../constants';
 import '../App.scss'
@@ -15,7 +15,6 @@ export function Subscribe(props) {
 
     return (
         <>
-            <Stars />
             <div className="landing">
                 <h1>{props.title}</h1>
                 <p>{Constants.date}</p>
@@ -24,7 +23,6 @@ export function Subscribe(props) {
                     <input type="text" value={email} onChange={evt => setEmail(evt.target.value)} />
                     <input type="submit" value="Submit" />
                 </form>
-                <img src="../../constants/assets/cloud.svg" alt="" />
             </div>
         </>
     );

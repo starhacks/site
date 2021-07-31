@@ -12,6 +12,10 @@ $header1FontSize: 96px;
 $header2FontSize: 48px;
 $pFontSize: 36px;
 
+$mobileHeader1FontSize: 2vh;
+$mobileHeader2FontSize: 1rem;
+$mobilepFontSize: .7rem;
+
 html {
   overflow-x: hidden;
   max-width: 100%;
@@ -22,6 +26,7 @@ html {
 }
 
 body {
+  overflow-x: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,6 +46,20 @@ h2 {
 
 p {
   font-size: $pFontSize;
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 10vw;
+  }
+
+  h2 {
+    font-size: 6vw;
+  }
+
+  p {
+    font-size: 5vw;
+  }
 }
 
 // about section
