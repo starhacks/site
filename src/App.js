@@ -8,8 +8,8 @@ import Subscribe from './landing/Landing';
 import Team from './team/Team';
 import Questions from './questions/Questions';
 import Sponsors from './sponsors/Sponsors';
-import Schedule from './schedule/Schedule';
-
+import Carousel from './schedule/Schedule';
+import { hackathonSchedule } from './constants';
 
 function App() {
   ReactGA.initialize('G-FSN13RH97N');
@@ -19,7 +19,7 @@ function App() {
     <div className="App" >
       <Subscribe title={Constants.starhacks} />
       <About title={Constants.about} />
-      <Schedule title={Constants.schedule} />
+      <Carousel slides={hackathonSchedule} title={Constants.schedule} />
       <Anecdotes title={Constants.anecdotes} />
       <Team title={Constants.team} />
       <Questions title={Constants.commonlyAskedQuestions} />

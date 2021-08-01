@@ -9,13 +9,18 @@ $fontColor: white;
 
 $header1FontSize: 96px;
 $header2FontSize: 48px;
+$header3FontSize: 36px;
 $pFontSize: 36px;
 
-$mobileHeader1FontSize: 2vh;
-$mobileHeader2FontSize: 1rem;
-$mobilepFontSize: .7rem;
+$mobileHeader1FontSize: 10vw;
+$mobileHeader2FontSize: 6vw;
+$mobileHeader3FontSize: 5vw;
+$mobilepFontSize: 5vw;
+
+$desktopMobileToggleWidth: 767px;
 
 html {
+  box-sizing: border-box;
   overflow-x: hidden;
   max-width: 100%;
   scroll-behavior: smooth;
@@ -43,21 +48,28 @@ h2 {
   font-size: $header2FontSize;
 }
 
+h3 {
+  font-size: $header3FontSize;
+}
+
 p {
   font-size: $pFontSize;
 }
 
-@media (max-width: 767px) {
+@media (max-width: $desktopMobileToggleWidth) {
   h1 {
-    font-size: 10vw;
+    font-size: $mobileHeader1FontSize;
   }
 
   h2 {
-    font-size: 6vw;
+    font-size: $mobileHeader2FontSize;
   }
 
+  h3 {
+    font-size: $mobileHeader3FontSize;
+  }
   p {
-    font-size: 5vw;
+    font-size: $mobilepFontSize;
   }
 }
 
@@ -87,8 +99,45 @@ p {
 .about {
 }
 
-// schedule
-.schedule {
+//schedule
+.schedule-panel {
+  background-color: $lightPurple;
+  padding: 2%;
+  border-radius: 15px;
+  width: 50vw;
+  margin: auto;
+  strong {
+    font-size: $mobilepFontSize;
+  }
+  p {
+    font-size: $pFontSize - 15;
+    margin: 0 5px 0 5px;
+    @media (max-width: $desktopMobileToggleWidth) {
+      font-size: $mobilepFontSize;
+    }
+  }
+  .border {
+    border-top: 2px solid white;
+  }
+  .time-event {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    @media (max-width: $desktopMobileToggleWidth) {
+      flex-direction: column;
+      text-align: center;
+    }
+    .bold {
+      font-weight: bold;
+    }
+    .event {
+      white-space: nowrap;
+    }
+  }
+  @media (max-width: $desktopMobileToggleWidth) {
+    width: 80vw;
+  }
 }
 
 // anecdotes
@@ -109,4 +158,155 @@ p {
 
 // contact us
 .contact {
+}
+
+// careosel
+// SASS variable for media query breakpoint
+$breakpoint-desktop: 992px;
+
+// Resetting default styles
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+// Fix for jumping arrows
+.schedule {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 210px;
+}
+
+.carousel {
+  position: relative;
+}
+
+// Carousel slides
+.carousel__slide {
+  margin-right: auto;
+  margin-left: auto;
+  display: none;
+  max-width: 80vw;
+  min-width: 80vw;
+  list-style-type: none;
+  text-align: center;
+
+  @media (max-width: $desktopMobileToggleWidth) {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+
+  &--active {
+    display: block;
+  }
+}
+
+// Content of slides
+.carousel-slide__content {
+  margin-bottom: 19px;
+  font-size: 16px;
+
+  @media (max-width: $desktopMobileToggleWidth) {
+    font-size: 18px;
+  }
+}
+
+.carousel-slide__author,
+.carousel-slide__source {
+  font-size: 14px;
+
+  @media (min-width: $desktopMobileToggleWidth) {
+    font-size: 16px;
+  }
+}
+
+.carousel-slide__source {
+  color: $lightPurple;
+}
+
+// Carousel arrows
+.arrow {
+  border: solid white;
+  border-width: 0 10px 10px 0;
+  display: inline-block;
+  padding: 10px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+@media (max-width: $desktopMobileToggleWidth) {
+  .arrow {
+    display: none;
+  }
+}
+
+.carousel__arrow {
+  position: absolute;
+  top: 50%;
+  display: block;
+  cursor: pointer;
+  opacity: 0.75;
+  transform: translateY(-50%);
+  transition: opacity 0.15s cubic-bezier(0.4, 0, 1, 1);
+
+  &:focus {
+    outline: 0;
+  }
+
+  &:hover {
+    opacity: 0.5;
+  }
+
+  &--left {
+    left: 32px;
+  }
+
+  &--right {
+    right: 32px;
+  }
+}
+
+// Carousel indicators
+.carousel__indicators {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+
+  li {
+    &:nth-of-type(n + 2) {
+      margin-left: 9px;
+    }
+  }
+}
+
+.carousel__indicator {
+  display: block;
+  width: 5vw;
+  height: 7px;
+  background-color: $darkBlue;
+  cursor: pointer;
+  opacity: 0.15;
+  transition: opacity 0.15s cubic-bezier(0.4, 0, 1, 1);
+
+  &:hover {
+    opacity: 0.5;
+  }
+
+  &--active {
+    &,
+    &:hover {
+      opacity: 0.75;
+    }
+  }
 }
