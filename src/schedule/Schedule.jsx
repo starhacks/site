@@ -1,6 +1,7 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable jsx-a11y/anchor-has-content */
 import React, { useState } from 'react';
 import '../App.scss'
-import { hackathonSchedule } from '../constants';
 
 const CarouselLeftArrow = (props) => {
     return (
@@ -28,6 +29,7 @@ const CarouselRightArrow = (props) => {
 
 const CarouselIndicator = (props) => {
     return (
+
         <li>
             <a
                 className={

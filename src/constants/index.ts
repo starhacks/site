@@ -1,5 +1,5 @@
 export const subscribeToOurNewsletter = "Subscribe to our newsletter";
-export const starhacks = "STARHACKS II";
+export const starhacks = "STARHACKS";
 export const about = "ABOUT US";
 export const team = "TEAM";
 export const contact = "CONTACT US";
@@ -18,61 +18,30 @@ export const hackathonSchedule = [
         id: 1,
         title: 'Saturday, Jan 22',
         events: [
-            { title: 'TECH INTERNS PANEL', time: '10:00 AM  -  10:30 AM' },
-            { title: 'TECH INTERNS', time: '10:00 AM  -  10:30 AM' },
-            { title: 'TECH INTERNS PANEL', time: '9:00 AM  -  10:30 AM' },
-            { title: 'TECH INTERNS PANEL', time: '10:00 AM  -  10:30 AM' },
-            { title: 'TECH PANEL', time: '9:00 AM  -  10:30 AM' }
+            { title: 'PRE-EVENT SOCIAL', time: '10:00 AM  -  10:30 AM' },
+            { title: 'OPENING CEREMONY', time: '10:30 AM  -  11:30 AM' },
+            { title: 'BUILD A DISCORD BOT', time: '11:30 AM  -  12:30 AM' },
+            { title: 'INTERNS PANEL', time: '12:30 PM  -  1:30 PM' },
+            { title: 'INTRO TO IOS DEVELOPMENT', time: '1:30 AM  -  2:30 AM' },
+            { title: 'INTRO TO GAME DEV', time: '3:00 PM  -  4:00 PM' },
+            { title: 'WOMEN IN TECH PANEL', time: '4:00 PM  -  5:00 PM' },
+            { title: 'NETWORK WITH WOMEN IN TECH', time: '5:00 PM  -  5:30 PM' },
+            { title: 'GAME HOUR', time: '5:30 PM  -  6:30 PM' },
+
         ]
     },
     {
         id: 2,
         title: 'Sunday, Jan 23',
         events: [
-            { title: 'TECH PANEL', time: '9:00 AM  -  10:30 AM' },
-            { title: 'TECH INTERNS PANEL', time: '10:00 AM  -  10:30 AM' },
-            { title: 'TECH PANEL', time: '10:00 AM  -  10:30 AM' },
-            { title: 'TECH INTERNS PANEL', time: '10:00 AM  -  10:30 AM' },
-            { title: 'TECH INTERNS', time: '10:00 AM  -  10:30 AM' }
+            { title: 'HOW TO PITCH YOUR HACK', time: '10:00 AM  -  11:00 AM' },
+            { title: 'INTRO TO AI/ML', time: '11:00 AM  -  11:30 AM' },
+            { title: 'TBA', time: '11:30 PM  -  12:00 AM' },
+            { title: 'SUBMIT PROJECTS', time: '12:00 PM  -  12:30 PM' },
+            { title: 'INTERSECTIONS OF TECH PANEL', time: '12:30 PM  -  1:30 PM' },
+            { title: 'JUDGING', time: '1:30 PM  -  3:30 PM' },
+            { title: 'GAMES', time: '3:00 PM  -  3:30 PM' },
+            { title: 'CLOSING CEREMONY', time: '4:00 PM  -  5:00 PM' }
         ]
     },
 ]
-// Data for carousel
-export const carouselSlidesData = [
-    {
-        content:
-            "Tomorrow, you will be released. If you are bored of brawling with thieves and want to achieve something there is a rare blue flower that grows on the eastern slopes. Pick one of these flowers. If you can carry it to the top of the mountain, you may find what you were looking for in the first place.",
-        author: "Bane",
-        source: "facebook"
-    }, {
-        content:
-            "You have learn to bury your guilt with anger. I will teach you to confront it and to face the truth.",
-        author: "Ra's Al Ghul",
-        source: "Snapchat"
-    }, {
-        content:
-            "Introduce a little anarchy, upset the established order and everything becomes chaos. I'm an agent of chaos. Oh, and you know the thing about chaos? It's fair.",
-        author: "Joker",
-        source: "facebook"
-    }, {
-        content:
-            "I can't do that as Bruce Wayne... as a man. I'm flesh and blood. I can be ignored, destroyed. But as a symbol, I can be incorruptible, I can be everlasting.",
-        author: "Bruce Wayne",
-        source: "facebook"
-    }, {
-        content:
-            "But it's not who you are underneath... it's what you do that defines you.",
-        author: "Rachel Dawes",
-        source: "twitter"
-    }, {
-        content:
-            "When their enemies were at the gates the Romans would suspend democracy and appoint one man to protect the city. It wasn't considered an honor, it was a public service.",
-        author: "John Blake",
-        source: "Google+"
-    }, {
-        content:
-            "Master Wayne, you've been gone a long time. You look very fashionable. Apart from the mud.",
-        author: "Alfred Pennyworth",
-        source: "twitter"
-    }
-];
