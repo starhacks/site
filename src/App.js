@@ -10,7 +10,6 @@ import Questions from './questions/Questions';
 import Sponsors from './sponsors/Sponsors';
 import Schedule from './schedule/Schedule';
 
-
 function App() {
   ReactGA.initialize('G-FSN13RH97N');
   ReactGA.pageview(window.location.pathname + window.location.search);
