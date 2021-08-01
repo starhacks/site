@@ -1,8 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../App.scss'
 import { hackathonSchedule } from '../constants';
-
-const { Component } = React;
 
 const CarouselLeftArrow = (props) => {
     return (
@@ -11,7 +9,7 @@ const CarouselLeftArrow = (props) => {
             className="carousel__arrow carousel__arrow--left"
             onClick={props.onClick}
         >
-            <span className="fa fa-2x fa-angle-left" />
+            <i class="arrow left"></i>
         </a>
     );
 }
@@ -23,7 +21,7 @@ const CarouselRightArrow = (props) => {
             className="carousel__arrow carousel__arrow--right"
             onClick={props.onClick}
         >
-            <span className="fa fa-2x fa-angle-right" />
+            <i class="arrow right"></i>
         </a>
     );
 }
@@ -33,7 +31,7 @@ const CarouselIndicator = (props) => {
         <li>
             <a
                 className={
-                    props.index == props.activeIndex
+                    props.index === props.activeIndex
                         ? "carousel__indicator carousel__indicator--active"
                         : "carousel__indicator"
                 }
@@ -47,71 +45,55 @@ const CarouselSlide = (props) => {
     return (
         <li
             className={
-                props.index == props.activeIndex
+                props.index === props.activeIndex
                     ? "carousel__slide carousel__slide--active"
                     : "carousel__slide"
             }
         >
-            <p className="carousel-slide__content">{props.slide.content}</p>
-
-            <p>
-                <strong className="carousel-slide__author">
-                    {props.slide.author}
-                </strong>,
-                {" "}
-                <small className="carousel-slide__source">
-                    {props.slide.source}
-                </small>
-            </p>
+            <h3>{props.slide.title}</h3>
+            <div className="schedule-panel">
+                <div className="time-event">
+                    <strong>Time</strong>
+                    <strong>Event</strong>
+                </div>
+                {props.slide.events.map((evt, index) =>
+                    <div className="time-event border">
+                        <div className="time">
+                            <p>{evt.time}</p>
+                        </div>
+                        <div className="event">
+                            <p>{evt.title}</p>
+                        </div>
+                    </div>
+                )}
+            </div>
         </li>
     );
 }
 
+const Carousel = (props) => {
+    const [activeIndex, setActiveIndex] = useState(0);
 
-// Carousel wrapper component
-export default class Carousel extends Component {
-    constructor(props) {
-        super(props);
+    const goToSlide = (index) => setActiveIndex(oldIndex => index);
 
-        this.goToSlide = this.goToSlide.bind(this);
-        this.goToPrevSlide = this.goToPrevSlide.bind(this);
-        this.goToNextSlide = this.goToNextSlide.bind(this);
-
-        this.state = {
-            activeIndex: 0
-        };
-    }
-
-    goToSlide(index) {
-        this.setState({
-            activeIndex: index
-        });
-    }
-
-    goToPrevSlide(e) {
+    const goToPrevSlide = (e) => {
         e.preventDefault();
+        let index = activeIndex;
+        const slidesLength = props.slides.length;
 
-        let index = this.state.activeIndex;
-        let { slides } = this.props;
-        let slidesLength = slides.length;
-
-        if (index < 1) {
+        if (activeIndex < 1) {
             index = slidesLength;
         }
 
         --index;
 
-        this.setState({
-            activeIndex: index
-        });
+        setActiveIndex(oldIndex => index);
     }
 
-    goToNextSlide(e) {
+    const goToNextSlide = (e) => {
         e.preventDefault();
-
-        let index = this.state.activeIndex;
-        let { slides } = this.props;
-        let slidesLength = slides.length - 1;
+        let index = activeIndex;
+        const slidesLength = props.slides.length - 1;
 
         if (index === slidesLength) {
             index = -1;
@@ -119,42 +101,42 @@ export default class Carousel extends Component {
 
         ++index;
 
-        this.setState({
-            activeIndex: index
-        });
+        setActiveIndex(oldIndex => index);
     }
 
-    render() {
-        return (
+    return (
+        <div className="schedule">
+            <h2>{props.title}</h2>
             <div className="carousel">
-                <CarouselLeftArrow onClick={e => this.goToPrevSlide(e)} />
+                <CarouselLeftArrow onClick={e => goToPrevSlide(e)} />
 
                 <ul className="carousel__slides">
-                    {this.props.slides.map((slide, index) =>
+                    {props.slides.map((slide, index) =>
                         <CarouselSlide
                             key={index}
                             index={index}
-                            activeIndex={this.state.activeIndex}
+                            activeIndex={activeIndex}
                             slide={slide}
                         />
                     )}
                 </ul>
 
-                <CarouselRightArrow onClick={e => this.goToNextSlide(e)} />
+                <CarouselRightArrow onClick={e => goToNextSlide(e)} />
 
                 <ul className="carousel__indicators">
-                    {this.props.slides.map((slide, index) =>
+                    {props.slides.map((slide, index) =>
                         <CarouselIndicator
                             key={index}
                             index={index}
-                            activeIndex={this.state.activeIndex}
-                            isActive={this.state.activeIndex == index}
-                            onClick={e => this.goToSlide(index)}
+                            activeIndex={activeIndex}
+                            isActive={activeIndex === index}
+                            onClick={e => goToSlide(index)}
                         />
                     )}
                 </ul>
             </div>
-        );
-    }
+        </div>
+    );
 }
 
+export default Carousel;
