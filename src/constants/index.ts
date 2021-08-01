@@ -1,3 +1,6 @@
+import { faDiscord, faInstagram, faLinkedin, faMailchimp, faMedium, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
+
 export const subscribeToOurNewsletter = "Subscribe to our newsletter";
 export const starhacks = "STARHACKS";
 export const about = "ABOUT US";
@@ -44,4 +47,13 @@ export const hackathonSchedule = [
             { title: 'CLOSING CEREMONY', time: '4:00 PM  -  5:00 PM' }
         ]
     },
+]
+export const socialMediaHandles = [
+    { link: "https://www.instagram.com/star.hacks/", icon: faInstagram },
+    { link: "https://www.linkedin.com/company/starhacks/", icon: faLinkedin },
+    { link: "https://docs.google.com/forms/d/e/1FAIpQLSeot7AyQg_SA177nDt7J37wdxcZxSE8RStnHd6zWdUJYnYrnQ/viewform", icon: faMailchimp },
+    { link: "https://starhacks.medium.com", icon: faMedium },
+    { link: "mailto:avighna@starhacks.tech", icon: faEnvelope },
+    { link: "https://discord.com/invite/sqmX6wBHTH", icon: faDiscord },
+    { link: "https://discord.com/invite/sqmX6wBHTH", icon: faTwitter },
 ]
