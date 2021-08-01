@@ -1,5 +1,5 @@
 export const subscribeToOurNewsletter = "Subscribe to our newsletter";
-export const starhacks = "STARHACKS";
+export const starhacks = "STARHACKS II";
 export const about = "ABOUT US";
 export const team = "TEAM";
 export const contact = "CONTACT US";

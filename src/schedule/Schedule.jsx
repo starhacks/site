@@ -53,8 +53,8 @@ const CarouselSlide = (props) => {
             <h3>{props.slide.title}</h3>
             <div className="schedule-panel">
                 <div className="time-event">
-                    <strong>Time</strong>
-                    <strong>Event</strong>
+                    <p className="bold">Time</p>
+                    <p className="bold">Event</p>
                 </div>
                 {props.slide.events.map((evt, index) =>
                     <div className="time-event border">
