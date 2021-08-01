@@ -39,7 +39,7 @@ h1 {
 
 h2 {
   font-weight: bold;
-  text-align: center;
+  text-align: left;
   font-size: $header2FontSize;
 }
 
@@ -88,15 +88,90 @@ p {
 }
 
 // schedule
+@media (max-width: 767px) {
+  .schedule-panel {
+    padding: 0 2% 0 2%;
+    margin: 10px;
+  }
+  .schedule {
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    .desktop-schedule {
+      display: none !important;
+    }
+    .mobile-schedule {
+      display: contents !important;
+      .time-event {
+        border-top-style: solid;
+        margin: 0 5px 0 5px;
+      }
+      p {
+        text-align: center;
+        margin: 0;
+      }
+    }
+  }
+  .ehkxHv {
+    display: none !important;
+  }
+  .cGKbZh {
+    display: none !important;
+  }
+  .ejXxNI {
+    display: none !important;
+  }
+  .jLgnwX {
+    display: none !important;
+  }
+}
+
 .schedule {
   width: 90vw;
+  .ehkxHv {
+    background-color: $lightPurple !important;
+    color: white;
+  }
+  .cGKbZh {
+    background-color: $lightPurple !important;
+    color: white;
+  }
+  .ejXxNI {
+    background-color: $lightPurple !important;
+    box-shadow: none !important;
+  }
+  .jLgnwX {
+    background-color: white !important;
+    box-shadow: none !important;
+  }
+  button {
+    color: white;
+  }
   .schedule-panel {
-    background-color: #d1b1cf;
-    padding: 1% 5% 1% 5%;
+    background-color: $lightPurple;
     border-radius: 25px;
-    white-space: nowrap;
+    overflow-wrap: break-word;
+    padding: 0 5% 0 5%;
+    margin: 10px;
+    .mobile-schedule {
+      display: none;
+    }
+    .desktop-schedule {
+      white-space: nowrap;
+      display: flex;
+      flex-direction: row;
+      .time {
+        padding-right: 10px;
+      }
+      .event {
+      }
+    }
     p {
-      font-size: $pFontSize - 10;
+      font-size: $pFontSize - 15;
+    }
+    h2 {
+      text-align: center;
+      font-size: $header2FontSize - 10;
     }
   }
 }

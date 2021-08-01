@@ -18,22 +18,22 @@ export const hackathonSchedule = [
         id: 1,
         title: 'Saturday, Jan 22',
         events: [
-            { title: 'TECH INTERNS PANEL', time: '10:00 AM  -  10:30 AM PST' },
-            { title: 'TECH INTERNS PANEL', time: '10:00 AM  -  10:30 AM PST' },
-            { title: 'TECH INTERNS PANEL', time: '10:00 AM  -  10:30 AM PST' },
-            { title: 'TECH INTERNS PANEL', time: '10:00 AM  -  10:30 AM PST' },
-            { title: 'TECH INTERNS PANEL', time: '10:00 AM  -  10:30 AM PST' }
+            { title: 'TECH INTERNS PANEL', time: '10:00 AM  -  10:30 AM' },
+            { title: 'TECH INTERNS', time: '10:00 AM  -  10:30 AM' },
+            { title: 'TECH INTERNS PANEL', time: '9:00 AM  -  10:30 AM' },
+            { title: 'TECH INTERNS PANEL', time: '10:00 AM  -  10:30 AM' },
+            { title: 'TECH PANEL', time: '9:00 AM  -  10:30 AM' }
         ]
     },
     {
         id: 2,
         title: 'Sunday, Jan 23',
         events: [
-            { title: 'TECH INTERNS PANEL', time: '10:00 AM  -  10:30 AM PST' },
-            { title: 'TECH INTERNS PANEL', time: '10:00 AM  -  10:30 AM PST' },
-            { title: 'TECH INTERNS PANEL', time: '10:00 AM  -  10:30 AM PST' },
-            { title: 'TECH INTERNS PANEL', time: '10:00 AM  -  10:30 AM PST' },
-            { title: 'TECH INTERNS PANEL', time: '10:00 AM  -  10:30 AM PST' }
+            { title: 'TECH PANEL', time: '9:00 AM  -  10:30 AM' },
+            { title: 'TECH INTERNS PANEL', time: '10:00 AM  -  10:30 AM' },
+            { title: 'TECH PANEL', time: '10:00 AM  -  10:30 AM' },
+            { title: 'TECH INTERNS PANEL', time: '10:00 AM  -  10:30 AM' },
+            { title: 'TECH INTERNS', time: '10:00 AM  -  10:30 AM' }
         ]
     },
 ]
