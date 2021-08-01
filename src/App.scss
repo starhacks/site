@@ -12,9 +12,12 @@ $header2FontSize: 48px;
 $header3FontSize: 36px;
 $pFontSize: 36px;
 
-$mobileHeader1FontSize: 2vh;
-$mobileHeader2FontSize: 1rem;
-$mobilepFontSize: 0.7rem;
+$mobileHeader1FontSize: 10vw;
+$mobileHeader2FontSize: 6vw;
+$mobileHeader3FontSize: 5vw;
+$mobilepFontSize: 5vw;
+
+$desktopMobileToggleWidth: 767px;
 
 html {
   box-sizing: border-box;
@@ -53,17 +56,20 @@ p {
   font-size: $pFontSize;
 }
 
-@media (max-width: 767px) {
+@media (max-width: $desktopMobileToggleWidth) {
   h1 {
-    font-size: 10vw;
+    font-size: $mobileHeader1FontSize;
   }
 
   h2 {
-    font-size: 6vw;
+    font-size: $mobileHeader2FontSize;
   }
 
+  h3 {
+    font-size: $mobileHeader3FontSize;
+  }
   p {
-    font-size: 5vw;
+    font-size: $mobilepFontSize;
   }
 }
 
@@ -100,10 +106,14 @@ p {
   border-radius: 15px;
   width: 50vw;
   margin: auto;
-  @media (max-width: 991px) {
-    width: 80vw;
-    p {
-      font-size: $mobilepFontSize - 15;
+  strong {
+    font-size: $mobilepFontSize;
+  }
+  p {
+    font-size: $pFontSize - 15;
+    margin: 0 5px 0 5px;
+    @media (max-width: $desktopMobileToggleWidth) {
+      font-size: $mobilepFontSize;
     }
   }
   .border {
@@ -114,20 +124,16 @@ p {
     flex-direction: row;
     justify-content: space-between;
     text-align: left;
-    @media (max-width: 991px) {
+    @media (max-width: $desktopMobileToggleWidth) {
       flex-direction: column;
       text-align: center;
-    }
-    strong {
-      font-size: $pFontSize - 15;
-    }
-    p {
-      font-size: $pFontSize - 15;
-      margin: 0 5px 0 5px;
     }
     .event {
       white-space: nowrap;
     }
+  }
+  @media (max-width: $desktopMobileToggleWidth) {
+    width: 80vw;
   }
 }
 
@@ -184,7 +190,7 @@ ul {
   list-style-type: none;
   text-align: center;
 
-  @media (max-width: 991px) {
+  @media (max-width: $desktopMobileToggleWidth) {
     padding-right: 60px;
     padding-left: 60px;
   }
@@ -199,7 +205,7 @@ ul {
   margin-bottom: 19px;
   font-size: 16px;
 
-  @media (max-width: $breakpoint-desktop - 1px) {
+  @media (max-width: $desktopMobileToggleWidth) {
     font-size: 18px;
   }
 }
@@ -208,7 +214,7 @@ ul {
 .carousel-slide__source {
   font-size: 14px;
 
-  @media (min-width: $breakpoint-desktop) {
+  @media (min-width: $desktopMobileToggleWidth) {
     font-size: 16px;
   }
 }
@@ -235,7 +241,7 @@ ul {
   -webkit-transform: rotate(135deg);
 }
 
-@media (max-width: 991px) {
+@media (max-width: $desktopMobileToggleWidth) {
   .arrow {
     display: none;
   }
