@@ -49,13 +49,17 @@ p {
     padding-bottom: 0;
     margin-bottom: 0;
     margin-top: 25vh;
+    text-align: center;
   }
   p {
     text-align: center;
     padding: 0;
-    margin: 0;
+    width: 50%;
+    margin: 0 auto;
+    
   }
   .subscribe {
+    margin-top: 5vh;
     text-align: center;
   }
   
@@ -67,7 +71,7 @@ p {
     min-width: 5em;
     height: 3em;
     box-sizing: border-box;
-    padding-left: 2.5em;
+    padding-left: 2em;
   }
   input[type="text"]::placeholder{
     font-family: Poppins;
@@ -77,8 +81,10 @@ p {
   input[type="submit"]{
     border: 0em;
     border-radius: 0px 7px 7px 0px;
-    width: 10%;
-    max-width: 11em;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 50%;
+    max-width: 9em;
     min-width: 1em;
     height: 3em;
     background: $buttonColor;
