@@ -17,8 +17,14 @@ export function Subscribe(props) {
             <h1>{props.title}</h1>
             <p>{Constants.date}</p>
             <p>Subscribe for updates</p>
-            <form className="subscribe" onSubmit={handleSubmit}>
+            <form className="subscribe desktop" onSubmit={handleSubmit}>
                 <input type="text" value={email} onChange={evt => setEmail(evt.target.value)} placeholder="hello@email.com" />
+                <input type="submit" value="Subscribe me!" />
+            </form>
+            <form className="mobile">
+                <input type="text" value={email} onChange={evt => setEmail(evt.target.value)} placeholder="hello@email.com" />
+            </form>
+            <form className="mobile" onSubmit={handleSubmit}>
                 <input type="submit" value="Subscribe me!" />
             </form>
         </div>);
