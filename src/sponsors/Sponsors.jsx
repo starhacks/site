@@ -7,7 +7,7 @@ const Sponsors = props =>
         <h2>
             {props.title}
         </h2>
-        <p>Want to sponsor us? Contact us at [@]</p>
+        <p>Want to sponsor us? Contact us at [email]</p>
     </div>
 
 Sponsors.propTypes = {
