@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/anchor-has-content */
-import React, { useState } from 'react';
-import '../App.scss'
+import React, {useState} from 'react';
+import '../App.scss';
 
 const CarouselLeftArrow = (props) => {
     return (
@@ -10,10 +10,10 @@ const CarouselLeftArrow = (props) => {
             className="carousel__arrow carousel__arrow--left"
             onClick={props.onClick}
         >
-            <i class="arrow left"></i>
+            <i className="arrow left"></i>
         </a>
     );
-}
+};
 
 const CarouselRightArrow = (props) => {
     return (
@@ -22,10 +22,10 @@ const CarouselRightArrow = (props) => {
             className="carousel__arrow carousel__arrow--right"
             onClick={props.onClick}
         >
-            <i class="arrow right"></i>
+            <i className="arrow right"></i>
         </a>
     );
-}
+};
 
 const CarouselIndicator = (props) => {
     return (
@@ -33,23 +33,23 @@ const CarouselIndicator = (props) => {
         <li>
             <a
                 className={
-                    props.index === props.activeIndex
-                        ? "carousel__indicator carousel__indicator--active"
-                        : "carousel__indicator"
+                    props.index === props.activeIndex ?
+                        'carousel__indicator carousel__indicator--active' :
+                        'carousel__indicator'
                 }
                 onClick={props.onClick}
             />
         </li>
     );
-}
+};
 
 const CarouselSlide = (props) => {
     return (
         <li
             className={
-                props.index === props.activeIndex
-                    ? "carousel__slide carousel__slide--active"
-                    : "carousel__slide"
+                props.index === props.activeIndex ?
+                    'carousel__slide carousel__slide--active' :
+                    'carousel__slide'
             }
         >
             <h3>{props.slide.title}</h3>
@@ -66,17 +66,17 @@ const CarouselSlide = (props) => {
                         <div className="event">
                             <p>{evt.title}</p>
                         </div>
-                    </div>
+                    </div>,
                 )}
             </div>
         </li>
     );
-}
+};
 
 const Carousel = (props) => {
     const [activeIndex, setActiveIndex] = useState(0);
 
-    const goToSlide = (index) => setActiveIndex(oldIndex => index);
+    const goToSlide = (index) => setActiveIndex((oldIndex) => index);
 
     const goToPrevSlide = (e) => {
         e.preventDefault();
@@ -89,8 +89,8 @@ const Carousel = (props) => {
 
         --index;
 
-        setActiveIndex(oldIndex => index);
-    }
+        setActiveIndex((oldIndex) => index);
+    };
 
     const goToNextSlide = (e) => {
         e.preventDefault();
@@ -103,14 +103,14 @@ const Carousel = (props) => {
 
         ++index;
 
-        setActiveIndex(oldIndex => index);
-    }
+        setActiveIndex((oldIndex) => index);
+    };
 
     return (
         <div className="schedule">
             <h2>{props.title}</h2>
             <div className="carousel">
-                <CarouselLeftArrow onClick={e => goToPrevSlide(e)} />
+                <CarouselLeftArrow onClick={(e) => goToPrevSlide(e)} />
 
                 <ul className="carousel__slides">
                     {props.slides.map((slide, index) =>
@@ -119,11 +119,11 @@ const Carousel = (props) => {
                             index={index}
                             activeIndex={activeIndex}
                             slide={slide}
-                        />
+                        />,
                     )}
                 </ul>
 
-                <CarouselRightArrow onClick={e => goToNextSlide(e)} />
+                <CarouselRightArrow onClick={(e) => goToNextSlide(e)} />
 
                 <ul className="carousel__indicators">
                     {props.slides.map((slide, index) =>
@@ -132,13 +132,13 @@ const Carousel = (props) => {
                             index={index}
                             activeIndex={activeIndex}
                             isActive={activeIndex === index}
-                            onClick={e => goToSlide(index)}
-                        />
+                            onClick={(e) => goToSlide(index)}
+                        />,
                     )}
                 </ul>
             </div>
         </div>
     );
-}
+};
 
 export default Carousel;

@@ -1,14 +1,14 @@
 import React from 'react';
-import PropTypes from 'prop-types'
-import '../App.scss'
+import PropTypes from 'prop-types';
+import '../App.scss';
 
-const Team = props =>
+const Team = (props) =>
     <div className="team">
         <h2>{props.title}</h2>
-    </div>
+    </div>;
 
 Team.propTypes = {
-    title: PropTypes.string.isRequired
-}
+    title: PropTypes.string.isRequired,
+};
 
 export default Team;
