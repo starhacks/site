@@ -1,7 +1,6 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-/* eslint-disable jsx-a11y/anchor-has-content */
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import '../App.scss';
+import PropTypes from 'prop-types';
 
 const CarouselLeftArrow = (props) => {
     return (
@@ -15,6 +14,10 @@ const CarouselLeftArrow = (props) => {
     );
 };
 
+CarouselLeftArrow.propTypes = {
+    onClick: PropTypes.func.isRequired,
+};
+
 const CarouselRightArrow = (props) => {
     return (
         <a
@@ -25,6 +28,10 @@ const CarouselRightArrow = (props) => {
             <i className="arrow right"></i>
         </a>
     );
+};
+
+CarouselRightArrow.propTypes = {
+    onClick: PropTypes.func.isRequired,
 };
 
 const CarouselIndicator = (props) => {
@@ -43,6 +50,12 @@ const CarouselIndicator = (props) => {
     );
 };
 
+CarouselIndicator.propTypes = {
+    index: PropTypes.number.isRequired,
+    activeIndex: PropTypes.number.isRequired,
+    onClick: PropTypes.func.isRequired,
+};
+
 const CarouselSlide = (props) => {
     return (
         <li
@@ -59,7 +72,7 @@ const CarouselSlide = (props) => {
                     <p className="bold">Event</p>
                 </div>
                 {props.slide.events.map((evt, index) =>
-                    <div className="time-event border">
+                    <div className="time-event border" key={index}>
                         <div className="time">
                             <p>{evt.time}</p>
                         </div>
@@ -71,6 +84,13 @@ const CarouselSlide = (props) => {
             </div>
         </li>
     );
+};
+
+CarouselSlide.propTypes = {
+    index: PropTypes.number.isRequired,
+    activeIndex: PropTypes.number.isRequired,
+    onClick: PropTypes.func.isRequired,
+    slide: PropTypes.object.isRequired,
 };
 
 const Carousel = (props) => {
@@ -139,6 +159,13 @@ const Carousel = (props) => {
             </div>
         </div>
     );
+};
+
+Carousel.propTypes = {
+    index: PropTypes.number.isRequired,
+    title: PropTypes.string.isRequired,
+    onClick: PropTypes.func.isRequired,
+    slides: PropTypes.object.isRequired,
 };
 
 export default Carousel;

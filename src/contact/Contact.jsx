@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import '../App.scss';
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {socialMediaHandles} from '../constants';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { socialMediaHandles } from '../constants';
 
 const Contact = (props) =>
     <div className="contact">
@@ -10,7 +10,7 @@ const Contact = (props) =>
         <p>Reach out to us!</p>
         <div className="icons">
             {socialMediaHandles.map((i) =>
-                <a href={i.link}>
+                <a href={i.link} key={i.link}>
                     <FontAwesomeIcon icon={i.icon} />
                 </a>,
             )}
