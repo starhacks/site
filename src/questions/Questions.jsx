@@ -4,8 +4,13 @@ import '../App.scss';
 
 const Questions = (props) =>
     <div className="questions">
-        <h2>{props.title}</h2>
-    </div>;
+        <div className="questions-panel">
+
+        </div>
+        <div className="questions-panel">
+
+        </div>
+    </div>
 
 Questions.propTypes = {
     title: PropTypes.string.isRequired,
