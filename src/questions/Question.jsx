@@ -1,9 +1,9 @@
 import React from 'react';
-import '../App.scss'
+import '../App.scss';
 
-const Question = props =>
+const Question = (props) =>
     <div className="question">
 
-    </div>
+    </div>;
 
 export default Question;

@@ -10,7 +10,7 @@ const Questions = (props) =>
         <div className="questions-panel">
 
         </div>
-    </div>
+    </div>;
 
 Questions.propTypes = {
     title: PropTypes.string.isRequired,
