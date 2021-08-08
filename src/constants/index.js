@@ -20,10 +20,6 @@ export const sponsors = 'SPONSORS';
 export const schedule = 'SCHEDULE';
 export const commonlyAskedQuestions = 'FAQ';
 export const date = 'VIRTUAL | JAN 2022';
-export const upcomingEvents = {};
-export const previousEvents = {};
-export const questionsAndAnswer = {};
-export const teamMembers = {};
 export const hackathonSchedule = [
     {
         id: 1,
@@ -70,4 +66,11 @@ export const socialMediaHandles = [
     { link: 'mailto:avighna@starhacks.tech', icon: faEnvelope },
     { link: 'https://discord.com/invite/sqmX6wBHTH', icon: faDiscord },
     { link: 'https://discord.com/invite/sqmX6wBHTH', icon: faTwitter },
+];
+export const teamMembers = [
+    {
+        name: 'Lucy',
+        img: 'test',
+        role: 'Director of Outreach and Technology',
+    },
 ];

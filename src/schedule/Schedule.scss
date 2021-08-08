@@ -1,0 +1,57 @@
+$darkBlue: #506c8f;
+$lightBlue: #98b7de;
+$bluePurple: #aeaad5;
+$purple: #c49dce;
+$lightPurple: #d1b1cf;
+$fontColor: white;
+$buttonColor: $lightPurple;
+$buttonHover: rgba(255, 255, 255, 0);
+
+$header1FontSize: 96px;
+$header2FontSize: 48px;
+$header3FontSize: 36px;
+$pFontSize: 24px;
+
+$mobileHeader1FontSize: 10vw;
+$mobileHeader2FontSize: 6vw;
+$mobileHeader3FontSize: 5vw;
+$mobilepFontSize: 5vw;
+
+$desktopMobileToggleWidth: 767px;
+
+//schedule
+.schedule-panel {
+    background-color: $lightPurple;
+    padding: 2%;
+    border-radius: 15px;
+    width: 50vw;
+    margin: auto;
+    p {
+        margin: 0 5px 0 5px;
+        @media (max-width: $desktopMobileToggleWidth) {
+            font-size: $mobilepFontSize;
+        }
+    }
+    .border {
+        border-top: 2px solid white;
+    }
+    .time-event {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+        @media (max-width: $desktopMobileToggleWidth) {
+            flex-direction: column;
+            text-align: center;
+        }
+        .bold {
+            font-weight: bold;
+        }
+        .event {
+            white-space: nowrap;
+        }
+    }
+    @media (max-width: $desktopMobileToggleWidth) {
+        width: 80vw;
+    }
+}
