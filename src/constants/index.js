@@ -13,6 +13,7 @@ export const starhacks = 'STARHACKS';
 export const about = 'ABOUT US';
 export const team = 'TEAM';
 export const contact = 'CONTACT US';
+export const roles = 'ROLES';
 export const events = 'EVENTS';
 export const anecdotes = 'ANECDOTES';
 export const sponsors = 'SPONSORS';
