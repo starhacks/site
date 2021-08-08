@@ -1,4 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
+@import "./about/About.scss";
+@import "./schedule/Schedule.scss";
+@import "./anecdotes/Anecdotes.scss";
+@import "./contact/Contact.scss";
+@import "./events/Events.scss";
+@import "./landing/Landing.scss";
+@import "./questions/Questions.scss";
+@import "./roles/Roles.scss";
+@import "./schedule/Schedule.scss";
+@import "./sponsors/Sponsors.scss";
+@import "./team/Team.scss";
 
 $darkBlue: #506c8f;
 $lightBlue: #98b7de;
@@ -174,43 +185,6 @@ input[type="submit"] {
 
 // about us
 .about {
-}
-
-//schedule
-.schedule-panel {
-  background-color: $lightPurple;
-  padding: 2%;
-  border-radius: 15px;
-  width: 50vw;
-  margin: auto;
-  p {
-    margin: 0 5px 0 5px;
-    @media (max-width: $desktopMobileToggleWidth) {
-      font-size: $mobilepFontSize;
-    }
-  }
-  .border {
-    border-top: 2px solid white;
-  }
-  .time-event {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    text-align: left;
-    @media (max-width: $desktopMobileToggleWidth) {
-      flex-direction: column;
-      text-align: center;
-    }
-    .bold {
-      font-weight: bold;
-    }
-    .event {
-      white-space: nowrap;
-    }
-  }
-  @media (max-width: $desktopMobileToggleWidth) {
-    width: 80vw;
-  }
 }
 
 // anecdotes

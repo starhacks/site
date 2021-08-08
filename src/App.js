@@ -10,7 +10,7 @@ import Questions from './questions/Questions';
 import Sponsors from './sponsors/Sponsors';
 import Carousel from './schedule/Schedule';
 import { hackathonSchedule } from './constants';
-import Roles from './volunteer/Roles';
+import Roles from './roles/Roles';
 
 const App = () => {
     ReactGA.initialize('G-FSN13RH97N');
@@ -21,7 +21,7 @@ const App = () => {
             <Subscribe title={Constants.starhacks} />
             <About title={Constants.about} />
             <Carousel slides={hackathonSchedule} title={Constants.schedule} />
-            <Roles title={Constants.roles}/>
+            <Roles title={Constants.roles} />
             <Anecdotes title={Constants.anecdotes} />
             <Team title={Constants.team} />
             <Questions title={Constants.commonlyAskedQuestions} />
