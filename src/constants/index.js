@@ -67,10 +67,4 @@ export const socialMediaHandles = [
     { link: 'https://discord.com/invite/sqmX6wBHTH', icon: faDiscord },
     { link: 'https://discord.com/invite/sqmX6wBHTH', icon: faTwitter },
 ];
-export const teamMembers = [
-    {
-        name: 'Lucy',
-        img: 'test',
-        role: 'Director of Outreach and Technology',
-    },
-];
+export const teamMembers = [];
