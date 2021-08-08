@@ -1,36 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
-@import "./about/About.scss";
-@import "./schedule/Schedule.scss";
-@import "./anecdotes/Anecdotes.scss";
-@import "./contact/Contact.scss";
-@import "./events/Events.scss";
-@import "./landing/Landing.scss";
-@import "./questions/Questions.scss";
-@import "./roles/Roles.scss";
-@import "./schedule/Schedule.scss";
-@import "./sponsors/Sponsors.scss";
-@import "./team/Team.scss";
-
-$darkBlue: #506c8f;
-$lightBlue: #98b7de;
-$bluePurple: #aeaad5;
-$purple: #c49dce;
-$lightPurple: #d1b1cf;
-$fontColor: white;
-$buttonColor: $lightPurple;
-$buttonHover: rgba(255, 255, 255, 0);
-
-$header1FontSize: 96px;
-$header2FontSize: 48px;
-$header3FontSize: 36px;
-$pFontSize: 24px;
-
-$mobileHeader1FontSize: 10vw;
-$mobileHeader2FontSize: 6vw;
-$mobileHeader3FontSize: 5vw;
-$mobilepFontSize: 5vw;
-
-$desktopMobileToggleWidth: 767px;
+@import "./variables";
+@import "./about/About";
+@import "./schedule/Schedule";
+@import "./anecdotes/Anecdotes";
+@import "./contact/Contact";
+@import "./events/Events";
+@import "./landing/Landing";
+@import "./questions/Questions";
+@import "./roles/Roles";
+@import "./schedule/Schedule";
+@import "./sponsors/Sponsors";
+@import "./team/Team";
 
 html {
   overflow-x: hidden;
