@@ -30,6 +30,9 @@ jobs:
       - name: build
         run: yarn build
 
+      - name: lint
+        run: yarn lint
+
       - name: deploy
         run: |
           git config --global user.name starhacks
