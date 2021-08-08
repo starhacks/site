@@ -18,3 +18,13 @@ $mobileHeader3FontSize: 5vw;
 $mobilepFontSize: 5vw;
 
 $desktopMobileToggleWidth: 767px;
+
+.sponsors {
+    width: 90vw;
+    margin: auto;
+    p {
+        text-align: center;
+        padding: 0;
+        margin: 0 auto;
+    }
+}
