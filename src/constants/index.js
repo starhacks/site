@@ -7,6 +7,9 @@ import {
     faTwitter,
 } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
+import lucy from './assets/lucy.png';
+import serena from './assets/serena.png';
+import camilla from './assets/camilla.png';
 
 export const subscribeToOurNewsletter = 'Subscribe to our newsletter';
 export const starhacks = 'STARHACKS';
@@ -70,7 +73,17 @@ export const socialMediaHandles = [
 export const teamMembers = [
     {
         name: 'Lucy',
-        img: 'test',
+        img: lucy,
         role: 'Director of Outreach and Technology',
+    },
+    {
+        name: 'Camilla',
+        img: camilla,
+        role: 'Director of Operations',
+    },
+    {
+        name: 'Serena',
+        img: serena,
+        role: 'Operations Officier',
     },
 ];

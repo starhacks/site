@@ -3,7 +3,8 @@ import PropTypes from 'prop-types';
 
 const Member = (props) =>
     <div className="member">
-        {props.img && <img src={props.img} ></img>}
+        {props.img &&
+            <img src={props.img} ></img>}
         <h2>{props.name}</h2>
         <p>{props.role}</p>
     </div>;

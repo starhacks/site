@@ -1,1 +1,16 @@
 @import "../variables";
+
+.team {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90vw;
+    margin: auto;
+    text-align: center;
+    .member {
+        width: 20vw;
+        img {
+            width: 15vw;
+        }
+    }
+}
