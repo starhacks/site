@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Question = (props) =>
+const Panel = (props) =>
     <div className="question">
 
     </div>;
 
-export default Question;
+export default Panel;

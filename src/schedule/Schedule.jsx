@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import '../App.scss';
 import PropTypes from 'prop-types';
 
 const CarouselLeftArrow = (props) => {

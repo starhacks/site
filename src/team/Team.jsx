@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import '../App.scss';
 
 const Team = (props) =>
     <div className="team">

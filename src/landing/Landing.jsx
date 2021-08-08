@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import * as Constants from '../constants';
-import '../App.scss';
 
 export const Subscribe = (props) => {
     const [email, setEmail] = useState('');

@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import '../App.scss';
 
 const Anecdotes = (props) =>
     <div className="anecdotes">
