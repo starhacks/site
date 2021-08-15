@@ -7,10 +7,28 @@
     width: 90vw;
     margin: auto;
     text-align: center;
+    @media (max-width: $desktopMobileToggleWidth) {
+        flex-direction: column;
+    }
     .member {
-        width: 20vw;
+        @media (min-width: $desktopMobileToggleWidth) {
+            width: 20vw;
+            margin: 0 10px 0 10px;
+        }
+        @media (max-width: $desktopMobileToggleWidth) {
+            margin: 10px 0 10px 0;
+        }
         img {
-            width: 15vw;
+            width: 200px;
+        }
+        .limited {
+            margin: auto;
+            height: 200px;
+            width: 200px;
+            overflow: hidden;
+            background-color: $darkBlue;
+            border-radius: 360px;
+            display: block;
         }
     }
 }
