@@ -7,6 +7,9 @@ import {
     faTwitter,
 } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
+import lucy from './assets/lucy_.png';
+import serena from './assets/serena.png';
+import camilla from './assets/camilla.png';
 
 export const subscribeToOurNewsletter = 'Subscribe to our newsletter';
 export const starhacks = 'STARHACKS';
@@ -67,4 +70,40 @@ export const socialMediaHandles = [
     { link: 'https://discord.com/invite/sqmX6wBHTH', icon: faDiscord },
     { link: 'https://discord.com/invite/sqmX6wBHTH', icon: faTwitter },
 ];
-export const teamMembers = [];
+export const teamMembers = [
+    {
+        name: 'Avighna',
+        role: 'Lead Director',
+    },
+    {
+        name: 'Camilla',
+        img: camilla,
+        role: 'Director of Operations',
+    },
+    {
+        name: 'Lucy',
+        img: lucy,
+        role: 'Director of Outreach and Technology',
+    },
+    {
+        name: 'Serena Huynh',
+        img: serena,
+        role: 'Operations Officier',
+    },
+    {
+        name: 'Clarise Liu',
+        role: 'Outreach Officier',
+    },
+    {
+        name: 'Sammi Chen',
+        role: 'Director of Finance',
+    },
+    {
+        name: 'Deanna Wood',
+        role: 'Operations Officier',
+    },
+    {
+        name: 'Hannah Kim',
+        role: 'Finance Officier',
+    },
+];

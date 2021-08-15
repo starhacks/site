@@ -3,8 +3,14 @@ import PropTypes from 'prop-types';
 
 const Member = (props) =>
     <div className="member">
-        {props.img && <img src={props.img} ></img>}
-        <h2>{props.name}</h2>
+        {props.img !== 'NA' &&
+            <a className="limited">
+                <img src={props.img} ></img>
+            </a>}
+        {props.img === 'NA' &&
+            <a className="limited">
+            </a>}
+        <h3>{props.name}</h3>
         <p>{props.role}</p>
     </div>;
 
