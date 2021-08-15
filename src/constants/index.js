@@ -10,7 +10,9 @@ import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import lucy from './assets/lucy_.png';
 import serena from './assets/serena.png';
 import camilla from './assets/camilla.png';
+import aboutP from './assets/about.jpg';
 
+export const aboutPhoto = aboutP;
 export const subscribeToOurNewsletter = 'Subscribe to our newsletter';
 export const starhacks = 'STARHACKS';
 export const about = 'ABOUT US';

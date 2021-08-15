@@ -1,1 +1,18 @@
 @import "../variables";
+
+.about-photo {
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    margin: auto;
+    justify-content: space-between;
+    .about-photo {
+        width: 30vw;
+    }
+    @media (max-width: $desktopMobileToggleWidth) {
+        flex-direction: column;
+        .about-photo {
+            width: inherit;
+        }
+    }
+}
