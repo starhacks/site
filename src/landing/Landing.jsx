@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import * as Constants from '../constants';
 
-export const Subscribe = (props) => {
+export const Landing = (props) => {
     const [email, setEmail] = useState('');
 
 
@@ -30,8 +30,8 @@ export const Subscribe = (props) => {
         </div>);
 };
 
-Subscribe.propTypes = {
+Landing.propTypes = {
     title: PropTypes.string.isRequired,
 };
 
-export default Subscribe;
+export default Landing;

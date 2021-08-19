@@ -92,7 +92,7 @@ CarouselSlide.propTypes = {
     slide: PropTypes.object.isRequired,
 };
 
-const Carousel = (props) => {
+const Schedule = (props) => {
     const [activeIndex, setActiveIndex] = useState(0);
 
     const goToSlide = (index) => setActiveIndex((oldIndex) => index);
@@ -160,11 +160,11 @@ const Carousel = (props) => {
     );
 };
 
-Carousel.propTypes = {
+Schedule.propTypes = {
     index: PropTypes.number.isRequired,
     title: PropTypes.string.isRequired,
     onClick: PropTypes.func.isRequired,
     slides: PropTypes.object.isRequired,
 };
 
-export default Carousel;
+export default Schedule;

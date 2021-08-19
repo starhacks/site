@@ -4,15 +4,19 @@ import About from './about/About';
 import Anecdotes from './anecdotes/Anecdotes';
 import Contact from './contact/Contact';
 import * as Constants from './constants';
-import Subscribe from './landing/Landing';
+import Landing from './landing/Landing';
 import Team from './team/Team';
 import Questions from './questions/Questions';
 import Sponsors from './sponsors/Sponsors';
-import Carousel from './schedule/Schedule';
+import Schedule from './schedule/Schedule';
 import {
     hackathonSchedule,
     rolesDescriptions,
     socialMediaHandles,
+    anecdotesList,
+    teamMembers,
+    faqList,
+    sponsorsList,
 } from './constants';
 import Roles from './roles/Roles';
 
@@ -22,15 +26,34 @@ const App = () => {
 
     return (
         <div className="App" >
-            <Subscribe title={Constants.starhacks} />
+            <Landing title={Constants.starhacks} />
             <About title={Constants.about} />
-            <Carousel slides={hackathonSchedule} title={Constants.schedule} />
-            <Roles title={Constants.roles} roles={rolesDescriptions} />
-            <Anecdotes title={Constants.anecdotes} />
-            <Team title={Constants.team} />
-            <Questions title={Constants.commonlyAskedQuestions} />
-            <Sponsors title={Constants.sponsors} />
-            <Contact socialMediaHandles={socialMediaHandles} />
+
+            {hackathonSchedule.length > 0 &&
+                <Schedule
+                    slides={hackathonSchedule}
+                    title={Constants.schedule} />}
+
+            {rolesDescriptions.length > 0 &&
+                <Roles
+                    title={Constants.roles}
+                    roles={rolesDescriptions} />}
+
+            {anecdotesList.length > 0 &&
+                <Anecdotes title={Constants.anecdotes} />}
+
+            {teamMembers.length > 0 &&
+                <Team title={Constants.team}
+                    teamMembers={teamMembers} />}
+
+            {faqList.length > 0 &&
+                <Questions title={Constants.commonlyAskedQuestions} />}
+
+            {sponsorsList.length > 0 &&
+                <Sponsors title={Constants.sponsors} />}
+
+            {socialMediaHandles.length > 0 &&
+                <Contact socialMediaHandles={socialMediaHandles} />}
         </div>
     );
 };

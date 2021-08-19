@@ -113,6 +113,10 @@ export const teamMembers = [
         name: 'Hannah Kim',
         role: 'Finance Officier',
     },
+    {
+        name: 'Anchal Bhardwaj',
+        role: 'Finance and Outreach Officier',
+    },
 ];
 
 export const rolesDescriptions = [
@@ -156,3 +160,9 @@ export const rolesDescriptions = [
         link: 'https://docs.google.com/forms/d/e/1FAIpQLSfFM1ts61enbhwBbMS0sF9Hb_QwQyacA0j4VGmkxhC6oI_vvw/viewform',
     },
 ];
+
+export const anecdotesList = [];
+
+export const faqList = [];
+
+export const sponsorsList = [];
