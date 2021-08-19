@@ -6,12 +6,15 @@
     width: 90vw;
     margin: auto;
     justify-content: space-between;
-    .about-photo {
-        width: 30vw;
+    img {
+        padding-left: 50px;
+        width: 20vw;
     }
     @media (max-width: $desktopMobileToggleWidth) {
         flex-direction: column;
-        .about-photo {
+        img {
+            padding-left: 0;
+            padding-top: 25px;
             width: inherit;
         }
     }

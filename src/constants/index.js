@@ -12,9 +12,10 @@ import serena from './assets/serena.png';
 import camilla from './assets/camilla.png';
 import sammi from './assets/sammi.png';
 import avighna from './assets/avighna.png';
-import planet from './assets/planet.png';
+import aboutAsset from './assets/about-us-asset.png';
 
-export const aboutPhoto = planet;
+
+export const aboutPhoto = aboutAsset;
 export const subscribeToOurNewsletter = 'Subscribe to our newsletter';
 export const starhacks = 'STARHACKS';
 export const about = 'ABOUT US';
