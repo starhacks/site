@@ -1,29 +1,30 @@
 {
   "files": {
-    "main.css": "/site/static/css/main.0ecfb789.chunk.css",
-    "main.js": "/site/static/js/main.08966f66.chunk.js",
-    "main.js.map": "/site/static/js/main.08966f66.chunk.js.map",
+    "main.css": "/site/static/css/main.44b71e88.chunk.css",
+    "main.js": "/site/static/js/main.02e6d717.chunk.js",
+    "main.js.map": "/site/static/js/main.02e6d717.chunk.js.map",
     "runtime-main.js": "/site/static/js/runtime-main.578b6204.js",
     "runtime-main.js.map": "/site/static/js/runtime-main.578b6204.js.map",
-    "static/js/2.883db90f.chunk.js": "/site/static/js/2.883db90f.chunk.js",
-    "static/js/2.883db90f.chunk.js.map": "/site/static/js/2.883db90f.chunk.js.map",
+    "static/js/2.3a5328b7.chunk.js": "/site/static/js/2.3a5328b7.chunk.js",
+    "static/js/2.3a5328b7.chunk.js.map": "/site/static/js/2.3a5328b7.chunk.js.map",
     "static/js/3.9726d2dd.chunk.js": "/site/static/js/3.9726d2dd.chunk.js",
     "static/js/3.9726d2dd.chunk.js.map": "/site/static/js/3.9726d2dd.chunk.js.map",
     "index.html": "/site/index.html",
-    "static/css/main.0ecfb789.chunk.css.map": "/site/static/css/main.0ecfb789.chunk.css.map",
-    "static/js/2.883db90f.chunk.js.LICENSE.txt": "/site/static/js/2.883db90f.chunk.js.LICENSE.txt",
+    "static/css/main.44b71e88.chunk.css.map": "/site/static/css/main.44b71e88.chunk.css.map",
+    "static/js/2.3a5328b7.chunk.js.LICENSE.txt": "/site/static/js/2.3a5328b7.chunk.js.LICENSE.txt",
     "static/media/about-us-asset.fd1c4d58.png": "/site/static/media/about-us-asset.fd1c4d58.png",
     "static/media/avighna.5c9642f6.png": "/site/static/media/avighna.5c9642f6.png",
     "static/media/camilla.e808ec6c.png": "/site/static/media/camilla.e808ec6c.png",
     "static/media/App.scss": "/site/static/media/stars.ee02e254.svg",
+    "static/media/landing.278d9ecb.png": "/site/static/media/landing.278d9ecb.png",
     "static/media/lucy_.e2a0996e.png": "/site/static/media/lucy_.e2a0996e.png",
     "static/media/sammi.e83b36d7.png": "/site/static/media/sammi.e83b36d7.png",
     "static/media/serena.e4566ca2.png": "/site/static/media/serena.e4566ca2.png"
   },
   "entrypoints": [
     "static/js/runtime-main.578b6204.js",
-    "static/js/2.883db90f.chunk.js",
-    "static/css/main.0ecfb789.chunk.css",
-    "static/js/main.08966f66.chunk.js"
+    "static/js/2.3a5328b7.chunk.js",
+    "static/css/main.44b71e88.chunk.css",
+    "static/js/main.02e6d717.chunk.js"
   ]
 }
