@@ -87,3 +87,9 @@ p {
 .App > * {
   margin-top: 5vh;
 }
+
+#root {
+  background-image: url("./constants/assets/stars.svg");
+  background-size: 100vw auto;
+  background-repeat: no-repeat;
+}
