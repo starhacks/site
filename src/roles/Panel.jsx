@@ -3,18 +3,19 @@ import PropTypes from 'prop-types';
 
 const Panel = (props) =>
     <div className="role-panel">
-        <h3>{props.title}</h3>
         {Array.isArray(props.blurb) &&
             props.blurb.map((b) => <p key={b}>{b}</p>)}
         {!Array.isArray(props.blurb) && <p>{props.blurb}</p>}
         <center>
-            <a
-                target="_blank"
-                rel="noreferrer"
-                href={props.button}
-                className="button">
-                Sign Up
-            </a>
+            <h3>
+                <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href={props.button}
+                    className="button">
+                    {props.title}
+                </a>
+            </h3>
         </center>
     </div>;
 

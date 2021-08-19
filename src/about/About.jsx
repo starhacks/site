@@ -20,7 +20,8 @@ const About = (props) =>
                 <p>
                     After our first iteration with over 800 registrants and 36
                     hours of hacking, StarHacks is proud to host our second
-                    hackathon, <strong>StarHacks II, on Saturday and Sunday,
+                    hackathon, <strong>
+                        StarHacks II, on Saturday and Sunday,
                         January  22-23, 2022 with beginner-focused pre-event
                         workshops  on Saturday, January 7 and Saturday,
                         January 15.</strong>
@@ -28,7 +29,7 @@ const About = (props) =>
                 <br />
                 <p>
                     For our second year, we are
-                    <strong> #BuildingBridges </strong>:
+                    <strong className="highlight"> #BuildingBridges </strong>:
                     bridging divides, venturing into uncharted
                     territory, finding unity as we pioneer into new frontier.
                     Through code and community, our core mission is to create
