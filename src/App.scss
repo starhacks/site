@@ -92,4 +92,7 @@ p {
   background-image: url("./constants/assets/stars.svg");
   background-size: 100vw auto;
   background-repeat: no-repeat;
+  @media (max-width: $desktopMobileToggleWidth) {
+    background-size: auto 100vh;
+  }
 }
