@@ -17,6 +17,7 @@ import {
     teamMembers,
     faqList,
     sponsorsList,
+    landingPhoto,
 } from './constants';
 import Roles from './roles/Roles';
 
@@ -26,7 +27,7 @@ const App = () => {
 
     return (
         <div className="App" >
-            <Landing title={Constants.starhacks} />
+            <Landing title={Constants.starhacks} img={landingPhoto} />
             <About title={Constants.about} />
 
             {hackathonSchedule.length > 0 &&

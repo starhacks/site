@@ -13,9 +13,11 @@ import camilla from './assets/camilla.png';
 import sammi from './assets/sammi.png';
 import avighna from './assets/avighna.png';
 import aboutAsset from './assets/about-us-asset.png';
+import landingAsset from './assets/landing.png';
 
 
 export const aboutPhoto = aboutAsset;
+export const landingPhoto = landingAsset;
 export const subscribeToOurNewsletter = 'Subscribe to our newsletter';
 export const starhacks = 'STARHACKS';
 export const about = 'ABOUT US';
@@ -27,7 +29,7 @@ export const anecdotes = 'ANECDOTES';
 export const sponsors = 'SPONSORS';
 export const schedule = 'SCHEDULE';
 export const commonlyAskedQuestions = 'FAQ';
-export const date = 'VIRTUAL | JAN 2022';
+export const date = 'January 22-23, 2022 | Virtual';
 export const hackathonSchedule = [
     {
         id: 1,
@@ -123,6 +125,8 @@ export const teamMembers = [
     },
 ];
 
+export const registerLink = `https://www.eventbrite.com/e/starhacks-ii-all-female-and-nonbinary-virtual-and-global-hackathon-tickets-167198468119`;
+
 export const rolesDescriptions = [
     {
         role: 'Speaker',
@@ -142,7 +146,7 @@ export const rolesDescriptions = [
            of community and exploration. Hackers must identify
             as female or nonbinary and must be in middle school,
              high school, or college.`,
-        link: 'https://www.eventbrite.com/e/starhacks-ii-all-female-and-nonbinary-virtual-and-global-hackathon-tickets-167198468119',
+        link: registerLink,
     },
     {
         role: 'Mentor',

@@ -7,15 +7,17 @@ const Panel = (props) =>
             props.blurb.map((b) => <p key={b}>{b}</p>)}
         {!Array.isArray(props.blurb) && <p>{props.blurb}</p>}
         <center>
-            <h3>
-                <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href={props.button}
-                    className="button">
-                    {props.title}
-                </a>
-            </h3>
+            <a
+                target="_blank"
+                rel="noreferrer"
+                href={props.button}
+                className="buttonStyle">
+                <div className="button">
+                    <h3>
+                        {props.title}
+                    </h3>
+                </div>
+            </a>
         </center>
     </div>;
 
