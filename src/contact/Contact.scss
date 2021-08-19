@@ -1,38 +1,49 @@
 @import "../variables";
 
-
 .contact {
-    height: 50vw;
+    height: 70vh;
     width: 100vw;
     background-image: url("../constants/assets/clouds.svg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center bottom;
     @media (max-width: $desktopMobileToggleWidth) {
+        height: 50vw;
+        width: 100vw;
+        background-image: url("../constants/assets/clouds.svg");
         background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center bottom;
     }
     p {
         text-align: center;
         margin: 0;
     }
     .icons {
-        @media (max-width: $desktopMobileToggleWidth) {
-            margin: 0 10vw 0 10vw;
-        }
+        padding-top: 30vh;
         margin: 0 33vw 0 33vw;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        a {
-            font-size: 3vw;
-            color: white;
-            transition: 0.3s;
-            @media (max-width: $desktopMobileToggleWidth) {
-                color: $darkBlue;
-                font-size: 6vw;
-            }
-            &:hover {
-                color: $darkBlue;
+        @media (max-width: $desktopMobileToggleWidth) {
+            margin: 0 5vw 0 5vw;
+            padding-top: 30vw;
+        }
+        .icon-circle {
+            margin: auto;
+            height: 55px;
+            width: 55px;
+            background-color: $darkBlue;
+            border-radius: 50%;
+            text-align: center;
+            .icon {
+                line-height: 55px;
+                color: $fontColor;
+                font-size: $pFontSize + 3px;
+                transition: 0.3s;
+                &:hover {
+                    font-size: $pFontSize + 8px;
+                }
             }
         }
     }

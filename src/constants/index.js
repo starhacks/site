@@ -2,9 +2,9 @@ import {
     faDiscord,
     faInstagram,
     faLinkedin,
-    faMailchimp,
+    // faMailchimp,
     faMedium,
-    faTwitter,
+    // faTwitter,
 } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import lucy from './assets/lucy_.png';
@@ -68,11 +68,11 @@ export const hackathonSchedule = [
 export const socialMediaHandles = [
     { link: 'https://www.instagram.com/star.hacks/', icon: faInstagram },
     { link: 'https://www.linkedin.com/company/starhacks/', icon: faLinkedin },
-    { link: 'https://docs.google.com/forms/d/e/1FAIpQLSeot7AyQg_SA177nDt7J37wdxcZxSE8RStnHd6zWdUJYnYrnQ/viewform', icon: faMailchimp },
+    // { link: 'https://docs.google.com/forms/d/e/1FAIpQLSeot7AyQg_SA177nDt7J37wdxcZxSE8RStnHd6zWdUJYnYrnQ/viewform', icon: faMailchimp },
     { link: 'https://starhacks.medium.com', icon: faMedium },
     { link: 'mailto:hello@starhacks.tech', icon: faEnvelope },
     { link: 'https://discord.com/invite/sqmX6wBHTH', icon: faDiscord },
-    { link: 'https://discord.com/invite/sqmX6wBHTH', icon: faTwitter },
+    // { link: 'https://discord.com/invite/sqmX6wBHTH', icon: faTwitter },
 ];
 export const teamMembers = [
     {

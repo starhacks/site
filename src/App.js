@@ -9,7 +9,11 @@ import Team from './team/Team';
 import Questions from './questions/Questions';
 import Sponsors from './sponsors/Sponsors';
 import Carousel from './schedule/Schedule';
-import { hackathonSchedule, rolesDescriptions } from './constants';
+import {
+    hackathonSchedule,
+    rolesDescriptions,
+    socialMediaHandles,
+} from './constants';
 import Roles from './roles/Roles';
 
 const App = () => {
@@ -21,12 +25,12 @@ const App = () => {
             <Subscribe title={Constants.starhacks} />
             <About title={Constants.about} />
             <Carousel slides={hackathonSchedule} title={Constants.schedule} />
-            <Roles title={Constants.roles} roles={rolesDescriptions}/>
+            <Roles title={Constants.roles} roles={rolesDescriptions} />
             <Anecdotes title={Constants.anecdotes} />
             <Team title={Constants.team} />
             <Questions title={Constants.commonlyAskedQuestions} />
             <Sponsors title={Constants.sponsors} />
-            <Contact title={Constants.contact} />
+            <Contact socialMediaHandles={socialMediaHandles} />
         </div>
     );
 };
