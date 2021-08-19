@@ -13,7 +13,7 @@ import camilla from './assets/camilla.png';
 import sammi from './assets/sammi.png';
 import avighna from './assets/avighna.png';
 import aboutAsset from './assets/about-us-asset.png';
-import landingAsset from './assets/landing.png';
+import landingAsset from './assets/landing.svg';
 
 
 export const aboutPhoto = aboutAsset;

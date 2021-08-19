@@ -3,12 +3,19 @@
 .landing {
   height: 100vh;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  img {
+    height: 50vh;
+    padding-right: 40vw;
+    padding-top: 15vh;
+    padding-left: 20px;
+  }
   @media (max-width: $desktopMobileToggleWidth) {
     flex-direction: column;
     img {
       width: 90vw;
       margin: auto;
+      padding: 0;
     }
   }
   .register {
