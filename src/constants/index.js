@@ -117,6 +117,10 @@ export const teamMembers = [
         name: 'Anchal Bhardwaj',
         role: 'Finance and Outreach Officier',
     },
+    {
+        name: 'Elisa Cruz',
+        role: 'Finance and Operations Officier',
+    },
 ];
 
 export const rolesDescriptions = [
