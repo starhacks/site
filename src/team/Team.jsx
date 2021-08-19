@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { teamMembers } from '../constants';
 import Member from './Member';
 
-const sortedMembers = teamMembers.sort((a, b) => a.name > b.role);
+const sortedMembers = teamMembers.sort((a, b) => a.name > b.name);
 
 const Team = (props) =>
     <>
