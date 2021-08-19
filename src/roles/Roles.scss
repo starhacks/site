@@ -1,10 +1,9 @@
 @import "../variables";
 
-
 .roles {
     display: flex;
     flex-direction: row;
-    width: 75vw;
+    width: 90vw;
     margin: 0 auto;
     justify-content: space-between;
     @media (max-width: $desktopMobileToggleWidth) {
@@ -14,8 +13,9 @@
     .role-panel {
         background-color: $darkBlue;
         margin: 4% 1%;
-        padding: 5%;
+        padding: 15px;
         border-radius: 15px;
+        text-align: center;
     }
     center {
         margin-top: 10px;

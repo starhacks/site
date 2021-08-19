@@ -10,9 +10,11 @@ import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import lucy from './assets/lucy_.png';
 import serena from './assets/serena.png';
 import camilla from './assets/camilla.png';
-import aboutP from './assets/about.jpg';
+import sammi from './assets/sammi.png';
+import avighna from './assets/avighna.png';
+import planet from './assets/planet.png';
 
-export const aboutPhoto = aboutP;
+export const aboutPhoto = planet;
 export const subscribeToOurNewsletter = 'Subscribe to our newsletter';
 export const starhacks = 'STARHACKS';
 export const about = 'ABOUT US';
@@ -75,6 +77,7 @@ export const socialMediaHandles = [
 export const teamMembers = [
     {
         name: 'Avighna',
+        img: avighna,
         role: 'Lead Director',
     },
     {
@@ -98,6 +101,7 @@ export const teamMembers = [
     },
     {
         name: 'Sammi Chen',
+        img: sammi,
         role: 'Director of Finance',
     },
     {
@@ -107,5 +111,47 @@ export const teamMembers = [
     {
         name: 'Hannah Kim',
         role: 'Finance Officier',
+    },
+];
+
+export const rolesDescriptions = [
+    {
+        role: 'Speaker',
+        desc: `StarHacks is looking for speakers 
+        to present workshops at StarHacks II!
+         Each workshop will be 1 hour long.
+         If you are interested in being a speaker, 
+         you may choose a workshop from our list or propose a workshop of your
+          own design.
+          Speakers can be of any gender 
+          identity and must be of high school age.`,
+        link: 'https://docs.google.com/forms/d/e/1FAIpQLSeFNY5PwlRbBKsR1LmBvgnO6T8yDpngvAQJKYZAogzvykB49w/viewform',
+    },
+    {
+        role: 'Hacker',
+        desc: `Hackers of any experience level
+         are welcome to participate at StarHacks.
+        No prior coding experience is needed
+         and you don\'t even need to submit a project!
+         Come attend some workshops, meet new 
+         friends and network with industry professionals.`,
+        link: 'https://www.eventbrite.com/e/starhacks-ii-all-female-and-nonbinary-virtual-and-global-hackathon-tickets-167198468119',
+    },
+    {
+        role: 'Mentor or Judge',
+        desc: [
+            `As a mentor, you will have the opportunity to 
+    connect with and inspire beginner coders. 
+    Mentors will be able to help hackers with 
+    their projects through Discord.`,
+
+            `As a judge, 
+    you will have the opportunity
+     to judge hackers' projects. Each judge will score 5 - 10 projects
+      and be debriefed on the judging process before 
+      the hackathon. Judges can be of any gender identity.
+    Both mentors and judges will receive exclusive swag
+     as well as a certificate.`],
+        link: 'https://docs.google.com/forms/d/e/1FAIpQLSfFM1ts61enbhwBbMS0sF9Hb_QwQyacA0j4VGmkxhC6oI_vvw/viewform',
     },
 ];

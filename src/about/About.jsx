@@ -8,21 +8,33 @@ const About = (props) =>
         <div className="about-photo">
             <div>
                 <p>
-                    StarHacks is an international organization striving to
-                    create spaces for gender minorities in computer science,
-                    breaking the stereotype of what
-                    it means to be a person in tech.
-                    StarHacks holds a yearly virtual and global
-                    hackathon for female and
-                    nonbinary high school and college students as well as
-                    year-round community-building opportunities.
-
+                    After our first iteration with over
+                    800 registrants and 36 hours of hacking,
+                    StarHacks is proud to host our second hackathon,
+                    StarHacks II, on Saturday and Sunday,
+                    January 22-23, 2022 with beginner-focused pre-event
+                    workshops on Saturday, January 7 and Saturday, January 15.
                 </p>
                 <br />
                 <p>
-                    In January 2021, StarHacks hosted its first
-                    virtual hackathon with over 800 registrants,
-                    12 events, and 36 hours of hacking, support, and mentorship.
+                    StarHacks is a free, beginner-focused, all-inclusive
+                    all-female and nonbinary high school and collegiate
+                    global and virtual hackathon,
+                    here to break the mold of what a person in tech looks
+                    like one hackathon at a time.
+                </p>
+                <br />
+                <p>
+                    For our second year, we are #BuildingBridges:
+                    bridging divides,
+                    venturing into uncharted territory,
+                    finding unity as we pioneer into new frontier.
+                    Through code and community, our core mission
+                    is to create an environment
+                    for the world’s brightest thinkers to empower
+                    and be empowered, building the bridge
+                    to a more inclusive future — and we would love
+                    for you to be a part of it.
                 </p>
             </div>
             <img src={aboutPhoto} className="about-photo" />
