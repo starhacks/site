@@ -122,41 +122,33 @@ export const teamMembers = [
 export const rolesDescriptions = [
     {
         role: 'Speaker',
-        desc: `StarHacks is looking for speakers 
-        to present workshops at StarHacks II!
-         Each workshop will be 1 hour long.
-         If you are interested in being a speaker, 
-         you may choose a workshop from our list or propose a workshop of your
-          own design.
-          Speakers can be of any gender 
-          identity and must be of high school age.`,
+        desc: `Interested in speaking at StarHacks II?
+         Apply to present a 1 hour workshop at StarHacks II here!
+          You can apply to present a workshop chosen by StarHacks II
+           or create one of your own design. Speakers must be over 18
+            years old, may be of any gender identity, and must be
+             experienced in their workshop topic.`,
         link: 'https://docs.google.com/forms/d/e/1FAIpQLSeFNY5PwlRbBKsR1LmBvgnO6T8yDpngvAQJKYZAogzvykB49w/viewform',
     },
     {
         role: 'Hacker',
-        desc: `Hackers of any experience level
-         are welcome to participate at StarHacks.
-        No prior coding experience is needed
-         and you don\'t even need to submit a project!
-         Come attend some workshops, meet new 
-         friends and network with industry professionals.`,
+        desc: `Whether you've never attended a hackathon
+         or attend one weekly, StarHacks is the place for you!
+          Join us for a beginner-friendly, excitement-packed weekend
+           of community and exploration. Hackers must identify
+            as female or nonbinary and must be in middle school,
+             high school, or college.`,
         link: 'https://www.eventbrite.com/e/starhacks-ii-all-female-and-nonbinary-virtual-and-global-hackathon-tickets-167198468119',
     },
     {
-        role: 'Mentor or Judge',
-        desc: [
-            `As a mentor, you will have the opportunity to 
-    connect with and inspire beginner coders. 
-    Mentors will be able to help hackers with 
-    their projects through Discord.`,
-
-            `As a judge, 
-    you will have the opportunity
-     to judge hackers' projects. Each judge will score 5 - 10 projects
-      and be debriefed on the judging process before 
-      the hackathon. Judges can be of any gender identity.
-    Both mentors and judges will receive exclusive swag
-     as well as a certificate.`],
+        role: 'Mentor',
+        desc:
+            `Want to help and inspire the next generation
+             of female and nonbinary coders? Be a mentor or
+              judge at StarHacks! Mentors and judges must be
+               over 18 years of age, proficient in at least
+                1 programming language, of any gender identity,
+                 and passionate about spreading their love for coding.`,
         link: 'https://docs.google.com/forms/d/e/1FAIpQLSfFM1ts61enbhwBbMS0sF9Hb_QwQyacA0j4VGmkxhC6oI_vvw/viewform',
     },
 ];
