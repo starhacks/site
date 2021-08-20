@@ -13,6 +13,7 @@ const Contact = (props) =>
                 </div>,
             )}
         </div>
+        <p className="blue">Copyright 2021 StarHacks</p>
     </div>;
 
 Contact.propTypes = {

@@ -3,7 +3,12 @@
 .contact {
     width: 100vw;
     margin: auto;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    .blue {
+        padding-top: 15px;
+        color: $darkBlue;
+        font-weight: 600;
+    }
     p {
         text-align: center;
         margin: 0;
