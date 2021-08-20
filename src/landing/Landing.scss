@@ -5,10 +5,9 @@
   display: flex;
   flex-direction: column;
   img {
-    height: 50vh;
-    padding-right: 40vw;
-    padding-top: 15vh;
-    padding-left: 20px;
+    width: 50vw;
+    margin-right: 40vw;
+    margin-top: 15vh;
   }
   @media (max-width: $desktopMobileToggleWidth) {
     flex-direction: column;
