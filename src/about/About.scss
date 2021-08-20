@@ -1,21 +1,23 @@
 @import "../variables";
 
-.about-photo {
-    display: flex;
-    flex-direction: row;
+.about {
     width: 90vw;
     margin: auto;
-    justify-content: space-between;
-    img {
-        padding-left: 50px;
-        width: 20vw;
-    }
-    @media (max-width: $desktopMobileToggleWidth) {
-        flex-direction: column;
+    .about-photo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
         img {
-            padding-left: 0;
-            padding-top: 25px;
-            width: inherit;
+            padding-left: 50px;
+            width: 20vw;
+        }
+        @media (max-width: $desktopMobileToggleWidth) {
+            flex-direction: column;
+            img {
+                padding-left: 0;
+                padding-top: 25px;
+                width: inherit;
+            }
         }
     }
 }

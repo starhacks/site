@@ -3,7 +3,7 @@ import Panel from './Panel';
 import PropTypes from 'prop-types';
 
 const Roles = (props) =>
-    <>
+    <div className="get-involved">
         <h2>
             {props.title}
         </h2>
@@ -17,7 +17,7 @@ const Roles = (props) =>
                 />,
             )}
         </div>
-    </>;
+    </div>;
 
 Roles.propTypes = {
     title: PropTypes.string.isRequired,

@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 import Member from './Member';
 
 const Team = (props) =>
-    <>
+    <div className="team">
         <h2>{props.title}</h2>
-        <div className="team">
+        <div className="members">
             {props.teamMembers
                 .sort((a, b) => a.name > b.name)
                 .filter((m) => m.role.includes('Director')).map((m) =>
@@ -15,7 +15,7 @@ const Team = (props) =>
                         role={m.role}
                         img={m.img ? m.img : 'NA'} />)}
         </div>
-        <div className="team">
+        <div className="members">
             {props.teamMembers
                 .sort((a, b) => a.name > b.name)
                 .filter((m) => m.role.includes('Officier')).map((m) =>
@@ -25,7 +25,7 @@ const Team = (props) =>
                         role={m.role}
                         img={m.img ? m.img : 'NA'} />)}
         </div>
-    </>;
+    </div>;
 
 Team.propTypes = {
     title: PropTypes.string.isRequired,

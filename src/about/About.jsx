@@ -29,7 +29,7 @@ const About = (props) =>
                 <br />
                 <p>
                     For our second year, we are
-                    <strong className="highlight"> #BuildingBridges </strong>:
+                    <strong className="highlight"> #BuildingBridges</strong>:
                     bridging divides, venturing into uncharted
                     territory, finding unity as we pioneer into new frontier.
                     Through code and community, our core mission is to create

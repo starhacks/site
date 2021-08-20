@@ -1,27 +1,29 @@
 @import "../variables";
 
-.roles {
-    display: flex;
-    flex-direction: row;
+.get-involved {
     width: 90vw;
     margin: 0 auto;
-    justify-content: space-between;
-    @media (max-width: $desktopMobileToggleWidth) {
-        width: 90vw;
-        flex-direction: column;
-    }
-    .role-panel {
-        background-color: $darkBlue;
-        margin: 4% 1%;
-        padding: 15px;
-        border-radius: 15px;
-        text-align: left;
-        min-height: 40vh;
+    .roles {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-between;
-    }
-    center {
-        margin-top: 10px;
+        @media (max-width: $desktopMobileToggleWidth) {
+            width: 90vw;
+            flex-direction: column;
+        }
+        .role-panel {
+            background-color: $darkBlue;
+            margin: 4% 1%;
+            padding: 15px;
+            border-radius: 15px;
+            text-align: left;
+            min-height: 40vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        center {
+            margin-top: 10px;
+        }
     }
 }

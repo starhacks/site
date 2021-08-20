@@ -4,7 +4,6 @@
 @import "./schedule/Schedule";
 @import "./anecdotes/Anecdotes";
 @import "./contact/Contact";
-@import "./events/Events";
 @import "./landing/Landing";
 @import "./questions/Questions";
 @import "./roles/Roles";
@@ -38,7 +37,7 @@ h1 {
 
 h2 {
   font-weight: bold;
-  text-align: center;
+  text-align: left;
   font-size: $header2FontSize;
   margin: 0;
 }
@@ -91,7 +90,7 @@ p {
 #root {
   background-image: url("./constants/assets/stars.svg"), url("./constants/assets/clouds.svg");
   background-position: center top, center bottom;
-  background-size: 100vw auto;
+  background-size: 100vw auto, 100vw auto;
   background-repeat: no-repeat, no-repeat;
   @media (max-width: $desktopMobileToggleWidth) {
     background-size: auto 100vh, 100vw auto;

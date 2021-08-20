@@ -1,34 +1,45 @@
 @import "../variables";
 
 .team {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     width: 90vw;
     margin: auto;
-    text-align: center;
-    @media (max-width: $desktopMobileToggleWidth) {
-        flex-direction: column;
-    }
-    .member {
+    .members {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: center;
         @media (min-width: $desktopMobileToggleWidth) {
-            width: 20vw;
-            margin: 0 10px 0 10px;
+            padding-bottom: 6vh;
         }
         @media (max-width: $desktopMobileToggleWidth) {
-            margin: 10px 0 10px 0;
+            flex-direction: column;
         }
-        img {
-            width: 200px;
-        }
-        .limited {
-            margin: auto;
-            height: 200px;
-            width: 200px;
-            overflow: hidden;
-            background-color: $darkBlue;
-            border-radius: 360px;
-            display: block;
+        .member {
+            @media (min-width: $desktopMobileToggleWidth) {
+                width: 20vw;
+                margin: 0 10px 0 10px;
+                h3 {
+                    font-size: 25px;
+                }
+                p {
+                    font-size: 17px;
+                }
+            }
+            @media (max-width: $desktopMobileToggleWidth) {
+                margin: 10px 0 10px 0;
+            }
+            img {
+                width: 200px;
+            }
+            .limited {
+                margin: auto;
+                height: 200px;
+                width: 200px;
+                overflow: hidden;
+                background-color: $darkBlue;
+                border-radius: 360px;
+                display: block;
+            }
         }
     }
 }

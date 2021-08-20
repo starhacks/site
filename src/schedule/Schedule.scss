@@ -1,6 +1,5 @@
 @import "../variables";
 
-
 //schedule
 .schedule-panel {
     background-color: $lightPurple;
@@ -50,6 +49,8 @@ ul {
     flex-direction: column;
     justify-content: center;
     min-height: 210px;
+    width: 90vw;
+    margin: auto;
 }
 
 .carousel {
