@@ -1,27 +1,15 @@
 @import "../variables";
 
 .contact {
-    height: 70vh;
     width: 100vw;
-    background-image: url("../constants/assets/clouds.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center bottom;
-    @media (max-width: $desktopMobileToggleWidth) {
-        height: 50vw;
-        width: 100vw;
-        background-image: url("../constants/assets/clouds.svg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center bottom;
-    }
+    margin: auto;
+    margin-bottom: 50px;
     p {
         text-align: center;
         margin: 0;
     }
     .icons {
         padding-top: 30vh;
-        margin: 0 33vw 0 33vw;
         display: flex;
         flex-direction: row;
         justify-content: space-around;

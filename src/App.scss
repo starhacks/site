@@ -89,10 +89,11 @@ p {
 }
 
 #root {
-  background-image: url("./constants/assets/stars.svg");
+  background-image: url("./constants/assets/stars.svg"), url("./constants/assets/clouds.svg");
+  background-position: center top, center bottom;
   background-size: 100vw auto;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat, no-repeat;
   @media (max-width: $desktopMobileToggleWidth) {
-    background-size: auto 100vh;
+    background-size: auto 100vh, 100vw auto;
   }
 }
