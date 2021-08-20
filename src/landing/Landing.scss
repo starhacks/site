@@ -21,6 +21,10 @@
     margin: auto;
     display: flex;
     flex-direction: column;
+    padding-bottom: 100%;
+    @media (max-width: $desktopMobileToggleWidth) {
+      padding-bottom: 50%;
+    }
     & > * {
       margin: 5px;
     }
