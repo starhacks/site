@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { useState } from 'react';
 
+
 const Schedule = (props) => {
     const [date, setDate] = useState(0);
 
@@ -16,7 +17,10 @@ const Schedule = (props) => {
                         .map((e) =>
                             <a key={e.id} onClick={() => setDate(e.id)}>
                                 <div className="date">
-                                    <h3>{e.date}</h3>
+                                    <h3 className="desktop">
+                                        {e.dow}, {e.date}
+                                    </h3>
+                                    <h3 className="mobile">{e.date}</h3>
                                 </div>
                             </a>)}
                 </div>

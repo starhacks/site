@@ -33,7 +33,8 @@ export const date = 'January 22-23, 2022 | Virtual';
 export const hackathonSchedule = [
     {
         id: 0,
-        date: 'Saturday, Jan 8',
+        dow: 'Saturday',
+        date: 'Jan 8',
         events: [
             {
                 title: 'Intro to Web Development',
@@ -48,7 +49,8 @@ export const hackathonSchedule = [
     },
     {
         id: 1,
-        date: 'Saturday, Jan 15',
+        dow: 'Saturday',
+        date: 'Jan 15',
         events: [
             {
                 title: 'Intro to Graphic Design and Figma',
@@ -63,7 +65,8 @@ export const hackathonSchedule = [
     },
     {
         id: 2,
-        date: 'Saturday, Jan 22',
+        dow: 'Saturday',
+        date: 'Jan 22',
         events: [
             {
                 title: 'Pre-event Social',
@@ -115,7 +118,8 @@ export const hackathonSchedule = [
     },
     {
         id: 3,
-        date: 'Sunday, Jan 23',
+        dow: 'Sunday',
+        date: 'Jan 23',
         events: [
             {
                 title: 'How to Pitch your Hack',
