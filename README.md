@@ -27,6 +27,6 @@
 https://create-react-app.dev/docs/adding-a-sass-stylesheet/
 
 ## to deploy:
-run `yarn run deploy`
+run `yarn deploy`
 
 - resource: https://github.com/gitname/react-gh-pages
