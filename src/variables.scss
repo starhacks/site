@@ -4,8 +4,9 @@ $bluePurple: #aeaad5;
 $purple: #c49dce;
 $lightPurple: #d1b1cf;
 $fontColor: white;
-$buttonColor: $lightPurple;
 $buttonHover: rgba(255, 255, 255, 0);
+$lightGrey: #d9d9d9;
+$darkGrey: #545454;
 
 $header1FontSize: 96px;
 $header2FontSize: 48px;
@@ -45,4 +46,12 @@ $desktopMobileToggleWidth: 767px;
             outline-offset: 20px;
         }
     }
+}
+
+.panel {
+    background-color: $darkBlue;
+    margin: 4% 1%;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: left;
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Panel = (props) =>
-    <div className="role-panel">
+    <div className="role panel">
         {Array.isArray(props.blurb) &&
             props.blurb.map((b) => <p key={b}>{b}</p>)}
         {!Array.isArray(props.blurb) && <p>{props.blurb}</p>}

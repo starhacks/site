@@ -32,7 +32,7 @@ const App = () => {
 
             {hackathonSchedule.length > 0 &&
                 <Schedule
-                    slides={hackathonSchedule}
+                    schedule={hackathonSchedule}
                     title={Constants.schedule} />}
 
             {rolesDescriptions.length > 0 &&

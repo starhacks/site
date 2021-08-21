@@ -11,12 +11,7 @@
             width: 90vw;
             flex-direction: column;
         }
-        .role-panel {
-            background-color: $darkBlue;
-            margin: 4% 1%;
-            padding: 15px;
-            border-radius: 15px;
-            text-align: left;
+        .role {
             min-height: 40vh;
             display: flex;
             flex-direction: column;

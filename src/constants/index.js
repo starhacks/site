@@ -32,39 +32,131 @@ export const commonlyAskedQuestions = 'FAQ';
 export const date = 'January 22-23, 2022 | Virtual';
 export const hackathonSchedule = [
     {
-        id: 1,
-        title: 'Saturday, Jan 22',
+        id: 0,
+        date: 'Saturday, Jan 8',
         events: [
-            { title: 'PRE-EVENT SOCIAL', time: '10:00 AM  -  10:30 AM' },
-            { title: 'OPENING CEREMONY', time: '10:30 AM  -  11:30 AM' },
-            { title: 'BUILD A DISCORD BOT', time: '11:30 AM  -  12:30 AM' },
-            { title: 'INTERNS PANEL', time: '12:30 PM  -  1:30 PM' },
-            { title: 'INTRO TO IOS DEVELOPMENT', time: '1:30 AM  -  2:30 AM' },
-            { title: 'INTRO TO GAME DEV', time: '3:00 PM  -  4:00 PM' },
-            { title: 'WOMEN IN TECH PANEL', time: '4:00 PM  -  5:00 PM' },
             {
-                title: 'NETWORK WITH WOMEN IN TECH',
-                time: '5:00 PM  -  5:30 PM',
+                title: 'Intro to Web Development',
+                start: '10:00 AM',
+                end: '10:30 AM',
+            }, {
+                title: 'Basics of Git and GitHub',
+                start: '10:00 AM',
+                end: '10:30 AM',
             },
-            { title: 'GAME HOUR', time: '5:30 PM  -  6:30 PM' },
-
+        ],
+    },
+    {
+        id: 1,
+        date: 'Saturday, Jan 15',
+        events: [
+            {
+                title: 'Intro to Graphic Design and Figma',
+                start: '10:00 AM',
+                end: '10:30 AM',
+            }, {
+                title: 'Hackathon 101 and Icebreakers',
+                start: '10:00 AM',
+                end: '10:30 AM',
+            },
         ],
     },
     {
         id: 2,
-        title: 'Sunday, Jan 23',
+        date: 'Saturday, Jan 22',
         events: [
-            { title: 'HOW TO PITCH YOUR HACK', time: '10:00 AM  -  11:00 AM' },
-            { title: 'INTRO TO AI/ML', time: '11:00 AM  -  11:30 AM' },
-            { title: 'TBA', time: '11:30 PM  -  12:00 AM' },
-            { title: 'SUBMIT PROJECTS', time: '12:00 PM  -  12:30 PM' },
             {
-                title: 'INTERSECTIONS OF TECH PANEL',
-                time: '12:30 PM  -  1:30 PM',
+                title: 'Pre-event Social',
+                start: '10:00 AM',
+                end: '10:30 AM',
             },
-            { title: 'JUDGING', time: '1:30 PM  -  3:30 PM' },
-            { title: 'GAMES', time: '3:00 PM  -  3:30 PM' },
-            { title: 'CLOSING CEREMONY', time: '4:00 PM  -  5:00 PM' },
+            {
+                title: 'Opening Ceremony',
+                start: '10:30 AM',
+                end: '11:30 AM',
+            },
+            {
+                title: 'Build a Discord Bot',
+                start: '11:30 AM',
+                end: '12:30 AM',
+            },
+            {
+                title: 'Interns Panel',
+                start: '12:30 PM',
+                end: '1:30 PM',
+            },
+            {
+                title: 'Intro to IOS Development',
+                start: '1:30 PM',
+                end: '2:30 PM',
+            },
+            {
+                title: 'Intro to Game Development',
+                start: '3:00 PM',
+                end: '4:00 PM',
+            },
+            {
+                title: 'Women in Tech Panel',
+                start: '4:00 PM',
+                end: '5:00 PM',
+            },
+            {
+                title: 'Network with Women in Technology',
+                start: '5:00 PM',
+                end: '5:30 PM',
+            },
+            {
+                title: 'Game Hour',
+                start: '5:30 PM',
+                end: '6:30 PM',
+            },
+
+        ],
+    },
+    {
+        id: 3,
+        date: 'Sunday, Jan 23',
+        events: [
+            {
+                title: 'How to Pitch your Hack',
+                start: '10:00 AM',
+                end: '11:00 AM',
+            },
+            {
+                title: 'Intro to AI/ML',
+                start: '11:00 AM',
+                end: '11:30 AM',
+            },
+            {
+                title: 'TBA',
+                start: '11:30 PM',
+                end: '12:00 AM',
+            },
+            {
+                title: 'Submit Projects',
+                start: '12:00 PM',
+                end: '12:30 PM',
+            },
+            {
+                title: 'Intersections of Technology Panel',
+                start: '12:30 PM',
+                end: '1:30 PM',
+            },
+            {
+                title: 'Judging',
+                start: '1:30 PM',
+                end: '3:30 PM',
+            },
+            {
+                title: 'Games',
+                start: '3:00 PM',
+                end: '3:30 PM',
+            },
+            {
+                title: 'Closing Ceremony',
+                start: '4:00 PM',
+                end: '5:00 PM',
+            },
         ],
     },
 ];
