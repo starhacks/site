@@ -193,11 +193,11 @@ export const teamMembers = [
     {
         name: 'Serena Huynh',
         img: serena,
-        role: 'Operations Officier',
+        role: 'Operations Officer',
     },
     {
         name: 'Clarise Liu',
-        role: 'Outreach Officier',
+        role: 'Outreach Officer',
     },
     {
         name: 'Sammi Chen',
@@ -206,15 +206,15 @@ export const teamMembers = [
     },
     {
         name: 'Hannah Kim',
-        role: 'Finance Officier',
+        role: 'Finance Officer',
     },
     {
         name: 'Anchal Bhardwaj',
-        role: 'Finance and Outreach Officier',
+        role: 'Finance and Outreach Officer',
     },
     {
         name: 'Elisa Cruz',
-        role: 'Finance and Operations Officier',
+        role: 'Finance and Operations Officer',
     },
 ];
 

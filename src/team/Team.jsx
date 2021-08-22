@@ -18,7 +18,7 @@ const Team = (props) =>
         <div className="members">
             {props.teamMembers
                 .sort((a, b) => a.name > b.name)
-                .filter((m) => m.role.includes('Officier')).map((m) =>
+                .filter((m) => m.role.includes('Officer')).map((m) =>
                     <Member
                         key={m.name}
                         name={m.name}
