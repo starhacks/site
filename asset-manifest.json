@@ -1,30 +1,31 @@
 {
   "files": {
-    "main.css": "/site/static/css/main.dd5ff072.chunk.css",
-    "main.js": "/site/static/js/main.6935ab0e.chunk.js",
-    "main.js.map": "/site/static/js/main.6935ab0e.chunk.js.map",
+    "main.css": "/site/static/css/main.5a3938fa.chunk.css",
+    "main.js": "/site/static/js/main.5dd29c45.chunk.js",
+    "main.js.map": "/site/static/js/main.5dd29c45.chunk.js.map",
     "runtime-main.js": "/site/static/js/runtime-main.2ec0ac31.js",
     "runtime-main.js.map": "/site/static/js/runtime-main.2ec0ac31.js.map",
-    "static/js/2.3bf71904.chunk.js": "/site/static/js/2.3bf71904.chunk.js",
-    "static/js/2.3bf71904.chunk.js.map": "/site/static/js/2.3bf71904.chunk.js.map",
+    "static/js/2.3e57ccc2.chunk.js": "/site/static/js/2.3e57ccc2.chunk.js",
+    "static/js/2.3e57ccc2.chunk.js.map": "/site/static/js/2.3e57ccc2.chunk.js.map",
     "static/js/3.78ff503a.chunk.js": "/site/static/js/3.78ff503a.chunk.js",
     "static/js/3.78ff503a.chunk.js.map": "/site/static/js/3.78ff503a.chunk.js.map",
     "index.html": "/site/index.html",
-    "static/css/main.dd5ff072.chunk.css.map": "/site/static/css/main.dd5ff072.chunk.css.map",
-    "static/js/2.3bf71904.chunk.js.LICENSE.txt": "/site/static/js/2.3bf71904.chunk.js.LICENSE.txt",
+    "static/css/main.5a3938fa.chunk.css.map": "/site/static/css/main.5a3938fa.chunk.css.map",
+    "static/js/2.3e57ccc2.chunk.js.LICENSE.txt": "/site/static/js/2.3e57ccc2.chunk.js.LICENSE.txt",
     "static/media/about-us-asset.fd1c4d58.png": "/site/static/media/about-us-asset.fd1c4d58.png",
     "static/media/avighna.49e1158c.png": "/site/static/media/avighna.49e1158c.png",
     "static/media/camilla.e808ec6c.png": "/site/static/media/camilla.e808ec6c.png",
     "static/media/App.scss": "/site/static/media/stars.004ecf4f.svg",
     "static/media/landing.3b5f43fc.svg": "/site/static/media/landing.3b5f43fc.svg",
     "static/media/lucy_.e2a0996e.png": "/site/static/media/lucy_.e2a0996e.png",
+    "static/media/prospectus.2ed5c19f.pdf": "/site/static/media/prospectus.2ed5c19f.pdf",
     "static/media/sammi.e83b36d7.png": "/site/static/media/sammi.e83b36d7.png",
     "static/media/serena.acc3826b.png": "/site/static/media/serena.acc3826b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.2ec0ac31.js",
-    "static/js/2.3bf71904.chunk.js",
-    "static/css/main.dd5ff072.chunk.css",
-    "static/js/main.6935ab0e.chunk.js"
+    "static/js/2.3e57ccc2.chunk.js",
+    "static/css/main.5a3938fa.chunk.css",
+    "static/js/main.5dd29c45.chunk.js"
   ]
 }
