@@ -6,13 +6,13 @@ import * as Constants from '../constants';
 export const Landing = (props) => {
     return (
         <div className="landing">
-            <a
+            {/* <a
                 href="mailto:sponsor@starhacks.tech"
                 target="_blank"
                 rel="noreferrer"
                 className="buttonStyle">
                 <h3 className="top-right">sponsor us</h3>
-            </a>
+            </a> */}
             <img src={props.img} alt="" />
             <div className="register">
                 <p>{Constants.date}</p>

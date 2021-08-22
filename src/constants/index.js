@@ -176,17 +176,17 @@ export const socialMediaHandles = [
 ];
 export const teamMembers = [
     {
-        name: 'Avighna',
+        name: 'Avighna Suresh',
         img: avighna,
         role: 'Lead Director',
     },
     {
-        name: 'Camilla',
+        name: 'Camilla Djamalov',
         img: camilla,
         role: 'Director of Operations',
     },
     {
-        name: 'Lucy',
+        name: 'Lucy Hao',
         img: lucy,
         role: 'Director of Outreach and Technology',
     },
