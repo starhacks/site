@@ -204,10 +204,6 @@ export const teamMembers = [
         role: 'Director of Finance',
     },
     {
-        name: 'Deanna Wood',
-        role: 'Operations Officier',
-    },
-    {
         name: 'Hannah Kim',
         role: 'Finance Officier',
     },
