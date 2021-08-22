@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Link } from 'react-router-dom';
 
 const Contact = (props) =>
     <div className="contact">
@@ -13,7 +14,9 @@ const Contact = (props) =>
                 </div>,
             )}
         </div>
-        <p className="blue">Copyright 2021 StarHacks</p>
+        <p className="blue">
+            <Link to="/site/sponsor">Sponsor</Link> | Copyright © 2021 StarHacks
+        </p>
     </div>;
 
 Contact.propTypes = {
