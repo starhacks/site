@@ -11,6 +11,8 @@ import lucy from './assets/lucy_.png';
 import serena from './assets/serena.png';
 import camilla from './assets/camilla.png';
 import sammi from './assets/sammi.png';
+import anchal from './assets/anchal.png';
+import clarise from './assets/clarise.png';
 import avighna from './assets/avighna.png';
 import aboutAsset from './assets/about-us-asset.png';
 import landingAsset from './assets/landing.svg';
@@ -197,6 +199,7 @@ export const teamMembers = [
     },
     {
         name: 'Clarise Liu',
+        img: clarise,
         role: 'Outreach Officer',
     },
     {
@@ -210,6 +213,7 @@ export const teamMembers = [
     },
     {
         name: 'Anchal Bhardwaj',
+        img: anchal,
         role: 'Finance and Outreach Officer',
     },
     {
