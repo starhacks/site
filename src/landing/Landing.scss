@@ -7,7 +7,7 @@
   img {
     width: 700px;
     margin-right: 40vw;
-    margin-top: 15vh;
+    margin-top: 7vh;
   }
   @media (max-width: $desktopMobileToggleWidth) {
     flex-direction: column;
@@ -31,6 +31,11 @@
     padding-bottom: 100%;
     @media (max-width: $desktopMobileToggleWidth) {
       padding-bottom: 50%;
+    }
+    @media (min-width: $desktopMobileToggleWidth) {
+      p {
+        font-size: 30px;
+      }
     }
     & > * {
       margin: 5px;

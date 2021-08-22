@@ -19,7 +19,11 @@
         padding-top: 30vh;
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
+        @media (min-width: $desktopMobileToggleWidth) {
+            width: 50vw;
+            margin: auto;
+        }
         @media (max-width: $desktopMobileToggleWidth) {
             margin: 0 5vw 0 5vw;
             padding-top: 30vw;

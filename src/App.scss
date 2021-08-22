@@ -29,18 +29,13 @@ body {
   margin: 0;
 }
 
-h1 {
-  font-weight: bold;
-  text-align: center;
-  font-size: $header1FontSize;
-  margin: 0;
-}
-
 h2 {
   font-weight: bold;
   text-align: left;
   font-size: $header2FontSize;
+  line-height: $header2FontSize;
   margin: 0;
+  padding: 0;
 }
 
 h3 {
@@ -54,14 +49,9 @@ p {
 }
 
 @media (max-width: $desktopMobileToggleWidth) {
-  h1 {
-    font-size: $mobileHeader1FontSize;
-  }
-
   h2 {
     font-size: $mobileHeader2FontSize;
   }
-
   h3 {
     font-size: $mobileHeader3FontSize;
   }
@@ -85,7 +75,7 @@ p {
 }
 
 .App > * {
-  margin-top: 5vh;
+  margin-top: 50px;
 }
 
 #root {
