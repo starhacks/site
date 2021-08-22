@@ -2,10 +2,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import * as Constants from '../constants';
+import { Link } from 'react-router-dom';
+
 
 export const Landing = (props) => {
     return (
         <div className="landing">
+            <Link to="/site/sponsor">
+                <h3 className="top-right">Sponsor</h3>
+            </Link>
             <img src={props.img} alt="" />
             <div className="register">
                 <p>{Constants.date}</p>

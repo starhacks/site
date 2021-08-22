@@ -17,6 +17,13 @@
       padding: 0;
     }
   }
+  .top-right {
+    position: absolute;
+    top: 0;
+    color: $purple;
+    right: 0;
+    padding: 15px;
+  }
   .register {
     margin: auto;
     display: flex;
