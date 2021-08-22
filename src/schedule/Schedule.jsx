@@ -15,10 +15,13 @@ const Schedule = (props) => {
                 <div className="dates">
                     {props.schedule
                         .map((e) =>
-                            <a key={e.id} onClick={() => setDate(e.id)}>
-                                <div className="date">
+                            <a
+                                key={e.id}
+                                onClick={() => setDate(e.id)}>
+                                <div className={e.id == date ?
+                                    'date active' : 'date'}>
                                     <h3 className="desktop">
-                                        {e.dow}, {e.date}
+                                        {e.dow} {e.date}
                                     </h3>
                                     <h3 className="mobile">{e.date}</h3>
                                 </div>

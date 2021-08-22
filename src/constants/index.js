@@ -35,7 +35,7 @@ export const hackathonSchedule = [
     {
         id: 0,
         dow: 'Saturday',
-        date: 'Jan 8',
+        date: '1/8',
         events: [
             {
                 title: 'Intro to Web Development',
@@ -51,7 +51,7 @@ export const hackathonSchedule = [
     {
         id: 1,
         dow: 'Saturday',
-        date: 'Jan 15',
+        date: '1/15',
         events: [
             {
                 title: 'Intro to Graphic Design and Figma',
@@ -67,7 +67,7 @@ export const hackathonSchedule = [
     {
         id: 2,
         dow: 'Saturday',
-        date: 'Jan 22',
+        date: '1/22',
         events: [
             {
                 title: 'Pre-event Social',
@@ -120,7 +120,7 @@ export const hackathonSchedule = [
     {
         id: 3,
         dow: 'Sunday',
-        date: 'Jan 23',
+        date: '1/23',
         events: [
             {
                 title: 'How to Pitch your Hack',

@@ -22,9 +22,15 @@
             background-color: $purple;
             padding: 5px 10px;
             cursor: pointer;
+            h3 {
+                text-transform: uppercase;
+            }
             @media (min-width: $desktopMobileToggleWidth) {
                 border-radius: 5px 5px 0 0;
                 margin-right: 5px;
+                h3 {
+                    font-size: 20px;
+                }
             }
             @media (max-width: $desktopMobileToggleWidth) {
                 h3 {
@@ -34,6 +40,9 @@
                 border-radius: 5px 5px 0 0;
                 margin-right: 5px;
             }
+        }
+        .active {
+            background-color: darken($color: $lightPurple, $amount: 20%);
         }
     }
     .events {
