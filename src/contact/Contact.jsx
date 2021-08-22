@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Link } from 'react-router-dom';
+import { sponsorDoc } from '../constants';
 
 const Contact = (props) =>
     <div className="contact">
@@ -15,7 +15,11 @@ const Contact = (props) =>
             )}
         </div>
         <p className="blue">
-            <Link to="/site/sponsor">Sponsor</Link> | Copyright © 2021 StarHacks
+            <a
+                href={sponsorDoc}
+                target="_blank"
+                rel="noreferrer">
+                Sponsor</a> | Copyright © 2021 StarHacks
         </p>
     </div>;
 

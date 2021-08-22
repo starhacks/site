@@ -14,8 +14,9 @@ import sammi from './assets/sammi.png';
 import avighna from './assets/avighna.png';
 import aboutAsset from './assets/about-us-asset.png';
 import landingAsset from './assets/landing.svg';
+import prospectus from './assets/prospectus.pdf';
 
-
+export const sponsorDoc = prospectus;
 export const aboutPhoto = aboutAsset;
 export const landingPhoto = landingAsset;
 export const subscribeToOurNewsletter = 'Subscribe to our newsletter';
