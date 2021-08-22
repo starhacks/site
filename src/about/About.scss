@@ -7,9 +7,11 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        img {
-            padding-left: 50px;
-            width: 20vw;
+        @media (min-width: $desktopMobileToggleWidth) {
+            img {
+                padding-left: 90px;
+                height: 60vh;
+            }
         }
         @media (max-width: $desktopMobileToggleWidth) {
             flex-direction: column;
