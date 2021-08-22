@@ -1,5 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 
 const Member = (props) =>
     <div className="member">
@@ -10,7 +12,13 @@ const Member = (props) =>
         {props.img === 'NA' &&
             <a className="limited">
             </a>}
-        <h3>{props.name}</h3>
+        <h3>{props.name}
+            <a href={'mailto:' +
+                props.name.split(' ')[0].toLowerCase() +
+                '@starhacks.tech'}>
+                <FontAwesomeIcon icon={faEnvelope} />
+            </a>
+        </h3>
         <p>{props.role}</p>
     </div>;
 

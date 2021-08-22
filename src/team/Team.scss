@@ -21,7 +21,8 @@
                 h3 {
                     font-size: 20px;
                 }
-                p {
+                p,
+                a {
                     font-size: 16px;
                 }
             }
@@ -30,6 +31,15 @@
             }
             img {
                 width: 200px;
+            }
+            a {
+                margin-left: 5px;
+                text-decoration: none;
+                color: $fontColor;
+                transition: 0.3s;
+                &:hover {
+                    font-size: 18px;
+                }
             }
             .limited {
                 margin: auto;
