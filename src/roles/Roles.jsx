@@ -8,7 +8,7 @@ const Roles = (props) =>
         <h2>
             {props.title}
         </h2>
-        <div className="roles">
+        <div className="roles flex-row-col">
             {props.roles.map((r) =>
                 <Panel
                     key={r.role}

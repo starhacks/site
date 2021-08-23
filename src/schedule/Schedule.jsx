@@ -33,16 +33,16 @@ const Schedule = (props) => {
                     {schedule[date].events
                         .map((e) => <div className="event" key={e.title}>
                             <strong><p>{e.title}</p></strong>
-                            <div className="details">
-                                <div className="start">
+                            <div className="details flex-row">
+                                <div className="flex-col">
                                     <strong>START</strong>
                                     {e.start}
                                 </div>
-                                <div className="end">
+                                <div className="flex-col">
                                     <strong>END</strong>
                                     {e.end}
                                 </div>
-                                <div className="presenter">
+                                <div className="flex-col">
                                     <strong>PRESENTER</strong>
                                     {e.presenter ? e.presenter : 'TBA'}
                                 </div>

@@ -6,7 +6,7 @@ import { sponsorDoc } from '../constants';
 const Contact = (props) =>
     props.socialMediaHandles.length > 0 &&
     <div className="contact">
-        <div className="icons">
+        <div className="icons flex-row">
             {props.socialMediaHandles.map((i) =>
                 <div className="icon-circle" key={i.link}>
                     <a className="icon" href={i.link}>

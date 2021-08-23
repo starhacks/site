@@ -5,7 +5,7 @@ import { aboutPhoto } from '../constants';
 const About = (props) =>
     <div className="about">
         <h2>{props.title}</h2>
-        <div className="about-photo">
+        <div className="flex-row-col">
             <div>
                 <p>
                     StarHacks is an international non-profit striving

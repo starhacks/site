@@ -87,3 +87,23 @@ p {
     background-size: auto 100vh, 100vw auto;
   }
 }
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flex-row-col {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  @media (max-width: $desktopMobileToggleWidth) {
+    flex-direction: column;
+  }
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}

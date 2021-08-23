@@ -4,15 +4,9 @@
     width: 90vw;
     margin: auto;
     .members {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
         text-align: center;
         @media (min-width: $desktopMobileToggleWidth) {
             padding-bottom: 6vh;
-        }
-        @media (max-width: $desktopMobileToggleWidth) {
-            flex-direction: column;
         }
         .member {
             @media (min-width: $desktopMobileToggleWidth) {

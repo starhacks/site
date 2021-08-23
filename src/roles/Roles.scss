@@ -4,17 +4,11 @@
     width: 90vw;
     margin: 0 auto;
     .roles {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
         @media (max-width: $desktopMobileToggleWidth) {
             width: 90vw;
-            flex-direction: column;
         }
         .role {
             min-height: 40vh;
-            display: flex;
-            flex-direction: column;
             justify-content: space-between;
         }
         center {

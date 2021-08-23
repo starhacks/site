@@ -3,23 +3,18 @@
 .about {
     width: 90vw;
     margin: auto;
-    .about-photo {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        @media (min-width: $desktopMobileToggleWidth) {
-            img {
-                padding-left: 90px;
-                height: 60vh;
-            }
+    @media (min-width: $desktopMobileToggleWidth) {
+        img {
+            padding-left: 90px;
+            height: 60vh;
         }
-        @media (max-width: $desktopMobileToggleWidth) {
-            flex-direction: column;
-            img {
-                padding-left: 0;
-                padding-top: 25px;
-                width: inherit;
-            }
+    }
+    @media (max-width: $desktopMobileToggleWidth) {
+        flex-direction: column;
+        img {
+            padding-left: 0;
+            padding-top: 25px;
+            width: inherit;
         }
     }
 }

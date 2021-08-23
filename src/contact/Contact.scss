@@ -17,9 +17,6 @@
     }
     .icons {
         padding-top: 30vh;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
         @media (min-width: $desktopMobileToggleWidth) {
             width: 50vw;
             margin: auto;
