@@ -16,7 +16,6 @@ import {
     anecdotesList,
     teamMembers,
     faqList,
-    sponsorsList,
     landingPhoto,
 } from './constants';
 import Roles from './roles/Roles';
