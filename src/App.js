@@ -42,14 +42,14 @@ const App = () => {
             {anecdotesList.length > 0 &&
                 <Anecdotes title={Constants.anecdotes} />}
 
-            {teamMembers.length > 0 &&
-                <Team title={Constants.team}
-                    teamMembers={teamMembers} />}
+            <Sponsors title={Constants.sponsor} />
 
             {faqList.length > 0 &&
                 <Questions title={Constants.commonlyAskedQuestions} />}
 
-            <Sponsors title={Constants.sponsors} />
+            {teamMembers.length > 0 &&
+                <Team title={Constants.team}
+                    teamMembers={teamMembers} />}
 
             {socialMediaHandles.length > 0 &&
                 <Contact socialMediaHandles={socialMediaHandles} />}
