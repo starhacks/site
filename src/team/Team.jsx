@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import Member from './Member';
 
 const Team = (props) =>
+    props.teamMembers.length > 0 &&
     <div className="team">
         <h2>{props.title}</h2>
         <div className="members">

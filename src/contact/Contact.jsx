@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { sponsorDoc } from '../constants';
 
 const Contact = (props) =>
+    props.socialMediaHandles.length > 0 &&
     <div className="contact">
         <div className="icons">
             {props.socialMediaHandles.map((i) =>

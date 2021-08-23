@@ -5,15 +5,17 @@ import { useState } from 'react';
 
 const Schedule = (props) => {
     const [date, setDate] = useState(0);
+    const schedule = props.schedule;
 
     return (
+        schedule.length > 0 &&
         <div className="schedule">
             <h2>
                 {props.title}
             </h2>
             <div className="panel">
                 <div className="dates">
-                    {props.schedule
+                    {schedule
                         .map((e) =>
                             <a
                                 key={e.id}
@@ -28,7 +30,7 @@ const Schedule = (props) => {
                             </a>)}
                 </div>
                 <div className="events">
-                    {props.schedule[date].events
+                    {schedule[date].events
                         .map((e) => <div className="event" key={e.title}>
                             <strong><p>{e.title}</p></strong>
                             <div className="details">

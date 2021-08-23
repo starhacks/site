@@ -28,31 +28,13 @@ const App = () => {
         <div className="App" >
             <Landing title={Constants.starhacks} img={landingPhoto} />
             <About title={Constants.about} />
-
-            {hackathonSchedule.length > 0 &&
-                <Schedule
-                    schedule={hackathonSchedule}
-                    title={Constants.schedule} />}
-
-            {rolesDescriptions.length > 0 &&
-                <Roles
-                    title={Constants.roles}
-                    roles={rolesDescriptions} />}
-
-            {anecdotesList.length > 0 &&
-                <Anecdotes title={Constants.anecdotes} />}
-
+            <Schedule schedule={hackathonSchedule} title={Constants.schedule} />
+            <Roles title={Constants.roles} roles={rolesDescriptions} />
+            <Anecdotes title={Constants.anecdotes} anecdotes={anecdotesList} />
             <Sponsors title={Constants.sponsor} />
-
-            {faqList.length > 0 &&
-                <Questions title={Constants.commonlyAskedQuestions} />}
-
-            {teamMembers.length > 0 &&
-                <Team title={Constants.team}
-                    teamMembers={teamMembers} />}
-
-            {socialMediaHandles.length > 0 &&
-                <Contact socialMediaHandles={socialMediaHandles} />}
+            <Questions title={Constants.commonlyAskedQuestions} faq={faqList} />
+            <Team title={Constants.team} teamMembers={teamMembers} />
+            <Contact socialMediaHandles={socialMediaHandles} />
         </div>
     );
 };
