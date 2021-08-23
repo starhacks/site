@@ -50,8 +50,7 @@ const App = () => {
             {faqList.length > 0 &&
                 <Questions title={Constants.commonlyAskedQuestions} />}
 
-            {sponsorsList.length > 0 &&
-                <Sponsors title={Constants.sponsors} />}
+            <Sponsors title={Constants.sponsors} />
 
             {socialMediaHandles.length > 0 &&
                 <Contact socialMediaHandles={socialMediaHandles} />}
