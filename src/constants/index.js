@@ -92,7 +92,7 @@ export const hackathonSchedule = [
                 end: '1:30 PM',
             },
             {
-                title: 'Intro to IOS Development',
+                title: 'Intro to iOS Development',
                 start: '1:30 PM',
                 end: '2:30 PM',
             },
@@ -135,7 +135,7 @@ export const hackathonSchedule = [
                 end: '11:30 AM',
             },
             {
-                title: 'TBA',
+                title: 'TBD',
                 start: '11:30 PM',
                 end: '12:00 AM',
             },
