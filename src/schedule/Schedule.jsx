@@ -36,15 +36,15 @@ const Schedule = (props) => {
                             <div className="details flex-row">
                                 <div className="flex-col">
                                     <strong>START</strong>
-                                    {e.start}
+                                    {e.start ? e.start : 'TBD'}
                                 </div>
                                 <div className="flex-col">
                                     <strong>END</strong>
-                                    {e.end}
+                                    {e.end ? e.end : 'TBD'}
                                 </div>
                                 <div className="flex-col">
                                     <strong>PRESENTER</strong>
-                                    {e.presenter ? e.presenter : 'TBA'}
+                                    {e.presenter ? e.presenter : 'TBD'}
                                 </div>
                             </div>
                         </div>)}

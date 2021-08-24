@@ -41,12 +41,8 @@ export const hackathonSchedule = [
         events: [
             {
                 title: 'Intro to Web Development',
-                start: '10:00 AM',
-                end: '10:30 AM',
             }, {
                 title: 'Basics of Git and GitHub',
-                start: '10:00 AM',
-                end: '10:30 AM',
             },
         ],
     },
@@ -57,12 +53,8 @@ export const hackathonSchedule = [
         events: [
             {
                 title: 'Intro to Graphic Design and Figma',
-                start: '10:00 AM',
-                end: '10:30 AM',
             }, {
                 title: 'Hackathon 101 and Icebreakers',
-                start: '10:00 AM',
-                end: '10:30 AM',
             },
         ],
     },
