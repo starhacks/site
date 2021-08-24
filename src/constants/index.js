@@ -195,7 +195,7 @@ export const teamMembers = [
     {
         name: 'Serena Huynh',
         img: serena,
-        role: 'Operations Officer',
+        role: 'Outreach and Technology Officer',
     },
     {
         name: 'Clarise Liu',
