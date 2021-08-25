@@ -6,7 +6,11 @@ const Sponsors = (props) =>
         <h2>
             {props.title}
         </h2>
-        <p>Want to sponsor us? Contact us at [@]</p>
+        <p>
+            Interested in sponsoring StarHacks II? Reach out to us at {' '}
+            <a href="mailto:sponsor@starhacks.tech">sponsor@starhacks.tech</a>
+            !
+        </p>
     </div>;
 
 Sponsors.propTypes = {

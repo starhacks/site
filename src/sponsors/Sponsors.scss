@@ -9,4 +9,12 @@
         padding: 0;
         margin: 0 auto;
     }
+    a:link{
+        color: $fontColor;
+        font-weight: 600;
+        transition: 0.3s;
+        &:hover {
+            color: $darkBlue;
+        }
+    }
 }
