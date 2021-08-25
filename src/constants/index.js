@@ -13,6 +13,7 @@ import camilla from './assets/camilla.png';
 import sammi from './assets/sammi.png';
 import anchal from './assets/anchal.png';
 import clarise from './assets/clarise.png';
+import elisa from './assets/elisa.png';
 import avighna from './assets/avighna.png';
 import aboutAsset from './assets/about-us-asset.png';
 import landingAsset from './assets/landing.svg';
@@ -210,6 +211,7 @@ export const teamMembers = [
     },
     {
         name: 'Elisa Cruz',
+        img: elisa,
         role: 'Finance and Operations Officer',
     },
 ];
