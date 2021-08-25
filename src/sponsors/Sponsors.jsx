@@ -6,11 +6,17 @@ const Sponsors = (props) =>
         <h2>
             {props.title}
         </h2>
-        <p>
-            Interested in sponsoring StarHacks II? Reach out to us at {' '}
-            <a href="mailto:sponsor@starhacks.tech">sponsor@starhacks.tech</a>
-            !
-        </p>
+        <div className="panel-fit">
+            <p>Interested in sponsoring StarHacks II? Reach out to us at
+                <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="mailto:sponsor@starhacks.tech"
+                    className="button">
+                    sponsor@starhacks.tech
+                </a>
+            </p>
+        </div>
     </div>;
 
 Sponsors.propTypes = {
