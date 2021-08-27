@@ -3,14 +3,18 @@
 .team {
     width: 90vw;
     margin: auto;
+    .margin-top {
+        margin: 1% auto;
+    }
     .members {
         text-align: center;
+        justify-content: space-evenly !important;
+        flex-wrap: wrap;
         @media (min-width: $desktopMobileToggleWidth) {
             padding-bottom: 6vh;
         }
         .member {
             @media (min-width: $desktopMobileToggleWidth) {
-                width: 20vw;
                 margin: 0 10px 0 10px;
                 h3 {
                     font-size: 20px;
