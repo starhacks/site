@@ -1,6 +1,6 @@
 {
   "name": "starhacks-website",
-  "homepage": "https://starhacks.github.io/site/",
+  "homepage": "https://starhacks.github.io/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
