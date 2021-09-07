@@ -1,4 +1,3 @@
-import ReactGA from 'react-ga';
 import React from 'react';
 import About from './about/About';
 import Anecdotes from './anecdotes/Anecdotes';
@@ -21,9 +20,6 @@ import {
 import Roles from './roles/Roles';
 
 const App = () => {
-    ReactGA.initialize('G-FSN13RH97N');
-    ReactGA.pageview(window.location.pathname + window.location.search);
-
     return (
         <div className="App" >
             <Landing title={Constants.starhacks} img={landingPhoto} />
