@@ -15,6 +15,7 @@ import anchal from './assets/anchal.png';
 import clarise from './assets/clarise.png';
 import elisa from './assets/elisa.png';
 import avighna from './assets/avighna.png';
+import hannah from './assets/hannah.png';
 import aboutAsset from './assets/about-us-asset.png';
 import landingAsset from './assets/landing.svg';
 import prospectus from './assets/prospectus.pdf';
@@ -202,6 +203,7 @@ export const teamMembers = [
     },
     {
         name: 'Hannah Kim',
+        img: hannah,
         role: 'Finance Officer',
     },
     {
