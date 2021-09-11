@@ -20,8 +20,8 @@
                 text-align: left;
             }
             .ans {
-                @media (min-width: $desktopMobileToggleWidth) {
-                    width: inherit;
+                @media (max-width: $desktopMobileToggleWidth) {
+                    max-width: 90vw;
                 }
                 max-width: 20vw;
                 padding-top: 5px;
