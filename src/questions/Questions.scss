@@ -4,15 +4,15 @@
     width: 90vw;
     margin: auto;
     .question-panel {
+        @media (min-width: $desktopMobileToggleWidth) {
+            padding-top: 20px;
+        }
         flex-wrap: wrap;
         .question {
             display: flex;
             flex-direction: column;
-            flex-wrap: wrap;
             justify-content: space-evenly !important;
             text-align: center;
-            margin: auto;
-            padding: 10px 0 10px 0;
             .q-text {
                 font-weight: bold;
                 color: $purple !important;
@@ -25,6 +25,12 @@
                 }
                 max-width: 20vw;
                 padding-top: 5px;
+            }
+            center {
+                @media (min-width: $desktopMobileToggleWidth) {
+                    min-height: 25vh;
+                    max-height: 25vh;
+                }
             }
         }
     }
