@@ -28,7 +28,7 @@ const App = () => {
             <Roles title={Constants.roles} roles={rolesDescriptions} />
             <Anecdotes title={Constants.anecdotes} anecdotes={anecdotesList} />
             <Sponsors title={Constants.sponsor} />
-            <Questions title={Constants.commonlyAskedQuestions} faq={faqList} />
+            <Questions title={Constants.faq} faqList={faqList} />
             <Team title={Constants.team} teamMembers={teamMembers} />
             <Contact socialMediaHandles={socialMediaHandles} />
         </div>

@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import {
     faDiscord,
     faInstagram,
@@ -33,7 +34,7 @@ export const events = 'EVENTS';
 export const anecdotes = 'ANECDOTES';
 export const sponsor = 'SPONSOR';
 export const schedule = 'SCHEDULE';
-export const commonlyAskedQuestions = 'FAQ';
+export const faq = 'FAQ';
 export const date = 'January 22-23, 2022 | Virtual';
 export const hackathonSchedule = [
     {
@@ -256,6 +257,24 @@ export const rolesDescriptions = [
 
 export const anecdotesList = [];
 
-export const faqList = [];
+export const faqList = [
+
+    {
+        q: 'Who can attend StarHacks II?',
+        a: 'Anyone who identifies as female or non-binary and is of high school or college/university age.',
+    },
+    {
+        q: 'Do you need to know how to code?',
+        a: 'Nope! In fact, over 30% of our hackers in StarHacks I never coded before! If you want to prepare for the hackathon, you can attend our pre-hackathon!',
+    },
+    {
+        q: 'Do I need to submit a project?',
+        a: 'Nope! You can just come for the workshops.',
+    },
+    {
+        q: 'My question is not listed',
+        a: 'Email us at hello@starhacks.tech',
+    },
+];
 
 export const sponsorsList = [];

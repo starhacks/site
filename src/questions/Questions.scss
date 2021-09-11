@@ -3,4 +3,29 @@
 .questions {
     width: 90vw;
     margin: auto;
+    .question-panel {
+        flex-wrap: wrap;
+        .question {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: space-evenly !important;
+            text-align: center;
+            margin: auto;
+            padding: 10px 0 10px 0;
+            .q-text {
+                font-weight: bold;
+                color: $purple !important;
+                padding: 0 5px 0 5px;
+                text-align: left;
+            }
+            .ans {
+                @media (min-width: $desktopMobileToggleWidth) {
+                    width: inherit;
+                }
+                max-width: 20vw;
+                padding-top: 5px;
+            }
+        }
+    }
 }
