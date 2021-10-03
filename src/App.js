@@ -25,6 +25,7 @@ const App = () => {
         <div className="App" >
             <StarfieldAnimation
                 style={{
+                    zIndex: -1,
                     position: 'absolute',
                     width: '100%',
                     height: '100%',
