@@ -20,7 +20,7 @@ const Contact = (props) =>
                 href={sponsorDoc}
                 target="_blank"
                 rel="noreferrer">
-                Sponsor</a> | Copyright © 2021 StarHacks
+                Sponsor StarHacks</a> | Copyright © 2021 StarHacks
         </p>
     </div>;
 

@@ -18,19 +18,10 @@ import {
     landingPhoto,
 } from './constants';
 import Roles from './roles/Roles';
-import StarfieldAnimation from 'react-starfield-animation';
 
 const App = () => {
     return (
         <div className="App" >
-            <StarfieldAnimation
-                style={{
-                    zIndex: -1,
-                    position: 'absolute',
-                    width: '100%',
-                    height: '100%',
-                }}
-            />
             <Landing title={Constants.starhacks} img={landingPhoto} />
             <About title={Constants.about} />
             <Schedule schedule={hackathonSchedule} title={Constants.schedule} />

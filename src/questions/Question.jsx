@@ -22,7 +22,7 @@ const Question = (props) => {
                         {toggle ?
                             <FontAwesomeIcon icon={faArrowUp} /> :
                             <FontAwesomeIcon icon={faArrowDown} />
-                        }{props.q}
+                        } {props.q}
                     </p>
                 </div>
             </a>
