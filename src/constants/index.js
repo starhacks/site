@@ -13,7 +13,6 @@ import serena from './assets/serena.png';
 import camilla from './assets/camilla.png';
 import sammi from './assets/sammi.png';
 import anchal from './assets/anchal.png';
-import clarise from './assets/clarise.png';
 import elisa from './assets/elisa.png';
 import avighna from './assets/avighna.png';
 import hannah from './assets/hannah.png';
@@ -191,11 +190,6 @@ export const teamMembers = [
         name: 'Serena Huynh',
         img: serena,
         role: 'Operations and Technology Officer',
-    },
-    {
-        name: 'Clarise Liu',
-        img: clarise,
-        role: 'Outreach Officer',
     },
     {
         name: 'Sammi Chen',
