@@ -6,6 +6,15 @@ const Sponsors = (props) =>
         <h2>
             {props.title}
         </h2>
+        <div className="flex-row-col">
+            {props.sponsors.map((s) =>
+                <div key={s.title} className="flex-col sponsor">
+                    <a href={s.link} target="_blank" rel="noreferrer">
+                        <img key={s.title} src={s.logo} />
+                    </a>
+
+                </div>)}
+        </div>
         <div className="panel-fit">
             <p>
                 Interested in sponsoring StarHacks II? Reach out to us at {' '}
@@ -19,6 +28,7 @@ const Sponsors = (props) =>
 
 Sponsors.propTypes = {
     title: PropTypes.string.isRequired,
+    sponsors: PropTypes.array.isRequired,
 };
 
 export default Sponsors;

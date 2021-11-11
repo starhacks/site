@@ -19,6 +19,7 @@ import hannah from './assets/hannah.png';
 import aboutAsset from './assets/about-us-asset.png';
 import landingAsset from './assets/landing.svg';
 import prospectus from './assets/prospectus.pdf';
+import balsamiq from './assets/logos/balsamiq.png';
 
 export const sponsorDoc = prospectus;
 export const aboutPhoto = aboutAsset;
@@ -31,7 +32,7 @@ export const contact = 'CONTACT US';
 export const roles = 'GET INVOLVED';
 export const events = 'EVENTS';
 export const anecdotes = 'ANECDOTES';
-export const sponsor = 'SPONSOR';
+export const sponsor = 'SPONSORS';
 export const schedule = 'SCHEDULE';
 export const faq = 'FAQ';
 export const date = 'January 22-23, 2022 | Virtual';
@@ -270,4 +271,10 @@ export const faqList = [
     },
 ];
 
-export const sponsorsList = [];
+export const sponsors = [
+    {
+        title: 'Balsamiq',
+        logo: balsamiq,
+        link: 'https://balsamiq.com/',
+    },
+];

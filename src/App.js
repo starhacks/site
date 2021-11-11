@@ -16,6 +16,7 @@ import {
     teamMembers,
     faqList,
     landingPhoto,
+    sponsors,
 } from './constants';
 import Roles from './roles/Roles';
 
@@ -27,7 +28,7 @@ const App = () => {
             <Schedule schedule={hackathonSchedule} title={Constants.schedule} />
             <Roles title={Constants.roles} roles={rolesDescriptions} />
             <Anecdotes title={Constants.anecdotes} anecdotes={anecdotesList} />
-            <Sponsors title={Constants.sponsor} />
+            <Sponsors title={Constants.sponsor} sponsors={sponsors}/>
             <Questions title={Constants.faq} faqList={faqList} />
             <Team title={Constants.team} teamMembers={teamMembers} />
             <Contact socialMediaHandles={socialMediaHandles} />

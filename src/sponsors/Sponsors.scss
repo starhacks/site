@@ -3,6 +3,13 @@
 .sponsors {
     width: 90vw;
     margin: auto;
+    .sponsor {
+        margin: auto;
+        text-align: center;
+        img {
+            width: 33vw;
+        }
+    }
     .panel-fit {
         margin: 1% auto;
         width: fit-content;
