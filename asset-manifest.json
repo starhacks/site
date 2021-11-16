@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.1cad4a68.chunk.css",
-    "main.js": "/static/js/main.a9b19c47.chunk.js",
-    "main.js.map": "/static/js/main.a9b19c47.chunk.js.map",
+    "main.js": "/static/js/main.0d49cc3a.chunk.js",
+    "main.js.map": "/static/js/main.0d49cc3a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.09d4c393.js",
     "runtime-main.js.map": "/static/js/runtime-main.09d4c393.js.map",
     "static/js/2.513ffb22.chunk.js": "/static/js/2.513ffb22.chunk.js",
@@ -13,7 +13,6 @@
     "static/css/main.1cad4a68.chunk.css.map": "/static/css/main.1cad4a68.chunk.css.map",
     "static/js/2.513ffb22.chunk.js.LICENSE.txt": "/static/js/2.513ffb22.chunk.js.LICENSE.txt",
     "static/media/about-us-asset.fd1c4d58.png": "/static/media/about-us-asset.fd1c4d58.png",
-    "static/media/anchal.3b4df919.png": "/static/media/anchal.3b4df919.png",
     "static/media/avighna.49e1158c.png": "/static/media/avighna.49e1158c.png",
     "static/media/balsamiq.a7bccfdf.png": "/static/media/balsamiq.a7bccfdf.png",
     "static/media/camilla.e808ec6c.png": "/static/media/camilla.e808ec6c.png",
@@ -30,6 +29,6 @@
     "static/js/runtime-main.09d4c393.js",
     "static/js/2.513ffb22.chunk.js",
     "static/css/main.1cad4a68.chunk.css",
-    "static/js/main.a9b19c47.chunk.js"
+    "static/js/main.0d49cc3a.chunk.js"
   ]
 }
