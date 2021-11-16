@@ -12,7 +12,6 @@ import lucy from './assets/lucy_.png';
 import serena from './assets/serena.png';
 import camilla from './assets/camilla.png';
 import sammi from './assets/sammi.png';
-import anchal from './assets/anchal.png';
 import elisa from './assets/elisa.png';
 import avighna from './assets/avighna.png';
 import hannah from './assets/hannah.png';
@@ -190,7 +189,7 @@ export const teamMembers = [
     {
         name: 'Serena Huynh',
         img: serena,
-        role: 'Operations and Technology Officer',
+        role: 'Operations andclean up Technology Officer',
     },
     {
         name: 'Sammi Chen',
@@ -200,11 +199,6 @@ export const teamMembers = [
     {
         name: 'Hannah Kim',
         img: hannah,
-        role: 'Finance Officer',
-    },
-    {
-        name: 'Anchal Bhardwaj',
-        img: anchal,
         role: 'Finance and Outreach Officer',
     },
     {
