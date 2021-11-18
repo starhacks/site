@@ -19,16 +19,19 @@ import {
     sponsors,
 } from './constants';
 import Roles from './roles/Roles';
+import Milestones from './milestones/Milestones';
 
 const App = () => {
     return (
         <div className="App" >
             <Landing title={Constants.starhacks} img={landingPhoto} />
             <About title={Constants.about} />
+            <Milestones title={Constants.milestones}
+                milestones={Constants.milestones_} />
             <Schedule schedule={hackathonSchedule} title={Constants.schedule} />
             <Roles title={Constants.roles} roles={rolesDescriptions} />
             <Anecdotes title={Constants.anecdotes} anecdotes={anecdotesList} />
-            <Sponsors title={Constants.sponsor} sponsors={sponsors}/>
+            <Sponsors title={Constants.sponsor} sponsors={sponsors} />
             <Questions title={Constants.faq} faqList={faqList} />
             <Team title={Constants.team} teamMembers={teamMembers} />
             <Contact socialMediaHandles={socialMediaHandles} />

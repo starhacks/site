@@ -33,6 +33,7 @@ export const events = 'EVENTS';
 export const anecdotes = 'ANECDOTES';
 export const sponsor = 'SPONSORS';
 export const schedule = 'SCHEDULE';
+export const milestones = 'MILESTONES';
 export const faq = 'FAQ';
 export const date = 'January 22-23, 2022 | Virtual';
 export const hackathonSchedule = [
@@ -270,5 +271,20 @@ export const sponsors = [
         title: 'Balsamiq',
         logo: balsamiq,
         link: 'https://balsamiq.com/',
+    },
+];
+
+export const milestones_ = [
+    {
+        name: 'Projects',
+        stat: 44,
+    },
+    {
+        name: 'Registrants',
+        stat: 873,
+    },
+    {
+        name: 'Countries',
+        stat: 23,
     },
 ];

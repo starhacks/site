@@ -1,0 +1,21 @@
+import React from 'react';
+import PropTypes from 'prop-types';
+
+const Milestones = (props) =>
+    <div className="milestones">
+        <h2>{props.title}</h2>
+        <div className="flex-row-col">
+            {props.milestones.map((m) =>
+                <div className="panel mile" key={m.name}>
+                    <h3>{m.name}</h3>
+                    <p>{m.stat}</p>
+                </div>)}
+        </div>
+    </div>;
+
+Milestones.propTypes = {
+    title: PropTypes.string.isRequired,
+    milestones: PropTypes.array.isRequired,
+};
+
+export default Milestones;

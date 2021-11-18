@@ -5,7 +5,16 @@ import * as Constants from '../constants';
 
 export const Landing = (props) => {
     return (
+
         <div className="landing flex-col">
+            <div className="padding top-right">
+                <h3>
+                    <a href="https://starhacks.devpost.com/">
+                        2020
+                    </a>
+                </h3>
+            </div>
+
             <img src={props.img} />
             <div className="register flex-col">
                 <p>{Constants.date}</p>
