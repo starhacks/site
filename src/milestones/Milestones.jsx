@@ -7,8 +7,8 @@ const Milestones = (props) =>
         <div className="flex-row-col">
             {props.milestones.map((m) =>
                 <div className="panel mile" key={m.name}>
+                    <h3>{m.stat}</h3>
                     <h3>{m.name}</h3>
-                    <p>{m.stat}</p>
                 </div>)}
         </div>
     </div>;

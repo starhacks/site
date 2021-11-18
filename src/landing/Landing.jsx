@@ -10,7 +10,7 @@ export const Landing = (props) => {
             <div className="padding top-right">
                 <h3>
                     <a href="https://starhacks.devpost.com/">
-                        2020
+                        2021
                     </a>
                 </h3>
             </div>
