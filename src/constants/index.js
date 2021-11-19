@@ -19,8 +19,10 @@ import aboutAsset from './assets/about-us-asset.png';
 import landingAsset from './assets/landing.svg';
 import prospectus from './assets/prospectus.pdf';
 import balsamiq from './assets/logos/balsamiq.png';
+import report from './assets/StarHacks I Event Report.pdf';
 
 export const sponsorDoc = prospectus;
+export const milestonesDoc = report;
 export const aboutPhoto = aboutAsset;
 export const landingPhoto = landingAsset;
 export const subscribeToOurNewsletter = 'Subscribe to our newsletter';
@@ -276,15 +278,19 @@ export const sponsors = [
 
 export const milestones_ = [
     {
-        name: 'Projects',
-        stat: 44,
-    },
-    {
-        name: 'Registrants',
+        name: 'REGISTRANTS',
         stat: 873,
     },
     {
-        name: 'Countries',
+        name: 'FIRST TIME HACKERS',
+        stat: '74%',
+    },
+    {
+        name: 'PROJECTS',
+        stat: 44,
+    },
+    {
+        name: 'COUNTRIES',
         stat: 23,
     },
 ];
