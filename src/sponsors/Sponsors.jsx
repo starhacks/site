@@ -6,7 +6,7 @@ const Sponsors = (props) =>
         <h2>
             {props.title}
         </h2>
-        <div className="flex-row-col">
+        <div className="sponsors-list flex-row-col">
             {props.sponsors.map((s) =>
                 <div key={s.title} className="flex-col sponsor">
                     <a href={s.link} target="_blank" rel="noreferrer">

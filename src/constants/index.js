@@ -20,6 +20,8 @@ import landingAsset from './assets/landing.svg';
 import prospectus from './assets/prospectus.pdf';
 import balsamiq from './assets/logos/balsamiq.png';
 import report from './assets/StarHacks I Event Report.pdf';
+import github from './assets/logos/github-logo.svg';
+import stickermule from './assets/logos/stickermule.svg';
 
 export const sponsorDoc = prospectus;
 export const milestonesDoc = report;
@@ -273,6 +275,16 @@ export const sponsors = [
         title: 'Balsamiq',
         logo: balsamiq,
         link: 'https://balsamiq.com/',
+    },
+    {
+        title: 'GitHub',
+        logo: github,
+        link: 'https://github.com/',
+    },
+    {
+        title: 'Stickermule',
+        logo: stickermule,
+        link: 'https://www.stickermule.com/',
     },
 ];
 
