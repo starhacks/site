@@ -8,18 +8,21 @@ import {
     // faTwitter,
 } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
-import lucy from './assets/lucy_.png';
-import serena from './assets/serena.png';
-import camilla from './assets/camilla.png';
-import sammi from './assets/sammi.png';
-import elisa from './assets/elisa.png';
-import avighna from './assets/avighna.png';
-import hannah from './assets/hannah.png';
+
+import lucy from './assets/team/lucy_.png';
+import serena from './assets/team/serena.png';
+import camilla from './assets/team/camilla.png';
+import sammi from './assets/team/sammi.png';
+import elisa from './assets/team/elisa.png';
+import avighna from './assets/team/avighna.png';
+import hannah from './assets/team/hannah.png';
+
 import aboutAsset from './assets/about-us-asset.png';
 import landingAsset from './assets/landing.svg';
 import prospectus from './assets/prospectus.pdf';
-import balsamiq from './assets/logos/balsamiq.png';
 import report from './assets/StarHacks I Event Report.pdf';
+
+import balsamiq from './assets/logos/balsamiq.png';
 import github from './assets/logos/github-logo.svg';
 import stickermule from './assets/logos/stickermule.svg';
 
