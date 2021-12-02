@@ -13,6 +13,9 @@
             text-align: center;
             img {
                 width: 25vw;
+                @media (max-width: $desktopMobileToggleWidth) {
+                    width: 80vw;
+                  }
             }
         }
     }
