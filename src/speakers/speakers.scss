@@ -1,0 +1,53 @@
+@import "../variables";
+
+.team {
+    width: 90vw;
+    margin: auto;
+    .margin-top {
+        margin: 1% auto;
+    }
+    .members {
+        text-align: center;
+        justify-content: space-evenly !important;
+        flex-wrap: wrap;
+        @media (min-width: $desktopMobileToggleWidth) {
+            padding-bottom: 6vh;
+        }
+        .member {
+            @media (min-width: $desktopMobileToggleWidth) {
+                margin: 0 10px 0 10px;
+                h3 {
+                    font-size: 20px;
+                }
+                p,
+                a {
+                    font-size: 16px;
+                }
+            }
+            @media (max-width: $desktopMobileToggleWidth) {
+                margin: 10px 0 10px 0;
+            }
+            img {
+                width: 200px;
+            }
+            a {
+                margin-left: 5px;
+                text-decoration: none;
+                color: $fontColor;
+                transition: 0.3s;
+                &:hover {
+                    font-size: 18px;
+                }
+            }
+            .limited {
+                margin: auto;
+                height: 200px;
+                width: 200px;
+                overflow: hidden;
+                background-color: $darkBlue;
+                border-radius: 360px;
+                display: block;
+            }
+        }
+    }
+}

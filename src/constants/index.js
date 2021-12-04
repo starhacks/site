@@ -26,22 +26,13 @@ import balsamiq from './assets/logos/balsamiq.png';
 import github from './assets/logos/github-logo.svg';
 import stickermule from './assets/logos/stickermule.svg';
 
+import telle from './assets/speakers/telle.png';
+import vidya from './assets/speakers/vidya.png';
+
 export const sponsorDoc = prospectus;
 export const milestonesDoc = report;
 export const aboutPhoto = aboutAsset;
 export const landingPhoto = landingAsset;
-export const subscribeToOurNewsletter = 'Subscribe to our newsletter';
-export const starhacks = 'STARHACKS';
-export const about = 'ABOUT US';
-export const team = 'TEAM';
-export const contact = 'CONTACT US';
-export const roles = 'GET INVOLVED';
-export const events = 'EVENTS';
-export const anecdotes = 'ANECDOTES';
-export const sponsor = 'SPONSORS';
-export const schedule = 'SCHEDULE';
-export const milestones = 'BY THE NUMBERS';
-export const faq = 'FAQ';
 export const date = 'January 22-23, 2022 | Virtual';
 export const hackathonSchedule = [
     {
@@ -307,5 +298,18 @@ export const milestones_ = [
     {
         name: 'COUNTRIES',
         stat: 23,
+    },
+];
+
+export const speakers = [
+    {
+        name: 'Telle Whitney',
+        desc: 'Telle Whitney is the former CEO and President of the Anita Borg Institute for Women and Technology. A computer scientist by training, she cofounded the Grace Hopper Celebration of Women in Computing with Anita Borg in 1994 and joined the Anita Borg Institute in 2002.',
+        img: telle,
+    },
+    {
+        name: 'VIDYA SRINIVASAN',
+        desc: 'Vidya Srinivasan has faced the challenges of excelling in tech head-on while having children. Now she\'s helping other women do the same.',
+        img: vidya,
     },
 ];
