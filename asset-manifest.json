@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.293ec8aa.chunk.css",
-    "main.js": "/static/js/main.e7ad01e4.chunk.js",
-    "main.js.map": "/static/js/main.e7ad01e4.chunk.js.map",
+    "main.js": "/static/js/main.32c6c9cf.chunk.js",
+    "main.js.map": "/static/js/main.32c6c9cf.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.09d4c393.js",
     "runtime-main.js.map": "/static/js/runtime-main.09d4c393.js.map",
     "static/js/2.513ffb22.chunk.js": "/static/js/2.513ffb22.chunk.js",
@@ -26,12 +26,14 @@
     "static/media/prospectus.2ed5c19f.pdf": "/static/media/prospectus.2ed5c19f.pdf",
     "static/media/sammi.e83b36d7.png": "/static/media/sammi.e83b36d7.png",
     "static/media/serena.acc3826b.png": "/static/media/serena.acc3826b.png",
-    "static/media/stickermule.f8c12bd3.svg": "/static/media/stickermule.f8c12bd3.svg"
+    "static/media/stickermule.f8c12bd3.svg": "/static/media/stickermule.f8c12bd3.svg",
+    "static/media/telle.bc8c3c7b.png": "/static/media/telle.bc8c3c7b.png",
+    "static/media/vidya.ea27067a.png": "/static/media/vidya.ea27067a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.09d4c393.js",
     "static/js/2.513ffb22.chunk.js",
     "static/css/main.293ec8aa.chunk.css",
-    "static/js/main.e7ad01e4.chunk.js"
+    "static/js/main.32c6c9cf.chunk.js"
   ]
 }
