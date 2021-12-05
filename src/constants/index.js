@@ -7,7 +7,7 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 
-import lucy from './assets/team/lucy_.png';
+import lucy from './assets/team/lucy.png';
 import serena from './assets/team/serena.png';
 import camilla from './assets/team/camilla.png';
 import sammi from './assets/team/sammi.png';
