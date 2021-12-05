@@ -23,6 +23,7 @@ import report from './assets/StarHacks I Event Report.pdf';
 import balsamiq from './assets/logos/balsamiq.png';
 import github from './assets/logos/github-logo.svg';
 import stickermule from './assets/logos/stickermule.svg';
+import mlh from './assets/logos/mlh.svg';
 
 import telle from './assets/speakers/telle.png';
 import vidya from './assets/speakers/vidya.png';
@@ -277,6 +278,11 @@ export const sponsors = [
         title: 'Stickermule',
         logo: stickermule,
         link: 'https://www.stickermule.com/',
+    },
+    {
+        title: 'Major League Hacking',
+        logo: mlh,
+        link: 'https://mlh.io/',
     },
 ];
 
