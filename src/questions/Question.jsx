@@ -26,11 +26,12 @@ const Question = (props) => {
                 </p>
             </div>
         </a>
-        <div className={toggle ? 'display' : 'no-display'}>
-            <div className="ans">
-                <p>{props.a}</p>
-            </div>
-        </div>
+        {toggle &&
+            <div className='display'>
+                <div className="ans">
+                    <p>{props.a}</p>
+                </div>
+            </div>}
     </div>;
 };
 
