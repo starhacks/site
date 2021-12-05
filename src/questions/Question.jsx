@@ -11,25 +11,26 @@ const Question = (props) => {
     const [toggle, changeToggle] = useState(false);
 
     return <div className="question noselect">
-        <center>
-            <a
-                onClick={() => changeToggle(!toggle)}
-                target="_blank"
-                rel="noreferrer"
-                className="buttonStyle">
-                <div className="button">
-                    <p className="q-text">
-                        {toggle ?
-                            <FontAwesomeIcon icon={faArrowUp} /> :
-                            <FontAwesomeIcon icon={faArrowDown} />
-                        } {props.q}
-                    </p>
-                </div>
-            </a>
-            <div className="ans">
-                <p >{toggle && props.a}</p>
+        <a
+            onClick={() => changeToggle(!toggle)}
+            target="_blank"
+            rel="noreferrer">
+            <div className={toggle ? 'q-text flex-row' :
+                'q-text flex-row round-all'}>
+                <p>{props.q} {' '}</p>
+                <p>
+                    {toggle ?
+                        <FontAwesomeIcon icon={faArrowUp} /> :
+                        <FontAwesomeIcon icon={faArrowDown} />
+                    }
+                </p>
             </div>
-        </center>
+        </a>
+        <div className={toggle ? 'display' : 'no-display'}>
+            <div className="ans">
+                <p>{props.a}</p>
+            </div>
+        </div>
     </div>;
 };
 

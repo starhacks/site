@@ -20,7 +20,12 @@ const Contact = (props) =>
                 href={sponsorDoc}
                 target="_blank"
                 rel="noreferrer">
-                Sponsor StarHacks</a> | Copyright © 2021 StarHacks
+                Sponsor StarHacks</a> | Copyright © 2021 StarHacks | {' '}
+            <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf"
+                target="_blank"
+                rel="noreferrer">
+                MLH Code of Conduct
+            </a>
         </p>
     </div>;
 

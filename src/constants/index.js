@@ -246,11 +246,11 @@ export const anecdotesList = [];
 export const faqList = [
     {
         q: 'Who can attend StarHacks II?',
-        a: 'Anyone who identifies as female or non-binary and is of high school or college/university age.',
+        a: 'Anyone who identifies as female or non-binary and is of high school or college/university age can register for the prehackathon and hackathon.',
     },
     {
         q: 'Do you need to know how to code?',
-        a: 'Nope! In fact, over 30% of our hackers in StarHacks I never coded before! If you want to prepare for the hackathon, you can attend our pre-hackathon!',
+        a: 'Nope! In fact, over 30% of our hackers in StarHacks I never coded before! Attend our pre-hackathon to learn some basic coding skills!',
     },
     {
         q: 'Do I need to submit a project?',
