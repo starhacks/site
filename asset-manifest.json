@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.0c350301.chunk.css",
-    "main.js": "/static/js/main.77e61f83.chunk.js",
-    "main.js.map": "/static/js/main.77e61f83.chunk.js.map",
+    "main.js": "/static/js/main.922c9e4f.chunk.js",
+    "main.js.map": "/static/js/main.922c9e4f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.09d4c393.js",
     "runtime-main.js.map": "/static/js/runtime-main.09d4c393.js.map",
     "static/js/2.513ffb22.chunk.js": "/static/js/2.513ffb22.chunk.js",
@@ -22,7 +22,7 @@
     "static/media/github-logo.14bb9781.svg": "/static/media/github-logo.14bb9781.svg",
     "static/media/hannah.31a5ff00.png": "/static/media/hannah.31a5ff00.png",
     "static/media/landing.3b5f43fc.svg": "/static/media/landing.3b5f43fc.svg",
-    "static/media/lucy_.981f15d5.png": "/static/media/lucy_.981f15d5.png",
+    "static/media/lucy.f41a0678.png": "/static/media/lucy.f41a0678.png",
     "static/media/prospectus.2ed5c19f.pdf": "/static/media/prospectus.2ed5c19f.pdf",
     "static/media/sammi.e83b36d7.png": "/static/media/sammi.e83b36d7.png",
     "static/media/serena.acc3826b.png": "/static/media/serena.acc3826b.png",
@@ -34,6 +34,6 @@
     "static/js/runtime-main.09d4c393.js",
     "static/js/2.513ffb22.chunk.js",
     "static/css/main.0c350301.chunk.css",
-    "static/js/main.77e61f83.chunk.js"
+    "static/js/main.922c9e4f.chunk.js"
   ]
 }
