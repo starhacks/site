@@ -5,12 +5,16 @@
     margin: auto;
     .question-panel {
         padding: 15px 10% 0 10%;
+        @media (max-width: $desktopMobileToggleWidth) {
+            padding: 15px 5% 0 5%;
+        }
         flex-wrap: wrap;
         .question {
             @media (max-width: $desktopMobileToggleWidth) {
-                max-width: 90vw;
+                max-width: 80vw;
+                width: 80vw;
+                min-width: 80vw;
             }
-            max-height: min-content;
             padding-bottom: 15px;
             max-width: 33vw;
             width: 33vw;
