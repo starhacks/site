@@ -4,12 +4,12 @@ import Speaker from './Speaker';
 
 const Speakers = (props) =>
     props.speakers.length > 0 &&
-    <div className="team">
+    <div className="speakers">
         <h2>
             {props.title}
         </h2>
         <div className="margin-top">
-            <div className="members flex-row-col">
+            <div className="speakerss flex-row-col">
                 {props.speakers
                     .sort((a, b) => a.name > b.name).map((m) =>
                         <Speaker

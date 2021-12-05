@@ -3,9 +3,7 @@ import {
     faDiscord,
     faInstagram,
     faLinkedinIn,
-    // faMailchimp,
     faMediumM,
-    // faTwitter,
 } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 
@@ -309,7 +307,7 @@ export const speakers = [
     },
     {
         name: 'VIDYA SRINIVASAN',
-        desc: 'Vidya Srinivasan has faced the challenges of excelling in tech head-on while having children. Now she\'s helping other women do the same.',
+        desc: 'Product Manager at Facebook & Instagram, General Chair of #vGHC21, Speaker and Singer. Vidya Srinivasan has faced the challenges of excelling in tech head-on while having children. Now she\'s helping other women do the same.',
         img: vidya,
     },
 ];
