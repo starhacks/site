@@ -8,7 +8,7 @@ const Questions = (props) =>
         <h2>
             {props.title}
         </h2>
-        <div className="ques flex-row">
+        <div className="ques flex-row-col">
             <div className="question-panel flex-col">
                 {props.faqList.
                     filter((currElement, index) => (index % 2 != 0)).
