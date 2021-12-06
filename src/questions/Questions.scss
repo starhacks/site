@@ -3,11 +3,13 @@
 .questions {
     width: 90vw;
     margin: auto;
-    .question-panel {
+    .ques {
         padding: 15px 10% 0 10%;
         @media (max-width: $desktopMobileToggleWidth) {
             padding: 15px 5% 0 5%;
         }
+    }
+    .question-panel {
         flex-wrap: wrap;
         .question {
             @media (max-width: $desktopMobileToggleWidth) {

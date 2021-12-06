@@ -8,9 +8,19 @@ const Questions = (props) =>
         <h2>
             {props.title}
         </h2>
-        <div className="question-panel flex-row-col">
-            {props.faqList.map((faq) =>
-                <Question key={faq.q} q={faq.q} a={faq.a} />)}
+        <div className="ques flex-row">
+            <div className="question-panel flex-col">
+                {props.faqList.
+                    filter((currElement, index) => (index % 2 != 0)).
+                    map((faq) =>
+                        <Question key={faq.q} q={faq.q} a={faq.a} />)}
+            </div>
+            <div className="question-panel flex-col">
+                {props.faqList.
+                    filter((currElement, index) => index % 2 == 0).
+                    map((faq) =>
+                        <Question key={faq.q} q={faq.q} a={faq.a} />)}
+            </div>
         </div>
     </div>;
 
