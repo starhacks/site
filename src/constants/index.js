@@ -27,6 +27,8 @@ import mlh from './assets/logos/mlh.svg';
 
 import telle from './assets/speakers/telle.png';
 import vidya from './assets/speakers/vidya.png';
+import ifueko from './assets/speakers/ifueko.png';
+import vivian from './assets/speakers/vivian.png';
 
 export const sponsorDoc = prospectus;
 export const milestonesDoc = report;
@@ -312,8 +314,18 @@ export const speakers = [
         img: telle,
     },
     {
-        name: 'VIDYA SRINIVASAN',
-        desc: 'Product Manager at Facebook & Instagram, General Chair of #vGHC21, Speaker and Singer. Vidya Srinivasan has faced the challenges of excelling in tech head-on while having children. Now she\'s helping other women do the same.',
+        name: 'Vidya Srinivasan',
+        desc: 'Vidya is a Senior Product Manager at Facebook working on Messenger and Instagram Direct. She loves building products and has filed 21 patents for her work so far! Her side hustles include speaking at tech events, singing, and leading D&I initiatives. Additionally, she is a trained Indian classical singer and the General Chair of the 2019, 2020 and 2021 Grace Hopper Conference.',
         img: vidya,
+    },
+    {
+        name: 'Ifueko Igbinedion',
+        desc: 'Ifueko is currently pursuring a PhD in EECS from MIT. In the past, she has worked on projects ranging from computer vision, virtual reality, embedded systems and robotics at various organizations including IBM, Google, and Lincoln Laboratory. She is also the co-founder and CTO of Hairtelligence, where computer vision is used to size and customize lace wigs for women.',
+        img: ifueko,
+    },
+    {
+        name: 'Vivian Wang',
+        desc: 'Vivian is an avid journalist, social entrepreneur, and computer scientist studying at Stanford University. She is also the Founder and President of Linens N Love. She enjoys exploring interdisciplinary areas of study to catalyze change through technology and storytelling.        ',
+        img: vivian,
     },
 ];
