@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.da1325c1.chunk.css",
-    "main.js": "/static/js/main.47390849.chunk.js",
-    "main.js.map": "/static/js/main.47390849.chunk.js.map",
+    "main.js": "/static/js/main.cacaa924.chunk.js",
+    "main.js.map": "/static/js/main.cacaa924.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.09d4c393.js",
     "runtime-main.js.map": "/static/js/runtime-main.09d4c393.js.map",
     "static/js/2.513ffb22.chunk.js": "/static/js/2.513ffb22.chunk.js",
@@ -21,6 +21,7 @@
     "static/media/elisa.765597d5.png": "/static/media/elisa.765597d5.png",
     "static/media/github-logo.14bb9781.svg": "/static/media/github-logo.14bb9781.svg",
     "static/media/hannah.31a5ff00.png": "/static/media/hannah.31a5ff00.png",
+    "static/media/ifueko.db7c31e4.png": "/static/media/ifueko.db7c31e4.png",
     "static/media/landing.3b5f43fc.svg": "/static/media/landing.3b5f43fc.svg",
     "static/media/lucy.f41a0678.png": "/static/media/lucy.f41a0678.png",
     "static/media/mlh.d48e27dc.svg": "/static/media/mlh.d48e27dc.svg",
@@ -29,12 +30,13 @@
     "static/media/serena.acc3826b.png": "/static/media/serena.acc3826b.png",
     "static/media/stickermule.f8c12bd3.svg": "/static/media/stickermule.f8c12bd3.svg",
     "static/media/telle.bc8c3c7b.png": "/static/media/telle.bc8c3c7b.png",
-    "static/media/vidya.ea27067a.png": "/static/media/vidya.ea27067a.png"
+    "static/media/vidya.ea27067a.png": "/static/media/vidya.ea27067a.png",
+    "static/media/vivian.5bf4a290.png": "/static/media/vivian.5bf4a290.png"
   },
   "entrypoints": [
     "static/js/runtime-main.09d4c393.js",
     "static/js/2.513ffb22.chunk.js",
     "static/css/main.da1325c1.chunk.css",
-    "static/js/main.47390849.chunk.js"
+    "static/js/main.cacaa924.chunk.js"
   ]
 }
