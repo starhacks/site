@@ -29,6 +29,8 @@ import telle from './assets/speakers/telle.png';
 import vidya from './assets/speakers/vidya.png';
 import ifueko from './assets/speakers/ifueko.png';
 import vivian from './assets/speakers/vivian.png';
+import harpreet from './assets/speakers/harpreet.png';
+import gloria from './assets/speakers/gloria.png';
 
 export const sponsorDoc = prospectus;
 export const milestonesDoc = report;
@@ -43,25 +45,44 @@ export const hackathonSchedule = [
         events: [
             {
                 title: 'Intro to Web Development',
-            }, {
-                title: 'Basics of Git and GitHub',
             },
         ],
     },
     {
         id: 1,
-        dow: 'Saturday',
-        date: '1/15',
+        dow: 'Sunday',
+        date: '1/9',
         events: [
             {
-                title: 'Intro to Graphic Design and Figma',
-            }, {
-                title: 'Hackathon 101 and Icebreakers',
+                title: 'Basics of Git and GitHub',
+                presenter: 'Ifueko Igbinedion',
+                start: '11:00 AM',
+                end: '12:00 AM',
             },
         ],
     },
     {
         id: 2,
+        dow: 'Saturday',
+        date: '1/15',
+        events: [
+            {
+                title: 'Intro to Graphic Design and Figma',
+            },
+        ],
+    },
+    {
+        id: 3,
+        dow: 'Sunday',
+        date: '1/16',
+        events: [
+            {
+                title: 'Hackathon 101 and Icebreakers',
+            },
+        ],
+    },
+    {
+        id: 4,
         dow: 'Saturday',
         date: '1/22',
         events: [
@@ -74,6 +95,7 @@ export const hackathonSchedule = [
                 title: 'Opening Ceremony',
                 start: '10:30 AM',
                 end: '11:30 AM',
+                presenter: 'Telle Whitney',
             },
             {
                 title: 'Build a Discord Bot',
@@ -81,7 +103,7 @@ export const hackathonSchedule = [
                 end: '12:30 AM',
             },
             {
-                title: 'Interns Panel',
+                title: 'Preparing for SWE Interviews',
                 start: '12:30 PM',
                 end: '1:30 PM',
             },
@@ -99,6 +121,7 @@ export const hackathonSchedule = [
                 title: 'Women in Tech Panel',
                 start: '4:00 PM',
                 end: '5:00 PM',
+                presenter: 'Vidya Srinivavasan',
             },
             {
                 title: 'Network with Women in Technology',
@@ -114,7 +137,7 @@ export const hackathonSchedule = [
         ],
     },
     {
-        id: 3,
+        id: 5,
         dow: 'Sunday',
         date: '1/23',
         events: [
@@ -122,16 +145,19 @@ export const hackathonSchedule = [
                 title: 'How to Pitch your Hack',
                 start: '10:00 AM',
                 end: '11:00 AM',
+                presenter: 'Serena Huynh',
             },
             {
                 title: 'Intro to AI/ML',
                 start: '11:00 AM',
                 end: '11:30 AM',
+                presenter: 'Gloria Chang',
             },
             {
-                title: 'TBD',
+                title: 'Standing Out in College Admissions as a Woman in STEM',
                 start: '11:30 PM',
                 end: '12:00 AM',
+                presenter: 'Vivian Wang',
             },
             {
                 title: 'Submit Projects',
@@ -157,6 +183,7 @@ export const hackathonSchedule = [
                 title: 'Closing Ceremony',
                 start: '4:00 PM',
                 end: '5:00 PM',
+                presenter: 'Harpreet Kaur',
             },
         ],
     },
@@ -315,17 +342,32 @@ export const speakers = [
     },
     {
         name: 'Vidya Srinivasan',
-        desc: 'Vidya is a Senior Product Manager at Facebook working on Messenger and Instagram Direct. She loves building products and has filed 21 patents for her work so far! Her side hustles include speaking at tech events, singing, and leading D&I initiatives. Additionally, she is a trained Indian classical singer and the General Chair of the 2019, 2020 and 2021 Grace Hopper Conference.',
+        desc: 'Vidya is a Senior Product Manager at Facebook working on Messenger and Instagram Direct. She loves building products and has filed 21 patents for her work so far! She is also a trained Indian classical singer and the General Chair of the 2019, 2020 and 2021 Grace Hopper Conference.',
         img: vidya,
     },
     {
         name: 'Ifueko Igbinedion',
-        desc: 'Ifueko is currently pursuring a PhD in EECS from MIT. In the past, she has worked on projects ranging from computer vision, virtual reality, embedded systems and robotics at various organizations including IBM, Google, and Lincoln Laboratory. She is also the co-founder and CTO of Hairtelligence, where computer vision is used to size and customize lace wigs for women.',
+        desc: 'Ifueko is currently pursuring a PhD in EECS from MIT. In the past, she has worked at various organizations including IBM, Google, and Lincoln Laboratory. She is also the co-founder and CTO of Hairtelligence, where computer vision is used to size and customize lace wigs for women.',
         img: ifueko,
+    },
+    {
+        name: 'Harpreet Kaur',
+        desc: 'Harpreet is a Global Product/Technical Engineering Program Leader of Cloud & AI at Microsoft',
+        img: harpreet,
     },
     {
         name: 'Vivian Wang',
         desc: 'Vivian is an avid journalist, social entrepreneur, and computer scientist studying at Stanford University. She is also the Founder and President of Linens N Love. She enjoys exploring interdisciplinary areas of study to catalyze change through technology and storytelling.        ',
         img: vivian,
+    },
+    {
+        name: 'Serena Huynh',
+        desc: 'Serena is a second-year student at the University of Southern California, majoring in Computer Science. She has previously interned at AT&T on the Chief Technology and Information Team to work on Mobile App Development and Test Driven Development.',
+        img: serena,
+    },
+    {
+        name: 'Gloria Chang',
+        desc: 'Gloria is an undergraduate at the University of Southern California studying Computer Science with interests in journalism and sustainability. She has interned at Facebook as an AI Research TPM.',
+        img: gloria,
     },
 ];

@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { useState } from 'react';
+// import moment from 'moment';
+// import 'moment-timezone';
 
 
 const Schedule = (props) => {
@@ -13,6 +15,7 @@ const Schedule = (props) => {
             <h2>
                 {props.title}
             </h2>
+            <p>Note times are in PST.</p>
             <div className="panel">
                 <div className="dates">
                     {schedule
@@ -24,6 +27,7 @@ const Schedule = (props) => {
                                     'date active' : 'date'}>
                                     <h3 className="desktop">
                                         {e.dow} {e.date}
+                                        {console.log(e.date.substring(2))}
                                     </h3>
                                     <h3 className="mobile">{e.date}</h3>
                                 </div>
