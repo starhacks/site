@@ -57,7 +57,7 @@ export const hackathonSchedule = [
                 title: 'Basics of Git and GitHub',
                 presenter: 'Ifueko Igbinedion',
                 start: '11:00 AM',
-                end: '12:00 AM',
+                end: '12:00 PM',
             },
         ],
     },
@@ -100,7 +100,7 @@ export const hackathonSchedule = [
             {
                 title: 'Build a Discord Bot',
                 start: '11:30 AM',
-                end: '12:30 AM',
+                end: '12:30 PM',
             },
             {
                 title: 'Preparing for SWE Interviews',
@@ -156,7 +156,7 @@ export const hackathonSchedule = [
             {
                 title: 'Standing Out in College Admissions as a Woman in STEM',
                 start: '11:30 PM',
-                end: '12:00 AM',
+                end: '12:00 PM',
                 presenter: 'Vivian Wang',
             },
             {
