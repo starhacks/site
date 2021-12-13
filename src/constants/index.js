@@ -339,35 +339,42 @@ export const speakers = [
         name: 'Telle Whitney',
         desc: 'Telle Whitney is the former CEO and President of the Anita Borg Institute for Women and Technology. A computer scientist by training, she cofounded the Grace Hopper Celebration of Women in Computing with Anita Borg in 1994 and joined the Anita Borg Institute in 2002.',
         img: telle,
+        type: 'keynote speaker',
     },
     {
         name: 'Vidya Srinivasan',
         desc: 'Vidya is a Senior Product Manager at Facebook working on Messenger and Instagram Direct. She loves building products and has filed 21 patents for her work so far! She is also a trained Indian classical singer and the General Chair of the 2019, 2020 and 2021 Grace Hopper Conference.',
         img: vidya,
+        type: 'panelist',
     },
     {
         name: 'Ifueko Igbinedion',
         desc: 'Ifueko is currently pursuring a PhD in EECS from MIT. In the past, she has worked at various organizations including IBM, Google, and Lincoln Laboratory. She is also the co-founder and CTO of Hairtelligence, where computer vision is used to size and customize lace wigs for women.',
         img: ifueko,
+        type: 'workshop host',
     },
     {
         name: 'Harpreet Kaur',
-        desc: 'Harpreet is a Global Product/Technical Engineering Program Leader of Cloud & AI at Microsoft',
+        desc: 'Harpreet is a Global Product/Technical Engineering Program Leader of Cloud & AI at Microsoft.',
         img: harpreet,
+        type: 'keynote speaker',
     },
     {
         name: 'Vivian Wang',
         desc: 'Vivian is an avid journalist, social entrepreneur, and computer scientist studying at Stanford University. She is also the Founder and President of Linens N Love. She enjoys exploring interdisciplinary areas of study to catalyze change through technology and storytelling.        ',
         img: vivian,
+        type: 'workshop host',
     },
     {
         name: 'Serena Huynh',
         desc: 'Serena is a second-year student at the University of Southern California, majoring in Computer Science. She has previously interned at AT&T on the Chief Technology and Information Team to work on Mobile App Development and Test Driven Development.',
         img: serena,
+        type: 'workshop host',
     },
     {
         name: 'Gloria Chang',
         desc: 'Gloria is an undergraduate at the University of Southern California studying Computer Science with interests in journalism and sustainability. She has interned at Facebook as an AI Research TPM.',
         img: gloria,
+        type: 'workshop host',
     },
 ];
