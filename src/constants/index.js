@@ -31,6 +31,7 @@ import ifueko from './assets/speakers/ifueko.png';
 import vivian from './assets/speakers/vivian.png';
 import harpreet from './assets/speakers/harpreet.png';
 import gloria from './assets/speakers/gloria.png';
+import tenay from './assets/speakers/tenay.png';
 
 export const sponsorDoc = prospectus;
 export const milestonesDoc = report;
@@ -376,5 +377,11 @@ export const speakers = [
         desc: 'Gloria is an undergraduate at the University of Southern California studying Computer Science with interests in journalism and sustainability. She has interned at Facebook as an AI Research TPM.',
         img: gloria,
         type: 'workshop host',
+    },
+    {
+        name: 'Tenay Barker',
+        desc: 'Tenay is a Site Reliability Engineer at Microsoft. She strives to bring diversity to the Tech industry to show women, girls, and non-binary folx of all ages that no matter what background, ethnicity, gender, orientation, or race, they can accomplish anything they want to.',
+        img: tenay,
+        type: 'panelist',
     },
 ];
