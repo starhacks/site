@@ -9,7 +9,7 @@ const Milestones = (props) =>
             {props.milestones.map((m) =>
                 <div className="panel mile" key={m.name}>
                     <h3>{m.stat}</h3>
-                    <h3>{m.name}</h3>
+                    <p>{m.name}</p>
                 </div>)}
         </div>
         <div>
