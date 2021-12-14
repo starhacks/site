@@ -30,8 +30,12 @@ import vidya from './assets/speakers/vidya.png';
 import ifueko from './assets/speakers/ifueko.png';
 import vivian from './assets/speakers/vivian.png';
 import harpreet from './assets/speakers/harpreet.png';
-import gloria from './assets/speakers/gloria.png';
 import tenay from './assets/speakers/tenay.png';
+import gloria from './assets/speakers/gloria.png';
+import fatima from './assets/speakers/fatima.png';
+import deepti from './assets/speakers/deepti.png';
+import caeley from './assets/speakers/caeley.png';
+import benis from './assets/speakers/benis.png';
 
 export const sponsorDoc = prospectus;
 export const milestonesDoc = report;
@@ -262,7 +266,7 @@ export const rolesDescriptions = [
     {
         role: 'Mentor',
         desc:
-            `Want to help and inspire the next generation
+      `Want to help and inspire the next generation
              of female and nonbinary coders? Be a mentor or
               judge at StarHacks! Mentors and judges must be
                over 18 years of age, proficient in at least
@@ -383,5 +387,29 @@ export const speakers = [
         desc: 'Tenay is a Site Reliability Engineer at Microsoft. She strives to bring diversity to the Tech industry to show women, girls, and non-binary folx of all ages that no matter what background, ethnicity, gender, orientation, or race, they can accomplish anything they want to.',
         img: tenay,
         type: 'panelist',
+    },
+    {
+        name: 'Fatima Taj',
+        desc: 'Fatima Taj, is a Software Engineer at Yelp. She did her undergraduate from the University of Waterloo, Canada and after graduating, she worked as a Software Developer at DRW, a Chicago based trading firm. Currently, she\'s also doing a Masters in Data Science from HEC Montreal. ',
+        img: fatima,
+        type: 'workshop host',
+    },
+    {
+        name: 'Deepti Gupta',
+        desc: 'Deepti Gupta is an Assistant Professor in the Department of Computer Science at Huston-Tillotson University, Austin. She is a team member of IEEE ComSoc Young Professionals, AnitaB.org, and also co-chair of the N2 Women fellowship. ',
+        img: deepti,
+        type: 'panelist',
+    },
+    {
+        name: 'Caeley Looney',
+        desc: 'Caeley Mission Analyst at L3Harris Technologies and Founder and Editor in Chief of 501(c)(3) nonprofit Reinvented Magazine. Her goal is to empower and inspire young womxn to pursue their passions in science, technology, engineering, and mathematics.',
+        img: caeley,
+        type: 'panelist',
+    },
+    {
+        name: 'Benis Tambe',
+        desc: 'Bio to come!',
+        img: benis,
+        type: 'workshop host',
     },
 ];
