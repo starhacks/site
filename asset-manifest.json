@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.440f3dd3.chunk.css",
-    "main.js": "/static/js/main.ecb10b0e.chunk.js",
-    "main.js.map": "/static/js/main.ecb10b0e.chunk.js.map",
+    "main.js": "/static/js/main.a0d12e9d.chunk.js",
+    "main.js.map": "/static/js/main.a0d12e9d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.09d4c393.js",
     "runtime-main.js.map": "/static/js/runtime-main.09d4c393.js.map",
     "static/js/2.e669eae4.chunk.js": "/static/js/2.e669eae4.chunk.js",
@@ -16,9 +16,13 @@
     "static/media/about-us-asset.fd1c4d58.png": "/static/media/about-us-asset.fd1c4d58.png",
     "static/media/avighna.49e1158c.png": "/static/media/avighna.49e1158c.png",
     "static/media/balsamiq.a7bccfdf.png": "/static/media/balsamiq.a7bccfdf.png",
+    "static/media/benis.92dfecd5.png": "/static/media/benis.92dfecd5.png",
+    "static/media/caeley.4a6294c2.png": "/static/media/caeley.4a6294c2.png",
     "static/media/camilla.e808ec6c.png": "/static/media/camilla.e808ec6c.png",
     "static/media/App.scss": "/static/media/stars.004ecf4f.svg",
+    "static/media/deepti.da3ae3d5.png": "/static/media/deepti.da3ae3d5.png",
     "static/media/elisa.765597d5.png": "/static/media/elisa.765597d5.png",
+    "static/media/fatima.45a252e7.png": "/static/media/fatima.45a252e7.png",
     "static/media/github-logo.14bb9781.svg": "/static/media/github-logo.14bb9781.svg",
     "static/media/gloria.f20dacc4.png": "/static/media/gloria.f20dacc4.png",
     "static/media/hannah.31a5ff00.png": "/static/media/hannah.31a5ff00.png",
@@ -40,6 +44,6 @@
     "static/js/runtime-main.09d4c393.js",
     "static/js/2.e669eae4.chunk.js",
     "static/css/main.440f3dd3.chunk.css",
-    "static/js/main.ecb10b0e.chunk.js"
+    "static/js/main.a0d12e9d.chunk.js"
   ]
 }
