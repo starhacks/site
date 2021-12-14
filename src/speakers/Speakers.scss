@@ -11,9 +11,12 @@
         justify-content: space-evenly !important;
         flex-wrap: wrap;
         .speaker {
+            margin: auto;
+            text-align: center;
+            align-items: center;
             padding-bottom: 10px;
             @media (min-width: $desktopMobileToggleWidth) {
-                width: 25vw;
+          max-width: 20vw;
                 margin: 0 10px 0 10px;
                 h3 {
                     font-size: 20px;
@@ -27,7 +30,7 @@
                 margin: 10px 0 10px 0;
             }
             img {
-                width: 200px;
+                width: 150px;
             }
             a {
                 margin-left: 5px;
@@ -40,8 +43,8 @@
             }
             .limited {
                 margin: auto;
-                height: 200px;
-                width: 200px;
+                height: 150px;
+                width: 150px;
                 overflow: hidden;
                 background-color: $darkBlue;
                 border-radius: 360px;

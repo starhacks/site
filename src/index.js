@@ -6,18 +6,18 @@ import reportWebVitals from './reportWebVitals';
 import StarfieldAnimation from 'react-starfield-animation';
 
 ReactDOM.render(
-    <React.StrictMode>
-        <StarfieldAnimation
-            style={{
-                zIndex: -1,
-                position: 'absolute',
-                width: '100%',
-                height: '100%',
-            }}
-        />
-        <App />
-    </React.StrictMode>,
-    document.getElementById('root'),
+  <React.StrictMode>
+    <StarfieldAnimation
+      style={{
+        zIndex: -1,
+        position: 'absolute',
+        width: '100%',
+        height: '100%',
+      }}
+    />
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root'),
 );
 
 // If you want to start measuring performance in your app, pass a function
