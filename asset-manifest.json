@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.113b24ff.chunk.css",
-    "main.js": "/static/js/main.2998b8af.chunk.js",
-    "main.js.map": "/static/js/main.2998b8af.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.09d4c393.js",
-    "runtime-main.js.map": "/static/js/runtime-main.09d4c393.js.map",
-    "static/js/2.e669eae4.chunk.js": "/static/js/2.e669eae4.chunk.js",
-    "static/js/2.e669eae4.chunk.js.map": "/static/js/2.e669eae4.chunk.js.map",
-    "static/js/3.5e86a739.chunk.js": "/static/js/3.5e86a739.chunk.js",
-    "static/js/3.5e86a739.chunk.js.map": "/static/js/3.5e86a739.chunk.js.map",
+    "main.js": "/static/js/main.0bf93cff.chunk.js",
+    "main.js.map": "/static/js/main.0bf93cff.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1ab9e31f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1ab9e31f.js.map",
+    "static/js/2.1d9adb5c.chunk.js": "/static/js/2.1d9adb5c.chunk.js",
+    "static/js/2.1d9adb5c.chunk.js.map": "/static/js/2.1d9adb5c.chunk.js.map",
+    "static/js/3.4f54183e.chunk.js": "/static/js/3.4f54183e.chunk.js",
+    "static/js/3.4f54183e.chunk.js.map": "/static/js/3.4f54183e.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.113b24ff.chunk.css.map": "/static/css/main.113b24ff.chunk.css.map",
-    "static/js/2.e669eae4.chunk.js.LICENSE.txt": "/static/js/2.e669eae4.chunk.js.LICENSE.txt",
+    "static/js/2.1d9adb5c.chunk.js.LICENSE.txt": "/static/js/2.1d9adb5c.chunk.js.LICENSE.txt",
     "static/media/StarHacks I Event Report.01293472.pdf": "/static/media/StarHacks I Event Report.01293472.pdf",
     "static/media/about-us-asset.fd1c4d58.png": "/static/media/about-us-asset.fd1c4d58.png",
     "static/media/avighna.49e1158c.png": "/static/media/avighna.49e1158c.png",
@@ -34,6 +34,7 @@
     "static/media/prospectus.2ed5c19f.pdf": "/static/media/prospectus.2ed5c19f.pdf",
     "static/media/sammi.e83b36d7.png": "/static/media/sammi.e83b36d7.png",
     "static/media/serena.acc3826b.png": "/static/media/serena.acc3826b.png",
+    "static/media/skyler.3458c29a.png": "/static/media/skyler.3458c29a.png",
     "static/media/stickermule.f8c12bd3.svg": "/static/media/stickermule.f8c12bd3.svg",
     "static/media/telle.bc8c3c7b.png": "/static/media/telle.bc8c3c7b.png",
     "static/media/tenay.f0697777.png": "/static/media/tenay.f0697777.png",
@@ -41,9 +42,9 @@
     "static/media/vivian.5bf4a290.png": "/static/media/vivian.5bf4a290.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.09d4c393.js",
-    "static/js/2.e669eae4.chunk.js",
+    "static/js/runtime-main.1ab9e31f.js",
+    "static/js/2.1d9adb5c.chunk.js",
     "static/css/main.113b24ff.chunk.css",
-    "static/js/main.2998b8af.chunk.js"
+    "static/js/main.0bf93cff.chunk.js"
   ]
 }
