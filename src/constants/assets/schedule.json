@@ -1,0 +1,146 @@
+{
+   "Jan 8, 2022": [
+      {
+         "Workshop": "Basic Web Dev Skills",
+         "Start": "TBA",
+         "End": "TBA",
+         "Speaker": "Benis Tambe"
+      }
+   ],
+   "Jan 9, 2022": [
+      {
+         "Workshop": "Basics of Git and Github",
+         "Start": "11:00 AM",
+         "End": "12:00 PM",
+         "Speaker": "Ifueko Igbinedion"
+      }
+   ],
+   "Jan 15, 2022": [
+      {
+         "Workshop": "Intro to Graphic Design/Figma",
+         "Start": "11:00 AM",
+         "End": "12:00 PM",
+         "Speaker": "Skyler Basco"
+      }
+   ],
+   "Jan 16, 2022": [
+      {
+         "Workshop": "Hackathon 101",
+         "Start": "TBA",
+         "End": "TBA",
+         "Speaker": "The StarHacks Team"
+      }
+   ],
+   "Jan 22, 2022": [
+      {
+         "Workshop": "Pre-event social",
+         "Start": "10:00 AM",
+         "End": "10:30 AM",
+         "Speaker": "The StarHacks Team"
+      },
+      {
+         "Workshop": "Opening ceremony",
+         "Start": "10:30 AM",
+         "End": "11:30 AM",
+         "Speaker": "Telle Whitney"
+      },
+      {
+         "Workshop": "Build A Discord Bot",
+         "Start": "11:30 AM",
+         "End": "12:30 AM",
+         "Speaker": "TBA"
+      },
+      {
+         "Workshop": "What They Don't Tell You About Tech Interviews",
+         "Start": "12:30 AM",
+         "End": "1:30 PM",
+         "Speaker": "Fatima Taj"
+      },
+      {
+         "Workshop": "Intro to ios app development",
+         "Start": "1:30 PM",
+         "End": "2:30 PM",
+         "Speaker": "TBA"
+      },
+      {
+         "Workshop": "Break",
+         "Start": "2:30 PM",
+         "End": "3:00 PM",
+         "Speaker": "The StarHacks Team"
+      },
+      {
+         "Workshop": "Intro to Game Dev",
+         "Start": "3:00 PM",
+         "End": "4:00 PM",
+         "Speaker": "TBA"
+      },
+      {
+         "Workshop": "Women in Tech Panel",
+         "Start": "4:00 PM",
+         "End": "5:00 PM",
+         "Speaker": "Vidya Srinivavasan, Tenay Barker, Caeley Looney, Deepti Gupta"
+      },
+      {
+         "Workshop": "Network w women in tech",
+         "Start": "5:00 PM",
+         "End": "5:30 PM",
+         "Speaker": "TBA"
+      },
+      {
+         "Workshop": "Games",
+         "Start": "5:30 PM",
+         "End": "6:30 PM",
+         "Speaker": "The StarHacks Team"
+      }
+   ],
+   "Jan 23, 2022": [
+      {
+         "Workshop": "How to pitch your hack",
+         "Start": "10:00 AM",
+         "End": "11:00 AM",
+         "Speaker": "Serena Huynh"
+      },
+      {
+         "Workshop": "Intro to ai/ml",
+         "Start": "11:00 AM",
+         "End": "11:30 AM",
+         "Speaker": "Gloria Chang"
+      },
+      {
+         "Workshop": "Standing Out in College Admissions as a Woman in STEM",
+         "Start": "11:30 AM",
+         "End": "12:00 PM",
+         "Speaker": "Vivian Wang"
+      },
+      {
+         "Workshop": "Submit hacks",
+         "Start": "12:00 PM",
+         "End": "12:30 PM",
+         "Speaker": ""
+      },
+      {
+         "Workshop": "Intersections of tech panel",
+         "Start": "12:30 PM",
+         "End": "1:30 PM",
+         "Speaker": "TBA"
+      },
+      {
+         "Workshop": "Judging",
+         "Start": "1:30 PM",
+         "End": "3:30 PM",
+         "Speaker": ""
+      },
+      {
+         "Workshop": "Games",
+         "Start": "3:00 PM",
+         "End": "3:30 PM",
+         "Speaker": "The StarHacks Team"
+      },
+      {
+         "Workshop": "Closing ceremony",
+         "Start": "4:00 PM",
+         "End": "5:00 PM",
+         "Speaker": "Harpreet Kaur"
+      }
+   ]
+}

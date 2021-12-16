@@ -36,6 +36,7 @@ import fatima from './assets/speakers/fatima.png';
 import deepti from './assets/speakers/deepti.png';
 import caeley from './assets/speakers/caeley.png';
 import benis from './assets/speakers/benis.png';
+import skyler from './assets/speakers/skyler.png';
 
 export const sponsorDoc = prospectus;
 export const milestonesDoc = report;
@@ -402,14 +403,20 @@ export const speakers = [
   },
   {
     name: 'Caeley Looney',
-    desc: 'Caeley Mission Analyst at L3Harris Technologies and Founder and Editor in Chief of 501(c)(3) nonprofit Reinvented Magazine. Her goal is to empower and inspire young womxn to pursue their passions in science, technology, engineering, and mathematics.',
+    desc: 'Caeley Mission is an Analyst at L3Harris Technologies and Founder and Editor in Chief of 501(c)(3) nonprofit Reinvented Magazine. Her goal is to empower and inspire young womxn to pursue their passions in science, technology, engineering, and mathematics.',
     img: caeley,
     type: 'panelist',
   },
   {
     name: 'Benis Tambe',
-    desc: 'Bio to come!',
+    desc: 'Benis is a Computer Science Junior at University of Maryland, College Park. She has worked in the tech industry for about two years as a User Interface developer and enjoys building fun web apps in her spare time.',
     img: benis,
+    type: 'workshop host',
+  },
+  {
+    name: 'Skyler Basco',
+    desc: 'Skyler is a Computer Science student at Queens College passionate about AR, VR, and 3D. She is an incoming Software Engineering intern at Bitly and the Founder at Friends of XR, which is building a platform to empower the next generation of extended reality creators.',
+    img: skyler,
     type: 'workshop host',
   },
 ];
