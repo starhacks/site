@@ -10,7 +10,6 @@ import Sponsors from './sponsors/Sponsors';
 import Schedule from './schedule/Schedule';
 import Speakers from './speakers/Speakers';
 import {
-  hackathonSchedule,
   rolesDescriptions,
   socialMediaHandles,
   anecdotesList,
@@ -31,7 +30,7 @@ const App = () => {
       <Milestones title={'BY THE NUMBERS'}
         milestones={Constants.milestones_} />
       <Speakers title={'SPEAKERS'} speakers={speakers} />
-      <Schedule title={'SCHEDULE'} schedule={hackathonSchedule} />
+      <Schedule title={'SCHEDULE'} />
       <Roles title={'GET INVOLVED'} roles={rolesDescriptions} />
       <Anecdotes title={'TESTIMONIALS'} anecdotes={anecdotesList} />
       <Sponsors title={'SPONSORS'} sponsors={sponsors} />
