@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.ad33887f.chunk.css",
-    "main.js": "/static/js/main.e7f41b5d.chunk.js",
-    "main.js.map": "/static/js/main.e7f41b5d.chunk.js.map",
+    "main.js": "/static/js/main.fb402a10.chunk.js",
+    "main.js.map": "/static/js/main.fb402a10.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1ab9e31f.js",
     "runtime-main.js.map": "/static/js/runtime-main.1ab9e31f.js.map",
     "static/js/2.0e0841ad.chunk.js": "/static/js/2.0e0841ad.chunk.js",
@@ -36,7 +36,7 @@
     "static/media/serena.acc3826b.png": "/static/media/serena.acc3826b.png",
     "static/media/skyler.3458c29a.png": "/static/media/skyler.3458c29a.png",
     "static/media/stickermule.f8c12bd3.svg": "/static/media/stickermule.f8c12bd3.svg",
-    "static/media/telle.bc8c3c7b.png": "/static/media/telle.bc8c3c7b.png",
+    "static/media/telle.b24c7398.png": "/static/media/telle.b24c7398.png",
     "static/media/tenay.f0697777.png": "/static/media/tenay.f0697777.png",
     "static/media/vidya.ea27067a.png": "/static/media/vidya.ea27067a.png",
     "static/media/vivian.5bf4a290.png": "/static/media/vivian.5bf4a290.png"
@@ -45,6 +45,6 @@
     "static/js/runtime-main.1ab9e31f.js",
     "static/js/2.0e0841ad.chunk.js",
     "static/css/main.ad33887f.chunk.css",
-    "static/js/main.e7f41b5d.chunk.js"
+    "static/js/main.fb402a10.chunk.js"
   ]
 }
