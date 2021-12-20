@@ -24,6 +24,7 @@ import balsamiq from './assets/logos/balsamiq.png';
 import github from './assets/logos/github-logo.svg';
 import stickermule from './assets/logos/stickermule.svg';
 import mlh from './assets/logos/mlh.svg';
+import celonis from './assets/logos/celonis.png';
 
 import telle from './assets/speakers/telle.png';
 import vidya from './assets/speakers/vidya.png';
@@ -167,6 +168,11 @@ export const sponsors = [
     title: 'Major League Hacking',
     logo: mlh,
     link: 'https://mlh.io/',
+  },
+  {
+    title: 'Celonis',
+    logo: celonis,
+    link: 'https://www.celonis.com/',
   },
 ];
 
