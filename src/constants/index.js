@@ -206,7 +206,7 @@ export const speakers = [
     name: 'Vidya Srinivasan',
     desc: 'Vidya is a Senior Product Manager at Facebook working on Messenger and Instagram Direct. She loves building products and has filed 21 patents for her work so far! She is also a trained Indian classical singer and the General Chair of the 2019, 2020 and 2021 Grace Hopper Conference.',
     img: vidya,
-    type: 'panelist',
+    type: 'women in tech panelist',
   },
   {
     name: 'Ifueko Igbinedion',
@@ -216,7 +216,7 @@ export const speakers = [
   },
   {
     name: 'Harpreet Kaur',
-    desc: 'Harpreet is a Global Product/Technical Engineering Program Leader of Cloud & AI at Microsoft.',
+    desc: 'Harpreet is a Global Product/Technical Engineering Program Leader of Cloud & AI at Microsoft. She is also a Leadership/Career Coach and TedX speaker.',
     img: harpreet,
     type: 'keynote speaker',
   },
@@ -242,7 +242,7 @@ export const speakers = [
     name: 'Tenay Barker',
     desc: 'Tenay is a Site Reliability Engineer at Microsoft. She strives to bring diversity to the Tech industry to show women, girls, and non-binary folx of all ages that no matter what background, ethnicity, gender, orientation, or race, they can accomplish anything they want to.',
     img: tenay,
-    type: 'panelist',
+    type: 'women in tech panelist',
   },
   {
     name: 'Fatima Taj',
@@ -254,13 +254,13 @@ export const speakers = [
     name: 'Deepti Gupta',
     desc: 'Deepti Gupta is an Assistant Professor in the Department of Computer Science at Huston-Tillotson University, Austin. She is a team member of IEEE ComSoc Young Professionals, AnitaB.org, and also co-chair of the N2 Women fellowship. ',
     img: deepti,
-    type: 'panelist',
+    type: 'women in tech panelist',
   },
   {
     name: 'Caeley Looney',
     desc: 'Caeley Mission is an Analyst at L3Harris Technologies and Founder and Editor in Chief of 501(c)(3) nonprofit Reinvented Magazine. Her goal is to empower and inspire young womxn to pursue their passions in science, technology, engineering, and mathematics.',
     img: caeley,
-    type: 'panelist',
+    type: 'women in tech panelist',
   },
   {
     name: 'Benis Tambe',
@@ -273,5 +273,11 @@ export const speakers = [
     desc: 'Skyler is a Computer Science student at Queens College passionate about AR, VR, and 3D. She is an incoming Software Engineering intern at Bitly and the Founder at Friends of XR, which is building a platform to empower the next generation of extended reality creators.',
     img: skyler,
     type: 'workshop host',
+  },
+  {
+    name: 'Lucy Hao',
+    desc: 'Lucy is currently studying Computer Science and Biochemistry at the University of British Columbia. She has interned at a biotech organization working on applying NLP models and text mining to surgical reports, and built a proof of concept developer tool at Microsoft.',
+    img: lucy,
+    type: 'tech intersection panelist',
   },
 ];
