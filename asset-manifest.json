@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.ad33887f.chunk.css",
-    "main.js": "/static/js/main.b853d6ff.chunk.js",
-    "main.js.map": "/static/js/main.b853d6ff.chunk.js.map",
+    "main.js": "/static/js/main.c749280f.chunk.js",
+    "main.js.map": "/static/js/main.c749280f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1ab9e31f.js",
     "runtime-main.js.map": "/static/js/runtime-main.1ab9e31f.js.map",
     "static/js/2.0e0841ad.chunk.js": "/static/js/2.0e0841ad.chunk.js",
@@ -39,6 +39,7 @@
     "static/media/stickermule.f8c12bd3.svg": "/static/media/stickermule.f8c12bd3.svg",
     "static/media/telle.041e2d8f.png": "/static/media/telle.041e2d8f.png",
     "static/media/tenay.f0697777.png": "/static/media/tenay.f0697777.png",
+    "static/media/tralyn.759c8139.png": "/static/media/tralyn.759c8139.png",
     "static/media/vidya.ea27067a.png": "/static/media/vidya.ea27067a.png",
     "static/media/vivian.5bf4a290.png": "/static/media/vivian.5bf4a290.png"
   },
@@ -46,6 +47,6 @@
     "static/js/runtime-main.1ab9e31f.js",
     "static/js/2.0e0841ad.chunk.js",
     "static/css/main.ad33887f.chunk.css",
-    "static/js/main.b853d6ff.chunk.js"
+    "static/js/main.c749280f.chunk.js"
   ]
 }
