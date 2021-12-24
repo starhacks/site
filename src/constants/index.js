@@ -252,7 +252,7 @@ export const speakers = [
   },
   {
     name: 'Caeley Looney',
-    desc: 'Caeley Mission is an Analyst at L3Harris Technologies and Founder and Editor in Chief of 501(c)(3) nonprofit Reinvented Magazine. Her goal is to empower and inspire young womxn to pursue their passions in science, technology, engineering, and mathematics.',
+    desc: 'Caeley is a Mission Analyst at L3Harris Technologies and Founder and Editor in Chief of 501(c)(3) nonprofit Reinvented Magazine. Her goal is to empower and inspire young womxn to pursue their passions in science, technology, engineering, and mathematics.',
     img: caeley,
     type: 'women in tech panelist',
   },
