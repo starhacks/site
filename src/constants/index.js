@@ -216,7 +216,7 @@ export const speakers = [
   },
   {
     name: 'Harpreet Kaur',
-    desc: 'Harpreet is a Global Product/Technical Engineering Program Leader of Cloud & AI at Microsoft. She is also a Leadership/Career Coach and TedX speaker.',
+    desc: 'Harpreet Kaur is a 1st generation Global Technical Program/Product Leader at Microsoft with ~20 yrs. of proven track record of leading business and digital transformation, managing teams, and shipping high-quality products and solutions. In her free time, she loves to show her life learnings through abstract art. ',
     img: harpreet,
     type: 'keynote speaker',
   },
