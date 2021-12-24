@@ -29,7 +29,6 @@ import celonis from './assets/logos/celonis.png';
 import telle from './assets/speakers/telle.png';
 import vidya from './assets/speakers/vidya.png';
 import ifueko from './assets/speakers/ifueko.png';
-import vivian from './assets/speakers/vivian.png';
 import harpreet from './assets/speakers/harpreet.png';
 import tenay from './assets/speakers/tenay.png';
 import gloria from './assets/speakers/gloria.png';
@@ -220,12 +219,6 @@ export const speakers = [
     desc: 'Harpreet is a Global Product/Technical Engineering Program Leader of Cloud & AI at Microsoft. She is also a Leadership/Career Coach and TedX speaker.',
     img: harpreet,
     type: 'keynote speaker',
-  },
-  {
-    name: 'Vivian Wang',
-    desc: 'Vivian is an avid journalist, social entrepreneur, and computer scientist studying at Stanford University. She is also the Founder and President of Linens N Love. She enjoys exploring interdisciplinary areas of study to catalyze change through technology and storytelling.        ',
-    img: vivian,
-    type: 'workshop host',
   },
   {
     name: 'Serena Huynh',
