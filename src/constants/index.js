@@ -269,12 +269,6 @@ export const speakers = [
     type: 'workshop host',
   },
   {
-    name: 'Lucy Hao',
-    desc: 'Lucy is currently studying Computer Science and Biochemistry at the University of British Columbia. She has interned at a biotech organization working on applying NLP models and text mining to surgical reports, and built a proof of concept developer tool at Microsoft.',
-    img: lucy,
-    type: 'tech intersection panelist',
-  },
-  {
     name: 'Trayln Le',
     desc: 'Tralyn is a Senior Game Developer at AppLovin and computer science graduate student at the University of Illinois-Springfield. She enjoys programming games and 3D modeling. She has worked at Konami and Scientific Games.',
     img: trayln,
