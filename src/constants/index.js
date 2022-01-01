@@ -1,4 +1,5 @@
 /* eslint-disable max-len */
+/* eslint-disable no-irregular-whitespace */
 import {
   faDiscord,
   faInstagram,
@@ -38,6 +39,7 @@ import caeley from './assets/speakers/caeley.png';
 import benis from './assets/speakers/benis.png';
 import skyler from './assets/speakers/skyler.png';
 import trayln from './assets/speakers/tralyn.png';
+import rachel from './assets/speakers/rachel.png';
 
 export const sponsorDoc = prospectus;
 export const milestonesDoc = report;
@@ -47,11 +49,9 @@ export const date = 'January 22-23, 2022 | Virtual';
 export const socialMediaHandles = [
   { link: 'https://www.instagram.com/star.hacks/', icon: faInstagram },
   { link: 'https://www.linkedin.com/company/starhacks/', icon: faLinkedinIn },
-  // { link: 'https://docs.google.com/forms/d/e/1FAIpQLSeot7AyQg_SA177nDt7J37wdxcZxSE8RStnHd6zWdUJYnYrnQ/viewform', icon: faMailchimp },
   { link: 'https://starhacks.medium.com', icon: faMediumM },
   { link: 'mailto:hello@starhacks.tech', icon: faEnvelope },
   { link: 'https://discord.com/invite/sqmX6wBHTH', icon: faDiscord },
-  // { link: 'https://discord.com/invite/sqmX6wBHTH', icon: faTwitter },
 ];
 export const teamMembers = [
   {
@@ -97,32 +97,32 @@ export const rolesDescriptions = [
   {
     role: 'Speaker',
     desc: `Interested in speaking at StarHacks II?
-         Apply to present a 1 hour workshop at StarHacks II here!
-          You can apply to present a workshop chosen by StarHacks II
-           or create one of your own design. Speakers must be over 18
-            years old, may be of any gender identity, and must be
-             experienced in their workshop topic.`,
+ Apply to present a 1 hour workshop at StarHacks II here!
+ You can apply to present a workshop chosen by StarHacks II
+ or create one of your own design. Speakers must be over 18
+ years old, may be of any gender identity, and must be
+ experienced in their workshop topic.`,
     link: 'https://docs.google.com/forms/d/e/1FAIpQLSeFNY5PwlRbBKsR1LmBvgnO6T8yDpngvAQJKYZAogzvykB49w/viewform',
   },
   {
     role: 'Hacker',
     desc: `Whether you've never attended a hackathon
-         or attend one weekly, StarHacks is the place for you!
-          Join us for a beginner-friendly, excitement-packed weekend
-           of community and exploration. Hackers must identify
-            as female or nonbinary and must be in middle school,
-             high school, or college.`,
+ or attend one weekly, StarHacks is the place for you!
+ Join us for a beginner-friendly, excitement-packed weekend
+ of community and exploration. Hackers must identify
+ as female or nonbinary and must be in middle school,
+ high school, or college.`,
     link: registerLink,
   },
   {
     role: 'Mentor',
     desc:
       `Want to help and inspire the next generation
-             of female and nonbinary coders? Be a mentor or
-              judge at StarHacks! Mentors and judges must be
-               over 18 years of age, proficient in at least
-                1 programming language, of any gender identity,
-                 and passionate about spreading their love for coding.`,
+ of female and nonbinary coders? Be a mentor or
+ judge at StarHacks! Mentors and judges must be
+ over 18 years of age, proficient in at least
+ 1 programming language, of any gender identity,
+ and passionate about spreading their love for coding.`,
     link: 'https://docs.google.com/forms/d/e/1FAIpQLSfFM1ts61enbhwBbMS0sF9Hb_QwQyacA0j4VGmkxhC6oI_vvw/viewform',
   },
 ];
@@ -198,80 +198,125 @@ export const milestones_ = [
 export const speakers = [
   {
     name: 'Telle Whitney',
-    desc: 'Telle Whitney is the former CEO and President of the Anita Borg Institute for Women and Technology. A computer scientist by training, she cofounded the Grace Hopper Celebration of Women in Computing with Anita Borg in 1994 and joined the Anita Borg Institute in 2002.',
+    desc: `Telle Whitney is the former CEO and President of the Anita Borg
+ Institute for Women and Technology. A computer scientist by training,
+ she cofounded the Grace Hopper Celebration of Women in Computing with
+ Anita Borg in 1994 and joined the Anita Borg Institute in 2002.`,
     img: telle,
     type: 'keynote speaker',
   },
   {
     name: 'Vidya Srinivasan',
-    desc: 'Vidya is a Senior Product Manager at Facebook working on Messenger and Instagram Direct. She loves building products and has filed 21 patents for her work so far! She is also a trained Indian classical singer and the General Chair of the 2019, 2020 and 2021 Grace Hopper Conference.',
+    desc: `Vidya is a Senior Product Manager at Facebook working on Messenger
+ and Instagram Direct. She loves building products and has filed 21 patents
+ for her work so far! She is also a trained Indian classical singer and the General
+ Chair of the 2019, 2020 and 2021 Grace Hopper Conference.`,
     img: vidya,
     type: 'women in tech panelist',
   },
   {
     name: 'Ifueko Igbinedion',
-    desc: 'Ifueko is currently pursuring a PhD in EECS from MIT. In the past, she has worked at various organizations including IBM, Google, and Lincoln Laboratory. She is also the co-founder and CTO of Hairtelligence, where computer vision is used to size and customize lace wigs for women.',
+    desc: `Ifueko is currently pursuring a PhD in EECS from MIT.
+ In the past, she has worked at various organizations including IBM, Google,
+ and Lincoln Laboratory. She is also the co-founder
+ and CTO of Hairtelligence, where computer vision is used to size and customize lace wigs for women.`,
     img: ifueko,
     type: 'workshop host',
   },
   {
     name: 'Harpreet Kaur',
-    desc: 'Harpreet Kaur is a 1st generation Global Technical Program/Product Leader at Microsoft with ~20 yrs. of proven track record of leading business and digital transformation, managing teams, and shipping high-quality products and solutions. In her free time, she loves to show her life learnings through abstract art. ',
+    desc: `Harpreet Kaur is a 1st generation Global Technical Program/Product
+ Leader at Microsoft with ~20 yrs. of proven track record
+ of leading business and digital transformation, managing
+ teams, and shipping high-quality products and solutions.
+ In her free time, she loves to show her life learnings through abstract art. `,
     img: harpreet,
     type: 'keynote speaker',
   },
   {
     name: 'Serena Huynh',
-    desc: 'Serena is a second-year student at the University of Southern California, majoring in Computer Science. She has previously interned at AT&T on the Chief Technology and Information Team to work on Mobile App Development and Test Driven Development.',
+    desc: `Serena is a second-year student at the University of Southern California, majoring in Computer Science.
+ She has previously interned at AT&T on the Chief Technology
+ and Information Team to work on Mobile App Development and Test Driven Development.`,
     img: serena,
     type: 'workshop host',
   },
   {
     name: 'Gloria Chang',
-    desc: 'Gloria is an undergraduate at the University of Southern California studying Computer Science with interests in journalism and sustainability. She has interned at Facebook as an AI Research TPM.',
+    desc: `Gloria is an undergraduate at the University of Southern California
+ studying Computer Science with interests in journalism and sustainability.
+ She has interned at Facebook as an AI Research TPM.`,
     img: gloria,
     type: 'workshop host',
   },
   {
     name: 'Tenay Barker',
-    desc: 'Tenay is a Site Reliability Engineer at Microsoft. She strives to bring diversity to the Tech industry to show women, girls, and non-binary folx of all ages that no matter what background, ethnicity, gender, orientation, or race, they can accomplish anything they want to.',
+    desc: `Tenay is a Site Reliability Engineer at Microsoft. She strives
+ to bring diversity to the Tech industry to show women, girls, and non-binary folx
+ of all ages that no matter what background, ethnicity, gender, orientation,
+ or race, they can accomplish anything they want to.`,
     img: tenay,
     type: 'women in tech panelist',
   },
   {
     name: 'Fatima Taj',
-    desc: 'Fatima Taj, is a Software Engineer at Yelp. She did her undergraduate from the University of Waterloo, Canada and after graduating, she worked as a Software Developer at DRW, a Chicago based trading firm. Currently, she\'s also doing a Masters in Data Science from HEC Montreal. ',
+    desc: `Fatima Taj, is a Software Engineer at Yelp.
+ She did her undergraduate from the University of Waterloo,
+ Canada and after graduating, she worked as a Software Developer at DRW,
+ a Chicago based trading firm. Currently, she\'s also doing a Masters in
+ Data Science from HEC Montreal.`,
     img: fatima,
     type: 'workshop host',
   },
   {
     name: 'Deepti Gupta',
-    desc: 'Deepti Gupta is an Assistant Professor in the Department of Computer Science at Huston-Tillotson University, Austin. She is a team member of IEEE ComSoc Young Professionals, AnitaB.org, and also co-chair of the N2 Women fellowship. ',
+    desc: `Deepti Gupta is an Assistant Professor in the Department of Computer Science
+ at Huston-Tillotson University, Austin. She is a team member of IEEE ComSoc Young
+ Professionals, AnitaB.org, and also co-chair of the N2 Women fellowship.`,
     img: deepti,
     type: 'women in tech panelist',
   },
   {
     name: 'Caeley Looney',
-    desc: 'Caeley is a Mission Analyst at L3Harris Technologies and Founder and Editor in Chief of 501(c)(3) nonprofit Reinvented Magazine. Her goal is to empower and inspire young womxn to pursue their passions in science, technology, engineering, and mathematics.',
+    desc: `Caeley is a Mission Analyst at L3Harris Technologies and Founder and Editor
+ in Chief of 501(c)(3) nonprofit Reinvented Magazine. Her goal is to empower and
+ inspire young womxn to pursue their passions in science, technology, engineering, and mathematics.`,
     img: caeley,
     type: 'women in tech panelist',
   },
   {
     name: 'Benis Tambe',
-    desc: 'Benis is a Computer Science Junior at University of Maryland, College Park. She has worked in the tech industry for about two years as a User Interface developer and enjoys building fun web apps in her spare time.',
+    desc: `Benis is a Computer Science Junior at University of Maryland, College Park.
+ She has worked in the tech industry for about two years as a User
+ Interface developer and enjoys building fun web apps in her spare time.`,
     img: benis,
     type: 'workshop host',
   },
   {
     name: 'Skyler Basco',
-    desc: 'Skyler is a Computer Science student at Queens College passionate about AR, VR, and 3D. She is an incoming Software Engineering intern at Bitly and the Founder at Friends of XR, which is building a platform to empower the next generation of extended reality creators.',
+    desc: `Skyler is a Computer Science student at Queens College passionate about
+ AR, VR, and 3D. She is an incoming Software Engineering intern at Bitly and the
+ Founder at Friends of XR, which is building a platform to empower the next generation
+ of extended reality creators.`,
     img: skyler,
     type: 'workshop host',
   },
   {
     name: 'Trayln Le',
-    desc: 'Tralyn is a Senior Game Developer at AppLovin and computer science graduate student at the University of Illinois-Springfield. She enjoys programming games and 3D modeling. She has worked at Konami and Scientific Games.',
+    desc: `Tralyn is a Senior Game Developer at AppLovin and computer science graduate
+ student at the University of Illinois-Springfield. She enjoys programming games
+ and 3D modeling. She has worked at Konami and Scientific Games.`,
     img: trayln,
     type: 'workshop host',
   },
+  {
+    name: 'Rachel Ombok',
+    desc: `Rachel is currently in her senior year at New York University, majoring in
+ Computer Science and minoring in Game Engineering. This past summer, she interned
+ at Twitter as a Software Engineering Intern, and this upcoming summer she will be
+ returning for a full-time Software Engineer position!`,
+    img: rachel,
+    type: 'workshop host',
+  },
 ];
+
