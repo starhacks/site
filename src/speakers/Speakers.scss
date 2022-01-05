@@ -1,0 +1,55 @@
+@import "../variables";
+
+.speakers {
+    width: 90vw;
+    margin: auto;
+    .margin-top {
+        margin: 1% auto;
+    }
+    .speakerss {
+        text-align: center;
+        justify-content: space-evenly !important;
+        flex-wrap: wrap;
+        .speaker {
+            margin: auto;
+            text-align: center;
+            align-items: center;
+            padding-bottom: 10px;
+            @media (min-width: $desktopMobileToggleWidth) {
+          max-width: 20vw;
+                margin: 0 10px 0 10px;
+                h3 {
+                    font-size: 20px;
+                }
+                p,
+                a {
+                    font-size: 16px;
+                }
+            }
+            @media (max-width: $desktopMobileToggleWidth) {
+                margin: 10px 0 10px 0;
+            }
+            img {
+                width: 150px;
+            }
+            a {
+                margin-left: 5px;
+                text-decoration: none;
+                color: $fontColor;
+                transition: 0.3s;
+                &:hover {
+                    font-size: 18px;
+                }
+            }
+            .limited {
+                margin: auto;
+                height: 150px;
+                width: 150px;
+                overflow: hidden;
+                background-color: $darkBlue;
+                border-radius: 360px;
+                display: block;
+            }
+        }
+    }
+}

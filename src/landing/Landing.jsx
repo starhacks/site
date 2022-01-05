@@ -4,41 +4,41 @@ import PropTypes from 'prop-types';
 import * as Constants from '../constants';
 
 export const Landing = (props) => {
-    return (
+  return (
 
-        <div className="landing flex-col">
-            <div className="padding top-right">
-                <h3>
-                    <a href="https://starhacks.devpost.com/">
+    <div className="landing flex-col">
+      <div className="padding top-right">
+        <h3>
+          <a href="https://starhacks.devpost.com/">
                         2021
-                    </a>
-                </h3>
-            </div>
+          </a>
+        </h3>
+      </div>
 
-            <img src={props.img} />
-            <div className="register flex-col">
-                <p>{Constants.date}</p>
-                <center>
-                    <a
-                        href={Constants.registerLink}
-                        target="_blank"
-                        rel="noreferrer"
-                        className="buttonStyle">
-                        <div className="button">
-                            <h3>
+      <img src={props.img} />
+      <div className="register flex-col">
+        <p>{Constants.date}</p>
+        <center>
+          <a
+            href={Constants.registerLink}
+            target="_blank"
+            rel="noreferrer"
+            className="buttonStyle">
+            <div className="button">
+              <h3>
                                 Register
-                            </h3>
-                        </div>
-                    </a>
-                </center>
+              </h3>
             </div>
-        </div>
-    );
+          </a>
+        </center>
+      </div>
+    </div>
+  );
 };
 
 Landing.propTypes = {
-    title: PropTypes.string.isRequired,
-    img: PropTypes.any.isRequired,
+  title: PropTypes.string.isRequired,
+  img: PropTypes.any.isRequired,
 };
 
 export default Landing;

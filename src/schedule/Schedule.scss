@@ -4,6 +4,15 @@
 .schedule {
     width: 90vw;
     margin: auto;
+    .slim {
+      width: 20vw;
+      padding-right: 10%;
+
+            @media (max-width: $desktopMobileToggleWidth) { 
+              display: flex;
+              flex-direction: column;
+            }
+    }
     .dates {
         display: flex;
         flex-direction: row;
@@ -65,7 +74,8 @@
                 padding: 10px 7px;
             }
             .details {
-                width: 50vw;
+              display: flex;
+              flex-direction: row;
                 @media (max-width: $desktopMobileToggleWidth) {
                     width: 100%;
                 }

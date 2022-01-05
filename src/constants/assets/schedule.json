@@ -1,0 +1,140 @@
+{
+  "Sat 1/8": [
+    {
+      "Workshop": "Basic Web Dev Skills",
+      "Start": "11:00 AM",
+      "End": "12:00 PM",
+      "Speaker": "Benis Tambe"
+    }
+  ],
+  " Sun 1/9": [
+    {
+      "Workshop": "Basics of Git and Github",
+      "Start": "11:00 AM",
+      "End": "12:00 PM",
+      "Speaker": "Ifueko Igbinedion"
+    }
+  ],
+  "Sat 1/15": [
+    {
+      "Workshop": "Intro to Graphic Design/Figma",
+      "Start": "11:00 AM",
+      "End": "12:00 PM",
+      "Speaker": "Skyler Basco"
+    }
+  ],
+  "Sun 1/16": [
+    {
+      "Workshop": "Hackathon 101",
+      "Start": "TBA",
+      "End": "TBA",
+      "Speaker": "The StarHacks Team"
+    }
+  ],
+  "Sat 1/22": [
+    {
+      "Workshop": "Pre-event social",
+      "Start": "10:00 AM",
+      "End": "10:30 AM",
+      "Speaker": "The StarHacks Team"
+    },
+    {
+      "Workshop": "Opening ceremony",
+      "Start": "10:30 AM",
+      "End": "11:30 AM",
+      "Speaker": "Telle Whitney"
+    },
+    {
+      "Workshop": "Build A Discord Bot",
+      "Start": "11:30 AM",
+      "End": "12:30 PM",
+      "Speaker": "Rachel Ombok"
+    },
+    {
+      "Workshop": "What They Don't Tell You About Tech Interviews",
+      "Start": "12:30 PM",
+      "End": "1:30 PM",
+      "Speaker": "Fatima Taj"
+    },
+    {
+      "Workshop": "Intro to IOS App Development",
+      "Start": "1:30 PM",
+      "End": "2:30 PM",
+      "Speaker": "TBA"
+    },
+    {
+      "Workshop": "Break",
+      "Start": "2:30 PM",
+      "End": "3:00 PM",
+      "Speaker": "The StarHacks Team"
+    },
+    {
+      "Workshop": "Intro to Game Dev",
+      "Start": "3:00 PM",
+      "End": "4:00 PM",
+      "Speaker": "Trayln Le"
+    },
+    {
+      "Workshop": "Women in Tech Panel",
+      "Start": "4:00 PM",
+      "End": "5:00 PM",
+      "Speaker": "Vidya Srinivavasan, Tenay Barker, Caeley Looney, Deepti Gupta"
+    },
+    {
+      "Workshop": "Network With Women in Tech",
+      "Start": "5:00 PM",
+      "End": "5:30 PM",
+      "Speaker": "TBA"
+    },
+    {
+      "Workshop": "Games",
+      "Start": "5:30 PM",
+      "End": "6:30 PM",
+      "Speaker": "The StarHacks Team"
+    }
+  ],
+  "Sun 1/23": [
+    {
+      "Workshop": "How to Pitch your Hack",
+      "Start": "10:00 AM",
+      "End": "11:00 AM",
+      "Speaker": "Serena Huynh"
+    },
+    {
+      "Workshop": "Intro to AI/ML",
+      "Start": "11:00 AM",
+      "End": "11:30 AM",
+      "Speaker": "Gloria Chang"
+    },
+    {
+      "Workshop": "Submit hacks",
+      "Start": "12:00 PM",
+      "End": "12:30 PM",
+      "Speaker": ""
+    },
+    {
+      "Workshop": "Intersections of Technology Panel",
+      "Start": "12:30 PM",
+      "End": "1:30 PM",
+      "Speaker": "TBA"
+    },
+    {
+      "Workshop": "Judging",
+      "Start": "1:30 PM",
+      "End": "3:30 PM",
+      "Speaker": ""
+    },
+    {
+      "Workshop": "Games",
+      "Start": "3:00 PM",
+      "End": "3:30 PM",
+      "Speaker": "The StarHacks Team"
+    },
+    {
+      "Workshop": "Closing ceremony",
+      "Start": "4:00 PM",
+      "End": "5:00 PM",
+      "Speaker": "Harpreet Kaur"
+    }
+  ]
+}

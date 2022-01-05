@@ -4,28 +4,28 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 
 const Member = (props) =>
-    <div className="member">
-        {props.img !== 'NA' &&
+  <div className="member">
+    {props.img !== 'NA' &&
             <a className="limited">
-                <img src={props.img} ></img>
+              <img src={props.img} ></img>
             </a>}
-        {props.img === 'NA' &&
+    {props.img === 'NA' &&
             <a className="limited">
             </a>}
-        <h3>{props.name}
-            <a href={'mailto:' +
+    <h3>{props.name}
+      <a href={'mailto:' +
                 props.name.split(' ')[0].toLowerCase() +
                 '@starhacks.tech'}>
-                <FontAwesomeIcon icon={faEnvelope} />
-            </a>
-        </h3>
-        <p>{props.role}</p>
-    </div>;
+        <FontAwesomeIcon icon={faEnvelope} />
+      </a>
+    </h3>
+    <p>{props.role}</p>
+  </div>;
 
 Member.propTypes = {
-    name: PropTypes.string.isRequired,
-    role: PropTypes.string.isRequired,
-    img: PropTypes.string,
+  name: PropTypes.string.isRequired,
+  role: PropTypes.string.isRequired,
+  img: PropTypes.string,
 };
 
 export default Member;

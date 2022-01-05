@@ -3,11 +3,20 @@
 .sponsors {
     width: 90vw;
     margin: auto;
-    .sponsor {
-        margin: auto;
+    .sponsors-list {
+        padding-top: 10px;
         text-align: center;
-        img {
-            width: 33vw;
+        justify-content: space-evenly !important;
+        flex-wrap: wrap;
+        .sponsor {
+            margin: auto;
+            text-align: center;
+            img {
+                width: 25vw;
+                @media (max-width: $desktopMobileToggleWidth) {
+                    width: 80vw;
+                  }
+            }
         }
     }
     .panel-fit {

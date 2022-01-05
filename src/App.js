@@ -8,35 +8,37 @@ import Team from './team/Team';
 import Questions from './questions/Questions';
 import Sponsors from './sponsors/Sponsors';
 import Schedule from './schedule/Schedule';
+import Speakers from './speakers/Speakers';
 import {
-    hackathonSchedule,
-    rolesDescriptions,
-    socialMediaHandles,
-    anecdotesList,
-    teamMembers,
-    faqList,
-    landingPhoto,
-    sponsors,
+  rolesDescriptions,
+  socialMediaHandles,
+  anecdotesList,
+  teamMembers,
+  faqList,
+  landingPhoto,
+  sponsors,
+  speakers,
 } from './constants';
 import Roles from './roles/Roles';
 import Milestones from './milestones/Milestones';
 
 const App = () => {
-    return (
-        <div className="App" >
-            <Landing title={Constants.starhacks} img={landingPhoto} />
-            <About title={Constants.about} />
-            <Milestones title={Constants.milestones}
-                milestones={Constants.milestones_} />
-            <Schedule schedule={hackathonSchedule} title={Constants.schedule} />
-            <Roles title={Constants.roles} roles={rolesDescriptions} />
-            <Anecdotes title={Constants.anecdotes} anecdotes={anecdotesList} />
-            <Sponsors title={Constants.sponsor} sponsors={sponsors} />
-            <Questions title={Constants.faq} faqList={faqList} />
-            <Team title={Constants.team} teamMembers={teamMembers} />
-            <Contact socialMediaHandles={socialMediaHandles} />
-        </div>
-    );
+  return (
+    <div className="App" >
+      <Landing title={'STARHACKS'} img={landingPhoto} />
+      <About title={'ABOUT US'} />
+      <Milestones title={'BY THE NUMBERS'}
+        milestones={Constants.milestones_} />
+      <Speakers title={'SPEAKERS'} speakers={speakers} />
+      <Schedule title={'SCHEDULE'} />
+      <Roles title={'GET INVOLVED'} roles={rolesDescriptions} />
+      <Anecdotes title={'TESTIMONIALS'} anecdotes={anecdotesList} />
+      <Sponsors title={'SPONSORS'} sponsors={sponsors} />
+      <Questions title={'FAQ'} faqList={faqList} />
+      <Team title={'TEAM'} teamMembers={teamMembers} />
+      <Contact socialMediaHandles={socialMediaHandles} />
+    </div>
+  );
 };
 
 export default App;
