@@ -147,6 +147,30 @@ export const faqList = [
     q: 'My question is not listed',
     a: 'Email us at hello@starhacks.tech',
   },
+  {
+    q: 'What is a hackathon?',
+    a: 'A hackathon is an event where individuals come together to build projects, attend workshops, play fun games, network, and more!',
+  },
+  {
+    q: 'Who can participate?',
+    a: 'Those who identify as women, non-binary, or any other gender minority, that are in middle school, high school, university, or recently graduated.',
+  },
+  {
+    q: 'What should I bring?',
+    a: 'All you need is a working device, internet connection, and some yummy snacks!',
+  },
+  {
+    q: 'Do I need a team?',
+    a: 'You are welcome to solo hack, but if you’re looking for a team, StarHacks II will have many opportunities for team formation where you will be put in a team with other excited hackers!',
+  },
+  {
+    q: 'Do I need to stay for the entire hackathon?',
+    a: 'Not at all! Stay for as long as you wish',
+  },
+  {
+    q: 'Is StarHacks II free?',
+    a: 'Yup!',
+  },
 ];
 
 export const sponsors = [
