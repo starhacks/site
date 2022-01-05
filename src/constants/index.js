@@ -40,6 +40,7 @@ import benis from './assets/speakers/benis.png';
 import skyler from './assets/speakers/skyler.png';
 import trayln from './assets/speakers/tralyn.png';
 import rachel from './assets/speakers/rachel.png';
+import trishala from './assets/speakers/trishala.png';
 
 export const sponsorDoc = prospectus;
 export const milestonesDoc = report;
@@ -317,6 +318,20 @@ export const speakers = [
  returning for a full-time Software Engineer position!`,
     img: rachel,
     type: 'workshop host',
+  },
+  {
+    name: 'Trishala Jain',
+    desc: `Trishala Jain is a freshman at UC Berkeley's MET program who's pursuing a dual degree
+    in Electrical Engineering & Computer Science (EECS) and Business Administration.
+    She has interned with NASA and Technovation, and is passionate about social entrepreneurship.`,
+    img: trishala,
+    type: 'tech intersection panelist',
+  },
+  {
+    name: 'Lucy Hao',
+    desc: 'Lucy is currently studying Computer Science and Biochemistry at the University of British Columbia. She has interned at a biotech organization working on applying NLP models and text mining to surgical reports, and built a proof of concept developer tool at Microsoft.',
+    img: lucy,
+    type: 'tech intersection panelist',
   },
 ];
 
