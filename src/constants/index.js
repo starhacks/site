@@ -119,8 +119,8 @@ export const rolesDescriptions = [
     role: 'Mentor',
     desc:
       `Want to help and inspire the next generation
- of female and nonbinary coders? Be a mentor or
- judge at StarHacks! Mentors and judges must be
+ of female and nonbinary coders? Be a mentor
+ at StarHacks! Mentors must be
  over 18 years of age, proficient in at least
  1 programming language, of any gender identity,
  and passionate about spreading their love for coding.`,

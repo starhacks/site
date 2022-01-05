@@ -9,7 +9,7 @@ import scheduleJson from '../../src/constants/assets/schedule.json';
 const Schedule = (props) => {
   const [date, setDate] = useState('Sat 1/22');
   return (
-    <div className="schedule">
+    <div className="schedule" id="schedule">
       <h2>
         {props.title}
       </h2>

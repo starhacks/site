@@ -7,10 +7,25 @@ export const Landing = (props) => {
   return (
 
     <div className="landing flex-col">
-      <div className="padding top-right">
-        <h3>
+      <div className="padding top-right flex-row">
+        <h3 className="header">
+          <a href="#schedule">
+            SCHEDULE
+          </a>
+        </h3>
+        <h3 className="header desktop">
+          <a href="#faq">
+            FAQ
+          </a>
+        </h3>
+        <h3 className="header">
+          <a href="#sponsors">
+            SPONSORS
+          </a>
+        </h3>
+        <h3 className="header">
           <a href="https://starhacks.devpost.com/">
-                        2021
+            2021
           </a>
         </h3>
       </div>
@@ -26,7 +41,7 @@ export const Landing = (props) => {
             className="buttonStyle">
             <div className="button">
               <h3>
-                                Register
+                Register
               </h3>
             </div>
           </a>

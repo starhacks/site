@@ -2,6 +2,12 @@
 
 .landing {
   height: 100vh;
+  .header {
+    padding-right: 15px;
+  @media (max-width: $desktopMobileToggleWidth) {
+font-size: 15px
+  }
+  }
   .padding {
     padding-left: 10px;
     padding-top: 2px;
