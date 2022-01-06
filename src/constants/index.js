@@ -26,6 +26,7 @@ import github from './assets/logos/github-logo.svg';
 import stickermule from './assets/logos/stickermule.svg';
 import mlh from './assets/logos/mlh.svg';
 import celonis from './assets/logos/celonis.png';
+import outschool from './assets/logos/outschool.png';
 
 import telle from './assets/speakers/telle.png';
 import vidya from './assets/speakers/vidya.png';
@@ -198,6 +199,11 @@ export const sponsors = [
     title: 'Celonis',
     logo: celonis,
     link: 'https://www.celonis.com/',
+  },
+  {
+    title: 'Outschool',
+    logo: outschool,
+    link: 'https://outschool.com/',
   },
 ];
 
