@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.8b22d5c6.chunk.css",
-    "main.js": "/static/js/main.49589132.chunk.js",
-    "main.js.map": "/static/js/main.49589132.chunk.js.map",
+    "main.js": "/static/js/main.95d893d1.chunk.js",
+    "main.js.map": "/static/js/main.95d893d1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1ab9e31f.js",
     "runtime-main.js.map": "/static/js/runtime-main.1ab9e31f.js.map",
     "static/js/2.0e0841ad.chunk.js": "/static/js/2.0e0841ad.chunk.js",
@@ -30,7 +30,7 @@
     "static/media/harpreet.c2154d6a.png": "/static/media/harpreet.c2154d6a.png",
     "static/media/ifueko.db7c31e4.png": "/static/media/ifueko.db7c31e4.png",
     "static/media/landing.3b5f43fc.svg": "/static/media/landing.3b5f43fc.svg",
-    "static/media/lucy.f41a0678.png": "/static/media/lucy.f41a0678.png",
+    "static/media/lucy.926ee868.png": "/static/media/lucy.926ee868.png",
     "static/media/mlh.d48e27dc.svg": "/static/media/mlh.d48e27dc.svg",
     "static/media/outschool.c184bffb.png": "/static/media/outschool.c184bffb.png",
     "static/media/prospectus.2ed5c19f.pdf": "/static/media/prospectus.2ed5c19f.pdf",
@@ -49,6 +49,6 @@
     "static/js/runtime-main.1ab9e31f.js",
     "static/js/2.0e0841ad.chunk.js",
     "static/css/main.8b22d5c6.chunk.css",
-    "static/js/main.49589132.chunk.js"
+    "static/js/main.95d893d1.chunk.js"
   ]
 }
