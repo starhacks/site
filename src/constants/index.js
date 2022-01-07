@@ -42,6 +42,7 @@ import skyler from './assets/speakers/skyler.png';
 import trayln from './assets/speakers/tralyn.png';
 import rachel from './assets/speakers/rachel.png';
 import trishala from './assets/speakers/trishala.png';
+import miranda from './assets/speakers/miranda.png';
 
 export const sponsorDoc = prospectus;
 export const milestonesDoc = report;
@@ -361,6 +362,13 @@ export const speakers = [
     name: 'Lucy Hao',
     desc: 'Lucy is currently studying Computer Science and Biochemistry at the University of British Columbia. She has interned at a biotech organization working on applying NLP models and text mining to surgical reports, and built a proof of concept developer tool at Microsoft.',
     img: lucy,
+    type: 'tech intersection panelist',
+  },
+  {
+    name: 'Miranda McClellan',
+    desc: `Miranda is a MIT graduate with a MEng in Computer Systems and Fulbright Scholar who is interested in the intersection of computer security, data privacy and public policy.
+    She currently works at Microsoft as a Software Engineer in Azure Enterprise and Security.`,
+    img: miranda,
     type: 'tech intersection panelist',
   },
 ];
