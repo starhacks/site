@@ -4,6 +4,15 @@
 .schedule {
     width: 90vw;
     margin: auto;
+        a {
+        text-decoration: none;
+        color: $fontColor;
+        font-weight: 600;
+        transition: 0.3s;
+        &:hover {
+            color: $purple;
+        }
+    }
     .slim {
       width: 20vw;
       padding-right: 10%;
