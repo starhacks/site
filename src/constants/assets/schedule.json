@@ -7,12 +7,20 @@
       "Speaker": "Benis Tambe"
     }
   ],
-  " Sun 1/9": [
+  "Sun 1/9": [
     {
       "Workshop": "Basics of Git and Github",
       "Start": "11:00 AM",
       "End": "12:00 PM",
       "Speaker": "Ifueko Igbinedion"
+    }
+  ],
+  "Fri 1/14": [
+    {
+      "Workshop": "celonis Kickoff and Challenge Introduction",
+      "Start": "8:00 AM",
+      "End": "9:00 AM",
+      "Speaker": "celonis"
     }
   ],
   "Sat 1/15": [
@@ -34,13 +42,13 @@
   "Sat 1/22": [
     {
       "Workshop": "Pre-event social",
-      "Start": "10:00 AM",
-      "End": "10:30 AM",
+      "Start": "9:30 AM",
+      "End": "10:00 AM",
       "Speaker": "The StarHacks Team"
     },
     {
       "Workshop": "Opening ceremony",
-      "Start": "10:30 AM",
+      "Start": "10:00 AM",
       "End": "11:30 AM",
       "Speaker": "Harpreet Kaur"
     },
@@ -57,10 +65,10 @@
       "Speaker": "Fatima Taj"
     },
     {
-      "Workshop": "Intro to IOS App Development",
+      "Workshop": "Games",
       "Start": "1:30 PM",
       "End": "2:30 PM",
-      "Speaker": "TBA"
+      "Speaker": "StarHacks Team"
     },
     {
       "Workshop": "Break",
@@ -84,13 +92,13 @@
       "Workshop": "Network With Women in Tech",
       "Start": "5:00 PM",
       "End": "5:30 PM",
-      "Speaker": "TBA"
+      "Speaker": "Vidya Srinivavasan, Tenay Barker, Caeley Looney, Deepti Gupta"
     },
     {
-      "Workshop": "Games",
-      "Start": "5:30 PM",
-      "End": "6:30 PM",
-      "Speaker": "The StarHacks Team"
+      "Workshop": "Intro to iOS App Development",
+      "Start": "6:00 PM",
+      "End": "7:00 PM",
+      "Speaker": "Fatimah Hussain"
     }
   ],
   "Sun 1/23": [
