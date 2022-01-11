@@ -27,6 +27,7 @@ import stickermule from './assets/logos/stickermule.svg';
 import mlh from './assets/logos/mlh.svg';
 import celonis from './assets/logos/celonis.png';
 import outschool from './assets/logos/outschool.png';
+import assemblyai from './assets/logos/assemai.png';
 
 import telle from './assets/speakers/telle.png';
 import vidya from './assets/speakers/vidya.png';
@@ -205,6 +206,11 @@ export const sponsors = [
     title: 'Outschool',
     logo: outschool,
     link: 'https://outschool.com/',
+  },
+  {
+    title: 'AssemblyAI',
+    logo: assemblyai,
+    link: 'https://www.assemblyai.com/',
   },
 ];
 
