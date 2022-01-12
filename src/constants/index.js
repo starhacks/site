@@ -45,6 +45,7 @@ import rachel from './assets/speakers/rachel.png';
 import trishala from './assets/speakers/trishala.png';
 import miranda from './assets/speakers/miranda.png';
 import ayana from './assets/speakers/ayana.png';
+import fatimah from './assets/speakers/fatimah.png';
 
 export const sponsorDoc = prospectus;
 export const milestonesDoc = report;
@@ -386,6 +387,16 @@ export const speakers = [
     Interactive Information Retrieval Lab at UNC.`,
     img: ayana,
     type: 'tech intersection panelist',
+  },
+  {
+    name: '',
+    desc: `Fatimah Hussain is a high schooler based in the Bay Area.
+    She has multiple avid passions ranging from wracking her brain
+    to build a 1000-piece puzzles to developing apps and websites for global nonprofits.
+    She loves researching breakthroughs in biotechnology amid COVID and writes
+    articles about anything that sparks curiousity.`,
+    img: fatimah,
+    type: 'workshop host',
   },
 ];
 
