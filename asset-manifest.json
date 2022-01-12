@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.51ecb52d.chunk.css",
-    "main.js": "/static/js/main.ba86e13c.chunk.js",
-    "main.js.map": "/static/js/main.ba86e13c.chunk.js.map",
+    "main.js": "/static/js/main.c54e96d1.chunk.js",
+    "main.js.map": "/static/js/main.c54e96d1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1ab9e31f.js",
     "runtime-main.js.map": "/static/js/runtime-main.1ab9e31f.js.map",
     "static/js/2.0e0841ad.chunk.js": "/static/js/2.0e0841ad.chunk.js",
@@ -16,6 +16,7 @@
     "static/media/about-us-asset.fd1c4d58.png": "/static/media/about-us-asset.fd1c4d58.png",
     "static/media/assemai.f53e6f22.png": "/static/media/assemai.f53e6f22.png",
     "static/media/avighna.49e1158c.png": "/static/media/avighna.49e1158c.png",
+    "static/media/ayana.1bd95c3a.png": "/static/media/ayana.1bd95c3a.png",
     "static/media/balsamiq.a7bccfdf.png": "/static/media/balsamiq.a7bccfdf.png",
     "static/media/benis.92dfecd5.png": "/static/media/benis.92dfecd5.png",
     "static/media/caeley.4a6294c2.png": "/static/media/caeley.4a6294c2.png",
@@ -51,6 +52,6 @@
     "static/js/runtime-main.1ab9e31f.js",
     "static/js/2.0e0841ad.chunk.js",
     "static/css/main.51ecb52d.chunk.css",
-    "static/js/main.ba86e13c.chunk.js"
+    "static/js/main.c54e96d1.chunk.js"
   ]
 }
