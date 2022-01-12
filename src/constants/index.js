@@ -57,7 +57,7 @@ export const socialMediaHandles = [
   { link: 'https://www.linkedin.com/company/starhacks/', icon: faLinkedinIn },
   { link: 'https://starhacks.medium.com', icon: faMediumM },
   { link: 'mailto:hello@starhacks.tech', icon: faEnvelope },
-  { link: 'https://discord.com/invite/sqmX6wBHTH', icon: faDiscord },
+  { link: 'https://discord.gg/utaAhjCJug', icon: faDiscord },
 ];
 export const teamMembers = [
   {
