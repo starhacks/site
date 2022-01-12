@@ -27,9 +27,9 @@ font-size: 15px
     }
   }
   img {
-    width: 700px;
-    margin-right: 40vw;
-    margin-top: 7vh;
+    height: 65vh;
+    margin-right: 50vw;
+    // margin-top: 3vh;
   }
   @media (max-width: $desktopMobileToggleWidth) {
     img {

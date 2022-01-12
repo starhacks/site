@@ -30,7 +30,7 @@ export const Landing = (props) => {
         </h3>
       </div>
 
-      <img src={props.img} />
+      <img src={props.img} className="logo" />
       <div className="register flex-col">
         <p>{Constants.date}</p>
         <center>
