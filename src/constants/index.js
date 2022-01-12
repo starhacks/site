@@ -44,6 +44,7 @@ import trayln from './assets/speakers/tralyn.png';
 import rachel from './assets/speakers/rachel.png';
 import trishala from './assets/speakers/trishala.png';
 import miranda from './assets/speakers/miranda.png';
+import ayana from './assets/speakers/ayana.png';
 
 export const sponsorDoc = prospectus;
 export const milestonesDoc = report;
@@ -375,6 +376,15 @@ export const speakers = [
     desc: `Miranda is a MIT graduate with a MEng in Computer Systems and Fulbright Scholar who is interested in the intersection of computer security, data privacy and public policy.
     She currently works at Microsoft as a Software Engineer in Azure Enterprise and Security.`,
     img: miranda,
+    type: 'tech intersection panelist',
+  },
+  {
+    name: 'Ayana Monroe',
+    desc: `Ayana Monroe is a Sophomore Chancellor’s Science Scholar at UNC-Chapel Hill. She is double
+    majoring in Computer Science and Information Science along with a minor
+    in Cognitive Psychology. She currently works with the Humans and Technology Lab at Clemson University and
+    Interactive Information Retrieval Lab at UNC.`,
+    img: ayana,
     type: 'tech intersection panelist',
   },
 ];
