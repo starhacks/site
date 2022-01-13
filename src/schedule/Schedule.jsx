@@ -15,7 +15,7 @@ const Schedule = (props) => {
       </h2>
       <p>Note times are in PST.
         Download the StarHacks schedule to your personal calender
-      <a target="_blank" rel="noreferrer"
+      <a target="_blank" rel="noreferrer" className="link"
         href="https://calendar.google.com/calendar/u/1?cid=bTUxdmwzNjJrMnBnc3NtM2c0dTk0cTI2bDhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ"> here</a>.</p>
       <div className="panel">
         <div className="dates">

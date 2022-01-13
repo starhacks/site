@@ -28,6 +28,7 @@ import mlh from './assets/logos/mlh.svg';
 import celonis from './assets/logos/celonis.png';
 import outschool from './assets/logos/outschool.png';
 import assemblyai from './assets/logos/assemai.png';
+import stickergiant from './assets/logos/StickerGiant-Logo.svg';
 
 import telle from './assets/speakers/telle.png';
 import vidya from './assets/speakers/vidya.png';
@@ -213,6 +214,11 @@ export const sponsors = [
     title: 'AssemblyAI',
     logo: assemblyai,
     link: 'https://www.assemblyai.com/',
+  },
+  {
+    title: 'StickerGiant',
+    logo: stickergiant,
+    link: 'https://www.stickergiant.com/event-coupons?utm_source=website&utm_medium=event',
   },
 ];
 
