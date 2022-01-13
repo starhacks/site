@@ -8,6 +8,7 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 
+import prizes from './assets/prizes.svg';
 import lucy from './assets/team/lucy.png';
 import serena from './assets/team/serena.png';
 import camilla from './assets/team/camilla.png';
@@ -48,6 +49,7 @@ import miranda from './assets/speakers/miranda.png';
 import ayana from './assets/speakers/ayana.png';
 import fatimah from './assets/speakers/fatimah.png';
 
+export const prizesImg = prizes;
 export const sponsorDoc = prospectus;
 export const milestonesDoc = report;
 export const aboutPhoto = aboutAsset;

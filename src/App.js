@@ -9,6 +9,7 @@ import Questions from './questions/Questions';
 import Sponsors from './sponsors/Sponsors';
 import Schedule from './schedule/Schedule';
 import Speakers from './speakers/Speakers';
+import Prizes from './prizes/Prizes';
 import {
   rolesDescriptions,
   socialMediaHandles,
@@ -34,6 +35,7 @@ const App = () => {
       <Roles title={'GET INVOLVED'} roles={rolesDescriptions} />
       <Anecdotes title={'TESTIMONIALS'} anecdotes={anecdotesList} />
       <Sponsors title={'SPONSORS'} sponsors={sponsors} />
+      <Prizes title={'PRIZES'} />
       <Questions title={'FAQ'} faqList={faqList} />
       <Team title={'TEAM'} teamMembers={teamMembers} />
       <Contact socialMediaHandles={socialMediaHandles} />
