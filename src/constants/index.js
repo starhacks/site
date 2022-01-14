@@ -124,14 +124,14 @@ export const rolesDescriptions = [
     link: registerLink,
   },
   {
-    role: 'Mentor',
+    role: 'Mentor/Judge',
     desc:
       `Want to help and inspire the next generation
- of female and nonbinary coders? Be a mentor
- at StarHacks! Mentors must be
- over 18 years of age, proficient in at least
- 1 programming language, of any gender identity,
- and passionate about spreading their love for coding.`,
+             of female and nonbinary coders? Be a mentor or
+              judge at StarHacks! Mentors and judges must be
+               over 18 years of age, proficient in at least
+                1 programming language, of any gender identity,
+                 and passionate about spreading their love for coding.`,
     link: 'https://docs.google.com/forms/d/e/1FAIpQLSfFM1ts61enbhwBbMS0sF9Hb_QwQyacA0j4VGmkxhC6oI_vvw/viewform',
   },
 ];
