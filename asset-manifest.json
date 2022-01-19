@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.6d2f0a53.chunk.css",
-    "main.js": "/static/js/main.4f702dfd.chunk.js",
-    "main.js.map": "/static/js/main.4f702dfd.chunk.js.map",
+    "main.js": "/static/js/main.a7c45ec8.chunk.js",
+    "main.js.map": "/static/js/main.a7c45ec8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1ab9e31f.js",
     "runtime-main.js.map": "/static/js/runtime-main.1ab9e31f.js.map",
     "static/js/2.0e0841ad.chunk.js": "/static/js/2.0e0841ad.chunk.js",
@@ -45,7 +45,7 @@
     "static/media/serena.acc3826b.png": "/static/media/serena.acc3826b.png",
     "static/media/skyler.3458c29a.png": "/static/media/skyler.3458c29a.png",
     "static/media/stickermule.f8c12bd3.svg": "/static/media/stickermule.f8c12bd3.svg",
-    "static/media/telle.041e2d8f.png": "/static/media/telle.041e2d8f.png",
+    "static/media/telle.a0a1b873.png": "/static/media/telle.a0a1b873.png",
     "static/media/tenay.f0697777.png": "/static/media/tenay.f0697777.png",
     "static/media/tralyn.759c8139.png": "/static/media/tralyn.759c8139.png",
     "static/media/trishala.de985636.png": "/static/media/trishala.de985636.png",
@@ -55,6 +55,6 @@
     "static/js/runtime-main.1ab9e31f.js",
     "static/js/2.0e0841ad.chunk.js",
     "static/css/main.6d2f0a53.chunk.css",
-    "static/js/main.4f702dfd.chunk.js"
+    "static/js/main.a7c45ec8.chunk.js"
   ]
 }
