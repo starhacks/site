@@ -1,29 +1,5 @@
 {
-  "Fri 1/14": [
-    {
-      "Workshop": "Celonis Kickoff Workshop",
-      "Start": "8:00 AM",
-      "End": "9:00 AM",
-      "Speaker": "Celonis"
-    }
-  ],
-  "Sat 1/15": [
-    {
-      "Workshop": "Intro to Graphic Design/Figma",
-      "Start": "11:00 AM",
-      "End": "12:00 PM",
-      "Speaker": "Skyler Basco"
-    }
-  ],
-  "Sun 1/16": [
-    {
-      "Workshop": "Hackathon 101",
-      "Start": "11:00 AM",
-      "End": "12:00 PM",
-      "Speaker": "The StarHacks Team"
-    }
-  ],
-  "Sat 1/22": [
+  "Sat Jan 22": [
     {
       "Workshop": "Pre-event social",
       "Start": "9:30 AM",
@@ -35,6 +11,10 @@
       "Start": "10:00 AM",
       "End": "11:30 AM",
       "Speaker": "Harpreet Kaur"
+    },
+    {
+      "Workshop": "Hacking begins",
+      "Start": "11:30 AM"
     },
     {
       "Workshop": "Build A Discord Bot",
@@ -85,7 +65,7 @@
       "Speaker": "Fatimah Hussain"
     }
   ],
-  "Sun 1/23": [
+  "Sun Jan 23": [
     {
       "Workshop": "Intro to AI/ML",
       "Start": "11:00 AM",
@@ -93,28 +73,25 @@
       "Speaker": "Gloria Chang"
     },
     {
-      "Workshop": "Outschool Workshop",
+      "Workshop": "Outschool Panel",
       "Start": "1:30 PM",
       "End": "2:00 PM",
-      "Speaker": "Outschool"
+      "Speaker": "Engineers from Outschool"
     },
     {
       "Workshop": "Submit hacks",
-      "Start": "12:00 PM",
-      "End": "12:00 PM",
-      "Speaker": ""
+      "Start": "12:00 PM"
     },
     {
       "Workshop": "Intersections of Technology Panel",
       "Start": "12:30 PM",
       "End": "1:30 PM",
-      "Speaker": "Trishala Jain, Lucy Hao, Miranda McClellan"
+      "Speaker": "Trishala Jain, Lucy Hao, Miranda McClellan, Ayana Monroe"
     },
     {
       "Workshop": "Judging",
       "Start": "1:30 PM",
-      "End": "3:30 PM",
-      "Speaker": ""
+      "End": "3:30 PM"
     },
     {
       "Workshop": "Games",

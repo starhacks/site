@@ -13,6 +13,7 @@ const Speakers = (props) =>
       {['Keynote Speaker',
         'Women in Tech Panelist',
         'Tech Intersection Panelist',
+        'Outschool Panelist',
         'Workshop Host']
         .map((t) => <>
           <h3>{t}s</h3>

@@ -7,7 +7,7 @@ import scheduleJson from '../../src/constants/assets/schedule.json';
 
 
 const Schedule = (props) => {
-  const [date, setDate] = useState('Sat 1/22');
+  const [date, setDate] = useState('Sat Jan 22');
   return (
     <div className="schedule" id="schedule">
       <h2>
@@ -37,20 +37,29 @@ const Schedule = (props) => {
               <div className="event" key={e.title}>
                 <strong><p>{e.Workshop}</p></strong>
                 <div className="details">
-                  <div className="slim flex-row">
+                  {e.Start && e.End &&
+                    <div className="slim flex-row">
+                      <div className="flex-col ">
+                        <strong>START</strong>
+                        {e.Start}
+                      </div>
+                      <div className="flex-col ">
+                        <strong>END</strong>
+                        {e.End}
+                      </div>
+                    </div>
+                  }
+                  {!e.End &&
                     <div className="flex-col ">
-                      <strong>START</strong>
+                      <strong>TIME</strong>
                       {e.Start}
                     </div>
-                    <div className="flex-col ">
-                      <strong>END</strong>
-                      {e.End}
-                    </div>
-                  </div>
-                  <div className="flex-col">
-                    <strong>PRESENTER</strong>
-                    {e.Speaker}
-                  </div>
+                  }
+                  {e.Speaker &&
+                    <div className="flex-col">
+                      <strong>PRESENTER</strong>
+                      {e.Speaker}
+                    </div>}
                 </div>
               </div>)}
         </div>

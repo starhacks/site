@@ -48,6 +48,8 @@ import trishala from './assets/speakers/trishala.png';
 import miranda from './assets/speakers/miranda.png';
 import ayana from './assets/speakers/ayana.png';
 import fatimah from './assets/speakers/fatimah.png';
+import caleybrock from './assets/speakers/caleybrock.png';
+import ana from './assets/speakers/ana.png';
 
 export const prizesImg = prizes;
 export const sponsorDoc = prospectus;
@@ -397,7 +399,7 @@ export const speakers = [
     type: 'tech intersection panelist',
   },
   {
-    name: '',
+    name: 'Fatimah Hussain',
     desc: `Fatimah Hussain is a high schooler based in the Bay Area.
     She has multiple avid passions ranging from wracking her brain
     to build a 1000-piece puzzles to developing apps and websites for global nonprofits.
@@ -405,6 +407,25 @@ export const speakers = [
     articles about anything that sparks curiousity.`,
     img: fatimah,
     type: 'workshop host',
+  },
+  {
+    name: 'Caley Brock',
+    desc: `Caley is an engineering manager at Outschool, and
+    has been a software engineer at other startups and nonprofits.
+    They care about supporting creative, thoughtful, ethical, empathetic, ambitious,
+    interdisciplinary spaces in tech.`,
+    img: caleybrock,
+    type: 'outschool panelist',
+  },
+  {
+    name: 'Ana Simmons',
+    desc: `Ana is a Software Engineer with the mobile team at Outschool,
+    with almost 7 years industry experience in a variety of development positions.
+    She delights in helping people grow & realize their potential,
+    and volunteers her time with local groups that serve women in
+    technology, college students starting their careers, and community arts programs.`,
+    img: ana,
+    type: 'outschool panelist',
   },
 ];
 
