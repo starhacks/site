@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 /* eslint-disable no-irregular-whitespace */
 import {
-  faDiscord,
+  // faDiscord,
   faInstagram,
   faLinkedinIn,
   faMediumM,
@@ -62,7 +62,7 @@ export const socialMediaHandles = [
   { link: 'https://www.linkedin.com/company/starhacks/', icon: faLinkedinIn },
   { link: 'https://starhacks.medium.com', icon: faMediumM },
   { link: 'mailto:hello@starhacks.tech', icon: faEnvelope },
-  { link: 'https://discord.gg/utaAhjCJug', icon: faDiscord },
+  // { link: 'https://discord.gg/utaAhjCJug', icon: faDiscord },
 ];
 export const teamMembers = [
   {
