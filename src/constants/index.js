@@ -30,6 +30,7 @@ import celonis from './assets/logos/celonis.png';
 import outschool from './assets/logos/outschool.png';
 import assemblyai from './assets/logos/assemai.png';
 import stickergiant from './assets/logos/StickerGiant-Logo.svg';
+import railv from './assets/logos/railv.png';
 
 import telle from './assets/speakers/telle.png';
 import vidya from './assets/speakers/vidya.png';
@@ -223,6 +224,11 @@ export const sponsors = [
     title: 'StickerGiant',
     logo: stickergiant,
     link: 'https://www.stickergiant.com/event-coupons?utm_source=website&utm_medium=event',
+  },
+  {
+    title: 'Rail Vision Analytics',
+    logo: railv,
+    link: 'https://www.railvision.ca/',
   },
 ];
 
