@@ -105,6 +105,7 @@ export const teamMembers = [
 
 export const registerLink = `https://www.eventbrite.com/e/starhacks-ii-all-female-and-nonbinary-virtual-and-global-hackathon-tickets-167198468119`;
 
+export const devpost2022 = 'https://starhacks-2.devpost.com/';
 export const rolesDescriptions = [
   {
     role: 'Speaker',

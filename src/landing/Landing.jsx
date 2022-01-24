@@ -35,13 +35,13 @@ export const Landing = (props) => {
         <p>{Constants.date}</p>
         <center>
           <a
-            href={Constants.registerLink}
+            href={Constants.devpost2022}
             target="_blank"
             rel="noreferrer"
             className="buttonStyle">
             <div className="button">
               <h3>
-                Register
+                Check out the projects!
               </h3>
             </div>
           </a>
